@@ -1,0 +1,15 @@
+{
+  "browser": "Chromium",
+  "mockedReceipts": true,
+  "checks": [
+    "newer directory wins",
+    "search supersedes directory",
+    "directory supersedes search",
+    "newer search wins",
+    "old page cannot paint recreated DOM",
+    "newer file preview wins",
+    "edited query resets cursor",
+    "edited query clears prior hits"
+  ],
+  "errors": []
+}

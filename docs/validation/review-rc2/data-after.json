@@ -1,0 +1,8 @@
+{
+  "checkedBeforeBrowserNavigation": true,
+  "stateAndWorkspaceByteIdenticalImmediatelyAfterUpgrade": true,
+  "afterNavigationSHA256Unchanged": {
+    "runtime-data/web-demo/state.json": true,
+    "runtime-data/web-demo/workspace.json.gz": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "host": "macOS ARM64",
+  "mode": "offline demo after browser tests",
+  "samplingSeconds": 10,
+  "start": {
+    "cpuPercent": 1.1,
+    "rssMiB": 20.515625,
+    "virtualMiB": 453963.484375
+  },
+  "end": {
+    "cpuPercent": 0.0,
+    "rssMiB": 20.515625,
+    "virtualMiB": 453963.484375
+  },
+  "assetsBytes": {
+    "app.js": 63397,
+    "style.css": 11785,
+    "index.html": 423
+  },
+  "totalFrontendBytes": 75605,
+  "limits": "Server process only; not browser process tree. Not CentOS, GPU, real EDA or shared-server certification."
+}

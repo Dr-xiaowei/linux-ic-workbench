@@ -1,0 +1,20 @@
+{
+  "binary": "/home/icw/validation/ic-workbench", 
+  "version": "0.6.0-rc1", 
+  "uid": 500, 
+  "preserved": true, 
+  "sessions": 12, 
+  "terminalStatusPassed": true, 
+  "after": {
+    "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb", 
+    "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31", 
+    "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+  }, 
+  "idleRSS": "VmRSS:\t   10420 kB", 
+  "projects": 4, 
+  "before": {
+    "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb", 
+    "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31", 
+    "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+  }
+}

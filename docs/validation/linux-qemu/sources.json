@@ -1,0 +1,306 @@
+{
+  "assets": [
+    {
+      "url": "https://vault.centos.org/6.9/isos/x86_64/CentOS-6.9-x86_64-minimal.iso",
+      "path": "downloads/CentOS-6.9-x86_64-minimal.iso",
+      "sha256": "422af57b493b8af49d485885a730c5a1d955f803fac85aa51311c393168b9080"
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11146/llama-b11146-bin-macos-arm64.tar.gz",
+      "path": "downloads/llama-b11146-bin-macos-arm64.tar.gz",
+      "sha256": "1ad3f9eff80edb9dbef4259ad564d1720612ef7eea48fa4afed0e54f5f3d5711"
+    },
+    {
+      "url": "https://huggingface.co/ggml-org/Qwen3-0.6B-GGUF/resolve/b5f37287796e5be0ea3dab2e7430873fb3f73e49/Qwen3-0.6B-Q4_0.gguf",
+      "path": "model/Qwen3-0.6B-Q4_0.gguf",
+      "sha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4"
+    }
+  ],
+  "qemuRuntimeBottles": [
+    {
+      "name": "qemu",
+      "version": "11.1.1",
+      "license": "GPL-2.0-only",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/qemu/blobs/sha256:9ccc238fe40ca1a563b515f89fc78b569344ec943d3905a37f9012ee9d79cb99",
+      "sha256": "9ccc238fe40ca1a563b515f89fc78b569344ec943d3905a37f9012ee9d79cb99",
+      "bytes": 113240104
+    },
+    {
+      "name": "capstone",
+      "version": "5.0.9",
+      "license": "BSD-3-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/capstone/blobs/sha256:136ef83fb2c78de33a0500d8e9d3628eb1db37d4ef00496e8027e00a5918eb33",
+      "sha256": "136ef83fb2c78de33a0500d8e9d3628eb1db37d4ef00496e8027e00a5918eb33",
+      "bytes": 3345881
+    },
+    {
+      "name": "dtc",
+      "version": "1.8.1",
+      "license": "GPL-2.0-or-later OR BSD-2-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/dtc/blobs/sha256:c85117d5237ea464866d8712ff9fc264a1701eca34d9d470d720a935c79f61ba",
+      "sha256": "c85117d5237ea464866d8712ff9fc264a1701eca34d9d470d720a935c79f61ba",
+      "bytes": 145589
+    },
+    {
+      "name": "glib",
+      "version": "2.90.0",
+      "license": "LGPL-2.1-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:e2d2d3cff3bb121e8f6c98f9a831e03f78b66e88063fc5d432a68bf0b4951092",
+      "sha256": "e2d2d3cff3bb121e8f6c98f9a831e03f78b66e88063fc5d432a68bf0b4951092",
+      "bytes": 9339308
+    },
+    {
+      "name": "gnutls",
+      "version": "3.8.13",
+      "license": "LGPL-2.1-or-later AND GPL-3.0-only",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:a2334eb50a165945aad7df804a3e846053de62973f6aee8060fec8c16c59446b",
+      "sha256": "a2334eb50a165945aad7df804a3e846053de62973f6aee8060fec8c16c59446b",
+      "bytes": 3028209
+    },
+    {
+      "name": "jpeg-turbo",
+      "version": "3.2.0",
+      "license": "IJG AND Zlib AND BSD-3-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:02539b0736cfacdc6c4bb6a7d274d0c5c8b6e1faf9b5bab1e155168961d288aa",
+      "sha256": "02539b0736cfacdc6c4bb6a7d274d0c5c8b6e1faf9b5bab1e155168961d288aa",
+      "bytes": 1340422
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.58",
+      "license": "libpng-2.0",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:afb3b4e1b5035a602d60668b8a16369704dfa32aca18330f4e0faaec54b3134f",
+      "sha256": "afb3b4e1b5035a602d60668b8a16369704dfa32aca18330f4e0faaec54b3134f",
+      "bytes": 459185
+    },
+    {
+      "name": "libslirp",
+      "version": "4.9.5",
+      "license": "BSD-3-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libslirp/blobs/sha256:c6dccd35007a151895b8be9583f6c0c7d0a1fbd3801ba53e53911b7382033ce7",
+      "sha256": "c6dccd35007a151895b8be9583f6c0c7d0a1fbd3801ba53e53911b7382033ce7",
+      "bytes": 160661
+    },
+    {
+      "name": "libssh",
+      "version": "0.12.2",
+      "license": "LGPL-2.1-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libssh/blobs/sha256:0d7992b5269b93e53695ab3e52037eb454e846e46627a32d60df416a71fb71ea",
+      "sha256": "0d7992b5269b93e53695ab3e52037eb454e846e46627a32d60df416a71fb71ea",
+      "bytes": 615274
+    },
+    {
+      "name": "libusb",
+      "version": "1.0.30",
+      "license": "LGPL-2.1-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libusb/blobs/sha256:184daaa6108f0a56eb72c58cc4124dbbb0b54a655632dffdf8334569d71e2a34",
+      "sha256": "184daaa6108f0a56eb72c58cc4124dbbb0b54a655632dffdf8334569d71e2a34",
+      "bytes": 192165
+    },
+    {
+      "name": "lzo",
+      "version": "2.10",
+      "license": "GPL-2.0-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/lzo/blobs/sha256:9863be33af38858d028657bdfbceaff00465b23a9857ce6ed93e2ad24f6adbd8",
+      "sha256": "9863be33af38858d028657bdfbceaff00465b23a9857ce6ed93e2ad24f6adbd8",
+      "bytes": 149645
+    },
+    {
+      "name": "ncurses",
+      "version": "6.6",
+      "license": "X11-distribute-modifications-variant",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:b43443ba3c3c8728e79413c7c3fed4a0eb293bd77c8492c1ec4c5d05233a97f1",
+      "sha256": "b43443ba3c3c8728e79413c7c3fed4a0eb293bd77c8492c1ec4c5d05233a97f1",
+      "bytes": 2533863
+    },
+    {
+      "name": "pixman",
+      "version": "0.46.4",
+      "license": "MIT",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:2b011051909d7f9ad432a76d32c0490f796ad545f7acbd6445356024f0c712e5",
+      "sha256": "2b011051909d7f9ad432a76d32c0490f796ad545f7acbd6445356024f0c712e5",
+      "bytes": 416217
+    },
+    {
+      "name": "snappy",
+      "version": "1.3.1",
+      "license": "BSD-3-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/snappy/blobs/sha256:11f6a15644bc2dece119e6d0cf912e702ed5355ec706409a57bb8d482ff022b0",
+      "sha256": "11f6a15644bc2dece119e6d0cf912e702ed5355ec706409a57bb8d482ff022b0",
+      "bytes": 49791
+    },
+    {
+      "name": "vde",
+      "version": "2.3.3",
+      "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/vde/blobs/sha256:7d38316ce1948eb727d590d88e81fb5c74f2ae4f0dcd9b7161266a4af1ff2e3b",
+      "sha256": "7d38316ce1948eb727d590d88e81fb5c74f2ae4f0dcd9b7161266a4af1ff2e3b",
+      "bytes": 241985
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7",
+      "license": "(BSD-3-Clause OR GPL-2.0-only) AND BSD-2-Clause AND MIT",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:628a4ef53428d0078e3d76d297171ce8d0294f5ec1de3f20305e08c4dd333565",
+      "sha256": "628a4ef53428d0078e3d76d297171ce8d0294f5ec1de3f20305e08c4dd333565",
+      "bytes": 793560
+    },
+    {
+      "name": "gettext",
+      "version": "1.0",
+      "license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:3af5392939e50a6ef73e42799fc3ead6ef72fe0040c0a45183d04a4008306d6a",
+      "sha256": "3af5392939e50a6ef73e42799fc3ead6ef72fe0040c0a45183d04a4008306d6a",
+      "bytes": 10286772
+    },
+    {
+      "name": "libyaml",
+      "version": "0.2.5",
+      "license": "MIT",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libyaml/blobs/sha256:5cd5a1875da18599e25283465b2fb8735eb8717ee7158ef17f8f4260205404f2",
+      "sha256": "5cd5a1875da18599e25283465b2fb8735eb8717ee7158ef17f8f4260205404f2",
+      "bytes": 107700
+    },
+    {
+      "name": "pcre2",
+      "version": "10.48",
+      "license": "BSD-3-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:46681bd5769d4c0ab2aec568ff400ea00a69e9e5e05dc32b360bcf113b0af278",
+      "sha256": "46681bd5769d4c0ab2aec568ff400ea00a69e9e5e05dc32b360bcf113b0af278",
+      "bytes": 2460851
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2026-09-25",
+      "license": "MPL-2.0",
+      "bottle": "all",
+      "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:81804ad8a70a7a8d2a0a964d106765ff88716b310decaeffb4b4895a3252186a",
+      "sha256": "81804ad8a70a7a8d2a0a964d106765ff88716b310decaeffb4b4895a3252186a",
+      "bytes": 112184
+    },
+    {
+      "name": "gmp",
+      "version": "6.3.0",
+      "license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:fa46330de5d003bd9294ae042c8f4ae0a51bcb8c57de2c94c073ff4a7ffa10c3",
+      "sha256": "fa46330de5d003bd9294ae042c8f4ae0a51bcb8c57de2c94c073ff4a7ffa10c3",
+      "bytes": 1037068
+    },
+    {
+      "name": "libidn2",
+      "version": "2.3.8",
+      "license": "(GPL-2.0-or-later OR LGPL-3.0-or-later) AND (Unicode-TOU AND Unicode-DFS-2016) AND GPL-3.0-or-later AND LGPL-2.1-or-later AND FSFAP-no-warranty-disclaimer",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:f8f1b459f15a4ac11d2dce786a9140509782227b7d499cbdf3a1279dd325d90b",
+      "sha256": "f8f1b459f15a4ac11d2dce786a9140509782227b7d499cbdf3a1279dd325d90b",
+      "bytes": 309824
+    },
+    {
+      "name": "libtasn1",
+      "version": "4.21.0",
+      "license": "LGPL-2.1-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:ae01713eec0bd922b903ed2bf514dc085ec3108636c4ead84614b23a2c33f267",
+      "sha256": "ae01713eec0bd922b903ed2bf514dc085ec3108636c4ead84614b23a2c33f267",
+      "bytes": 165287
+    },
+    {
+      "name": "libunistring",
+      "version": "1.4.2",
+      "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:14a72bd0aa3f1b2b3a7360be24380171d140b2fc5abbde0144807d3847b6728c",
+      "sha256": "14a72bd0aa3f1b2b3a7360be24380171d140b2fc5abbde0144807d3847b6728c",
+      "bytes": 1872634
+    },
+    {
+      "name": "nettle",
+      "version": "4.0",
+      "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:ba11eb261bc502c28c9cd695f8354306d0a31cb1e55c3d3f1568e051293a0f10",
+      "sha256": "ba11eb261bc502c28c9cd695f8354306d0a31cb1e55c3d3f1568e051293a0f10",
+      "bytes": 990760
+    },
+    {
+      "name": "p11-kit",
+      "version": "0.26.5",
+      "license": "BSD-3-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:fd108a936783ac40b4c3ea4dda639e7d22faa063e9f40f92b0ed2b2a7e99efa6",
+      "sha256": "fd108a936783ac40b4c3ea4dda639e7d22faa063e9f40f92b0ed2b2a7e99efa6",
+      "bytes": 993581
+    },
+    {
+      "name": "openssl@3",
+      "version": "3.6.4",
+      "license": "Apache-2.0",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:8c7dab98311d025fda379dba80eaf985af1ceca26c403c66318b3c7d43a028b9",
+      "sha256": "8c7dab98311d025fda379dba80eaf985af1ceca26c403c66318b3c7d43a028b9",
+      "bytes": 10964306
+    },
+    {
+      "name": "lz4",
+      "version": "1.10.0",
+      "license": "BSD-2-Clause",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:2be9df952396d89008e56232b065354b3bd51dde5f8a30c1fe18d765ff26e017",
+      "sha256": "2be9df952396d89008e56232b065354b3bd51dde5f8a30c1fe18d765ff26e017",
+      "bytes": 286885
+    },
+    {
+      "name": "xz",
+      "version": "5.8.4",
+      "license": "0BSD AND GPL-2.0-or-later",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd",
+      "sha256": "d291ad2277682238329b0e4d249e5e2c948c4b10cd64dba1963d897330ad88dd",
+      "bytes": 788803
+    },
+    {
+      "name": "json-c",
+      "version": "0.19",
+      "license": "MIT",
+      "bottle": "arm64_tahoe",
+      "url": "https://ghcr.io/v2/homebrew/core/json-c/blobs/sha256:f2da9c816501d9c3c0e5f883b60b3d2758b35a3995e20d541d4b029d8b35ef13",
+      "sha256": "f2da9c816501d9c3c0e5f883b60b3d2758b35a3995e20d541d4b029d8b35ef13",
+      "bytes": 106948
+    }
+  ],
+  "licenses": {
+    "QEMU": "GPL-2.0-only (dependencies individually listed)",
+    "llama.cpp": "MIT",
+    "Qwen3-0.6B-GGUF": "Apache-2.0",
+    "CentOS": "Distribution licenses included on installation media"
+  },
+  "modelRevision": "b5f37287796e5be0ea3dab2e7430873fb3f73e49",
+  "codeModel": {
+    "repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+    "revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+    "url": "https://modelscope.cn/models/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF/resolve/master/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+    "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+    "bytes": 1117320768,
+    "license": "Apache-2.0"
+  }
+}

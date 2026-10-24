@@ -1,0 +1,45 @@
+{
+  "samePIDAndToken": true, 
+  "version": "0.6.0-rc2", 
+  "uid": 505, 
+  "checks": [
+    {
+      "version": "0.6.0-rc2", 
+      "pid": 1696, 
+      "name": "running candidate", 
+      "uid": 505
+    }, 
+    {
+      "status": "PASS", 
+      "name": "/bin/sh terminal status"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "/bin/bash terminal status"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "/bin/csh terminal status"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "/bin/tcsh terminal status"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "repeat --open uses desktop opener and reuses backend"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "--status --open explicit Firefox executable"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "headless, missing/failing browser and incompatible flags report errors without stopping service"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "first headless --open keeps HTTP available; auto port; Ctrl+C removes receipt"
+    }
+  ]
+}

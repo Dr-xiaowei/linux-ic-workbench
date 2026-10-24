@@ -1,0 +1,36 @@
+{
+  "mode": "CentOS 6.9 production, two real UIDs, deterministic model contract",
+  "checks": [
+    {
+      "name": "Confirmation holds command; live receipt includes real UID and exit code; authorization resets",
+      "status": "PASS",
+      "seconds": 3.22
+    },
+    {
+      "name": "Autonomous execution under second UID; private file writes and cross-user denial",
+      "status": "PASS",
+      "seconds": 4.11
+    },
+    {
+      "name": "Next turn defaults off and refuses a model-requested Linux action",
+      "status": "PASS",
+      "seconds": 1.393
+    },
+    {
+      "name": "Nonzero exit is retained and displayed; reload restores terminal receipt",
+      "status": "PASS",
+      "seconds": 1.468
+    },
+    {
+      "name": "Running stdout is visible; stop cancels actual shell and shows cancelled status",
+      "status": "PASS",
+      "seconds": 2.64
+    },
+    {
+      "name": "Bilingual and narrow layout remain usable",
+      "status": "PASS",
+      "seconds": 0.129
+    }
+  ],
+  "errors": []
+}

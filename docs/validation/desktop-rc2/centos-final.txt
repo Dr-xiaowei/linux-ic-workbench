@@ -1,0 +1,19 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+............
+----------------------------------------------------------------------
+Ran 12 tests in 1.398s
+
+OK
+(u'PASS', u'All ten native workspaces render without Tk callback errors')
+(u'PASS', u'Native project form, directory browser, annotation and keyword search')
+(u'PASS', u'Code native import, apply/undo and stale-proposal conflict protection')
+(u'PASS', u'Native CSV waveform canvas supports zoom and pan')
+(u'PASS', u'Calculator variables and disk-persisted result')
+(u'PASS', u'Software registration, version environment selection and actual command')
+(u'PASS', u'Native plugin registration and real bounded execution')
+(u'PASS', u'Actual Linux resources and truthful unavailable GPU')
+(u'PASS', u'Native settings save/automatic environment reload and bilingual UI')
+(u'PASS', u'Persistent drafts, API-only backend and repeat command focuses same client')
+(u'FINISHED', 11)

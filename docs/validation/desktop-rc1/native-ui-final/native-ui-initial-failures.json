@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "status": "FAIL", 
+      "seconds": 5.5, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 51, in navigation\n    app.goto(key);pump(.7);assert root.winfo_exists();assert len(app.content.winfo_children())>=3\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 149, in goto\n    getattr(self, 'page_' + name)()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 651, in page_code\n    d = self.draft(); row = self.row()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 162, in draft\n    return self.data.setdefault('codeDrafts', {}).setdefault(self.code_language, {})\nAttributeError: 'NoneType' object has no attribute 'setdefault'\n", 
+      "name": "All ten native workspaces render without Tk callback errors", 
+      "error": "'NoneType' object has no attribute 'setdefault'"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.3700000000000001, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.01, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 63, in code\n    app.goto('code');app.import_code(folder+'/native.v');pump(.5)\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 149, in goto\n    getattr(self, 'page_' + name)()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 651, in page_code\n    d = self.draft(); row = self.row()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 162, in draft\n    return self.data.setdefault('codeDrafts', {}).setdefault(self.code_language, {})\nAttributeError: 'NoneType' object has no attribute 'setdefault'\n", 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection", 
+      "error": "'NoneType' object has no attribute 'setdefault'"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.93000000000000005, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 74, in analysis\n    assert len(app.wave_canvas.find_all())>2\nAssertionError\n", 
+      "name": "Native CSV waveform canvas supports zoom and pan", 
+      "error": ""
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 15.119999999999999, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 80, in calculator\n    wait(lambda:'1e-05' in app.value('calc_result') or '0.00001' in app.value('calc_result'));app.save_workspace();wait(lambda:not app.saving)\n  File \"/tmp/desktop_native_guest.py\", line 29, in wait\n    raise AssertionError('UI condition timed out')\nAssertionError: UI condition timed out\n", 
+      "name": "Calculator variables and disk-persisted result", 
+      "error": "UI condition timed out"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.0, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 84, in software\n    app.goto('software');app.buttons['software_add'].invoke();pump();form({'name':'Native command fixture','command':'printf NATIVE_SOFTWARE_OK','shell':'/bin/sh'})\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 141, in goto\n    if capture: self.capture()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 169, in capture\n    c = self.data.setdefault('calculator', {}); c.update(expression=self.value('expression'), variables=self.value('variables'), angle=self.value('angle'))\nAttributeError: 'NoneType' object has no attribute 'update'\n", 
+      "name": "Software registration, version environment selection and actual command", 
+      "error": "'NoneType' object has no attribute 'update'"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.0, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 95, in plugin\n    app.goto('plugins');app.buttons['plugin_add'].invoke();pump();form({'name':'Native plugin fixture','version':'1','description':'No EDA','executable':'/bin/echo','args':'[\"NATIVE_PLUGIN_OK\"]','timeoutSeconds':'10','enabled':True})\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 141, in goto\n    if capture: self.capture()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 169, in capture\n    c = self.data.setdefault('calculator', {}); c.update(expression=self.value('expression'), variables=self.value('variables'), angle=self.value('angle'))\nAttributeError: 'NoneType' object has no attribute 'update'\n", 
+      "name": "Native plugin registration and real bounded execution", 
+      "error": "'NoneType' object has no attribute 'update'"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.0, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 103, in monitor\n    app.goto('monitor');wait(lambda:len(app.process_table.rows)>0)\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 141, in goto\n    if capture: self.capture()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 169, in capture\n    c = self.data.setdefault('calculator', {}); c.update(expression=self.value('expression'), variables=self.value('variables'), angle=self.value('angle'))\nAttributeError: 'NoneType' object has no attribute 'update'\n", 
+      "name": "Actual Linux resources and truthful unavailable GPU", 
+      "error": "'NoneType' object has no attribute 'update'"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.0, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 108, in settings\n    app.goto('settings');pump(.6);put('setting_threshold','85');app.buttons['settings_save'].invoke()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 141, in goto\n    if capture: self.capture()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 169, in capture\n    c = self.data.setdefault('calculator', {}); c.update(expression=self.value('expression'), variables=self.value('variables'), angle=self.value('angle'))\nAttributeError: 'NoneType' object has no attribute 'update'\n", 
+      "name": "Native settings save/automatic environment reload and bilingual UI", 
+      "error": "'NoneType' object has no attribute 'update'"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.0, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 115, in persistence\n    app.save_workspace();wait(lambda:not app.saving);saved=api.request('workspace')['data'];assert 'native_gate' in saved['codeDrafts']['verilog']['code']\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 179, in save_workspace\n    self.capture()\n  File \"/opt/icw-desktop-test/desktop/client.py\", line 169, in capture\n    c = self.data.setdefault('calculator', {}); c.update(expression=self.value('expression'), variables=self.value('variables'), angle=self.value('angle'))\nAttributeError: 'NoneType' object has no attribute 'update'\n", 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client", 
+      "error": "'NoneType' object has no attribute 'update'"
+    }
+  ], 
+  "errors": [
+    "'NoneType' object has no attribute 'append'", 
+    "'NoneType' object has no attribute 'update'", 
+    "'NoneType' object has no attribute 'update'"
+  ], 
+  "nativeWidgets": true, 
+  "uid": 505, 
+  "toolkit": "Tk 8.5.7"
+}

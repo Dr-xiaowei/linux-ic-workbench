@@ -1,0 +1,6 @@
+{
+  "files": 158,
+  "changed": [],
+  "reason": "Demo page navigation saves workspace view/revision; no changes immediately after cleanup and service restart",
+  "postRestartEvidence": "protected-after-restart.json"
+}

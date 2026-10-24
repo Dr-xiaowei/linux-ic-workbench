@@ -1,0 +1,96 @@
+{
+  "status": "PASS", 
+  "nativeWindowTitles": [
+    "IC Workbench \u00b7 Desktop", 
+    "IC Workbench \u00b7 Desktop"
+  ], 
+  "version": "0.7.0-rc1", 
+  "users": {
+    "icw": {
+      "installationVerifiedFiles": 240, 
+      "uid": 500, 
+      "sessions": 12, 
+      "after": {
+        "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb", 
+        "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31", 
+        "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+      }, 
+      "backendPID": 2522, 
+      "data": "/home/icw/validation/data", 
+      "projects": 4, 
+      "before": {
+        "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb", 
+        "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31", 
+        "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+      }, 
+      "idleCPUPercentOneCore": 1.6000000000000001, 
+      "processes": [
+        {
+          "rssKiB": 21156, 
+          "cpuTicks": 88, 
+          "pid": 2512, 
+          "command": "python /home/icw/validation/app/releases/0.7.0-rc1-production/desktop/client.py --data /home/icw/validation/data --config /home/icw/validation/config/config.json --listen auto "
+        }, 
+        {
+          "rssKiB": 11148, 
+          "cpuTicks": 22, 
+          "pid": 2522, 
+          "command": "/home/icw/validation/app/releases/0.7.0-rc1-production/ic-workbench --config /home/icw/.config/ic-workbench/production/config.json --config-template /home/icw/validation/app/releases/0.7.0-rc1-production/config.json --desktop-api --data /home/icw/validation/data --config /home/icw/validation/config/config.json --listen auto --mode production "
+        }
+      ], 
+      "headlessCorrect": true, 
+      "combinedRSSKiB": 32304, 
+      "nativePID": 2512, 
+      "preserved": true
+    }, 
+    "icwgui": {
+      "installationVerifiedFiles": 240, 
+      "uid": 505, 
+      "sessions": 28, 
+      "after": {
+        "/home/icwgui/.config/ic-workbench/production/config.json": "c1fc8e3564f29ce5cdd0479e45ef76a213ce646f9b1935c229d02bdf84954107", 
+        "/home/icwgui/.local/share/ic-workbench/production/workspace.json.gz": "a74cefaad157dc2934825c8495ea87acd82d731ca3b4c0a8ac9534cf3013bf46", 
+        "/home/icwgui/.local/share/ic-workbench/production/state.json": "3abd13b6f6f93ef536266a6f0d4e4fe5d7f332022580a6dbbb23c03e83f154d1"
+      }, 
+      "backendPID": 2622, 
+      "data": "/home/icwgui/.local/share/ic-workbench/production", 
+      "projects": 0, 
+      "before": {
+        "/home/icwgui/.config/ic-workbench/production/config.json": "c1fc8e3564f29ce5cdd0479e45ef76a213ce646f9b1935c229d02bdf84954107", 
+        "/home/icwgui/.local/share/ic-workbench/production/workspace.json.gz": "a74cefaad157dc2934825c8495ea87acd82d731ca3b4c0a8ac9534cf3013bf46", 
+        "/home/icwgui/.local/share/ic-workbench/production/state.json": "3abd13b6f6f93ef536266a6f0d4e4fe5d7f332022580a6dbbb23c03e83f154d1"
+      }, 
+      "idleCPUPercentOneCore": 1.6000000000000001, 
+      "processes": [
+        {
+          "rssKiB": 21300, 
+          "cpuTicks": 79, 
+          "pid": 2612, 
+          "command": "python /home/icwgui/.local/opt/ic-workbench/releases/0.7.0-rc1-production/desktop/client.py --data /home/icwgui/.local/share/ic-workbench/production --config /home/icwgui/.config/ic-workbench/production/config.json --listen auto "
+        }, 
+        {
+          "rssKiB": 11132, 
+          "cpuTicks": 17, 
+          "pid": 2622, 
+          "command": "/home/icwgui/.local/opt/ic-workbench/releases/0.7.0-rc1-production/ic-workbench --config /home/icwgui/.config/ic-workbench/production/config.json --config-template /home/icwgui/.local/opt/ic-workbench/releases/0.7.0-rc1-production/config.json --desktop-api --data /home/icwgui/.local/share/ic-workbench/production --config /home/icwgui/.config/ic-workbench/production/config.json --listen auto --mode production "
+        }
+      ], 
+      "headlessCorrect": true, 
+      "combinedRSSKiB": 32444, 
+      "nativePID": 2612, 
+      "preserved": true
+    }
+  }, 
+  "checks": [
+    "Both users installed from terminal", 
+    "Native X11 windows opened by installed default command", 
+    "No browser or WebView process", 
+    "Distinct data/token/ports", 
+    "Cross-user token and data path denied", 
+    "Repeat command focuses same instance", 
+    "API-only static route 404", 
+    "No DISPLAY gives actionable error", 
+    "Original state/draft/config bytes preserved across install/start/exit", 
+    "Closing UI preserves independently started API service"
+  ]
+}

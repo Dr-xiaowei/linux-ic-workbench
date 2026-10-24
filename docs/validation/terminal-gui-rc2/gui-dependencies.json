@@ -1,0 +1,411 @@
+{
+  "source": "CentOS official 6.9 archive; retained isolated validation only",
+  "rpmSignatureFiles": 76,
+  "downloads": [
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/repodata/repomd.xml",
+      "bytes": 3749,
+      "sha256": "6b0bc9da8b9a47f2589bca502cac148211c6c2d1db5305c8475a7a2103ad4704"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/repodata/5d14ebd60604f4433dcc8a3a17cd3bbc7b80ec5dff74cbcc50dab6e711959265-primary.sqlite.bz2",
+      "bytes": 4919110,
+      "sha256": "5d14ebd60604f4433dcc8a3a17cd3bbc7b80ec5dff74cbcc50dab6e711959265"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/repodata/repomd.xml",
+      "bytes": 3471,
+      "sha256": "14706de66b51c754601397beeef1a920bbecd593ed7688175e0b552be05a4b36"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/repodata/8de7a43298335ba1e2205e32b90afb5a8b8d3e37fb35444bea2afef76f565ace-primary.sqlite.bz2",
+      "bytes": 8482240,
+      "sha256": "8de7a43298335ba1e2205e32b90afb5a8b8d3e37fb35444bea2afef76f565ace"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/repodata/8de7a43298335ba1e2205e32b90afb5a8b8d3e37fb35444bea2afef76f565ace-primary.sqlite.bz2",
+      "bytes": 8482240,
+      "sha256": "8de7a43298335ba1e2205e32b90afb5a8b8d3e37fb35444bea2afef76f565ace"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/atk-1.30.0-1.el6.x86_64.rpm",
+      "bytes": 200052,
+      "sha256": "0627b9fa757608512a7f7fd0f887717212e58f3d8af8e0ca338af73a38d9b65b"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/avahi-libs-0.6.25-17.el6.x86_64.rpm",
+      "bytes": 56444,
+      "sha256": "97679ac8f29c7f3c396626b9c8fd79c07e7a437bbace79467efb16dc224cb890"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/cairo-1.8.8-6.el6_6.x86_64.rpm",
+      "bytes": 316108,
+      "sha256": "dcdfc02d7980ed7c97f04223e98919281e1a5bd21eb31dc6e60e36102bbec4ab"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/centos-indexhtml-6-2.el6.centos.noarch.rpm",
+      "bytes": 93552,
+      "sha256": "e393ff0a785350134f7b9557f14d89fa463726c5fee1de00864c281c4d0adaae"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/compat-xcb-util-0.4.0-2.2.el6.x86_64.rpm",
+      "bytes": 25276,
+      "sha256": "82ec2e6e5e73ad30737b509ca1f7c4b07b22ab1c8062735d2120cedbc6882ae2"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/cups-libs-1.4.2-78.el6_9.x86_64.rpm",
+      "bytes": 330028,
+      "sha256": "0869b9bf311cffd9cb85461abe565237ab59650d464df8762b852220051ce6f8"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/dejavu-fonts-common-2.33-1.el6.noarch.rpm",
+      "bytes": 64616,
+      "sha256": "c59798f09913ae04a422ab6e71a08d17a0cd945d247d6baf20c1c6dc002395d5"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/dejavu-sans-fonts-2.33-1.el6.noarch.rpm",
+      "bytes": 2258844,
+      "sha256": "2f238cb79684dc3d70468d33e2a1056658b413d6d9b78f45daeccc2afbaff17e"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/desktop-file-utils-0.15-9.el6.x86_64.rpm",
+      "bytes": 47888,
+      "sha256": "a1bd2f7c33f7d64bce1a87dae6654ec159bc445c4cbdac90399256ba910bdca4"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/firefox-52.8.0-1.el6.centos.x86_64.rpm",
+      "bytes": 83205828,
+      "sha256": "dc1ae5fc739793f56ac5c87ee02a0abc5bf05a59836cae86d7b7f4ed0229a250"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/fontconfig-2.8.0-5.el6.x86_64.rpm",
+      "bytes": 189964,
+      "sha256": "6a915b6e1ad740994aa9688d70a67ff2b6b72e0ced668794aeb27b2d0f2e237b"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/fontpackages-filesystem-1.41-1.1.el6.noarch.rpm",
+      "bytes": 9052,
+      "sha256": "cb88af7b7aa9a4e5ced0b2df1bd303052d78bf8bfcf86c681b5553181816f4b3"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/freetype-2.3.11-17.el6.x86_64.rpm",
+      "bytes": 369584,
+      "sha256": "a4f680e25073d307608ab245d87eb982646957892d68628736e5f1a00c2ee8c3"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/gdk-pixbuf2-2.24.1-6.el6_7.x86_64.rpm",
+      "bytes": 512972,
+      "sha256": "248633f4471b62666822d4c5da72f8995d36e6cf2e9e61b6eff73993709b793f"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/gnutls-2.12.23-21.el6.x86_64.rpm",
+      "bytes": 398604,
+      "sha256": "7e2645787368cf245f5a371e002480b305f6855ae4aa97e6e638ae5118012888"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/gtk2-2.24.23-9.el6.x86_64.rpm",
+      "bytes": 3345248,
+      "sha256": "901e61f1c5c2cdea5bdbc5ea54cdeac326a8817b4e42a3daaf706f3fcc289e24"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/hicolor-icon-theme-0.11-1.1.el6.noarch.rpm",
+      "bytes": 40980,
+      "sha256": "343ca35453d2594eed10cdaecb9e70cf2e1c6d25ec8d17c0d70347f6d48fdd2c"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/hunspell-1.2.8-16.el6.x86_64.rpm",
+      "bytes": 180760,
+      "sha256": "3c5f3475fe3b4bca2ec67f2c0df2af746daf647d5400754ea0e6840fee18fb9a"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/jasper-libs-1.900.1-21.el6_9.x86_64.rpm",
+      "bytes": 141748,
+      "sha256": "2d59e1277757dc31c39400a7276f08d8afd03504ce8440facce1f84bb4be714f"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libICE-1.0.6-1.el6.x86_64.rpm",
+      "bytes": 54064,
+      "sha256": "c04a69d96c850fa6e179a09cc1738bd8837fb79870f78d1039f5080b4e765598"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libSM-1.2.1-2.el6.x86_64.rpm",
+      "bytes": 37564,
+      "sha256": "5bbbb484f3c7a2d7cdc090b6f88fef66a290d256685cfccb9fac60c08b83050f"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libX11-1.6.4-3.el6.x86_64.rpm",
+      "bytes": 600736,
+      "sha256": "10a698d15cfef14bb09a2ce4e569e8f42dca5c7197dacc04978f86d7b01c2224"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libX11-common-1.6.4-3.el6.noarch.rpm",
+      "bytes": 175008,
+      "sha256": "d2309178d1508403a377d92e25682583be9559119e6efd90b44b970a527a3b6e"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXcomposite-0.4.3-4.el6.x86_64.rpm",
+      "bytes": 20948,
+      "sha256": "ff05d8070c8007ee5a46b35347a37509978dfe9eff3b2a54294afb77f1be458b"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXcursor-1.1.14-2.1.el6.x86_64.rpm",
+      "bytes": 28668,
+      "sha256": "528eb987e058ee4907c0007544c06e28d9b905b94ec9f0995c5081d507ed96b7"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXdamage-1.1.3-4.el6.x86_64.rpm",
+      "bytes": 18700,
+      "sha256": "34b28487164c8b2d75638d595011948831be35197bc868f23b1cda8cca690db9"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXdmcp-1.1.1-3.el6.x86_64.rpm",
+      "bytes": 31176,
+      "sha256": "ca92520e5d7c776c88e80a00cd089bb86cb068ceb8d2f2208acafa98c48a29c6"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXext-1.3.3-1.el6.x86_64.rpm",
+      "bytes": 35740,
+      "sha256": "bd20507761eae7dfc586e3fc9351d78c1ec9840ac8cce332e959997a12ee4f6a"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXfixes-5.0.3-1.el6.x86_64.rpm",
+      "bytes": 17460,
+      "sha256": "96b5fdf0e8060ea9a2496110048412401b51361aa2f6ed43bd702a5c137273a9"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXfont-1.5.1-2.el6.x86_64.rpm",
+      "bytes": 148940,
+      "sha256": "ab1c79aedd1a0966a11238d8efdef1e27dcf555171aad33e5551d5b10c7e1e4f"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXft-2.3.2-1.el6.x86_64.rpm",
+      "bytes": 56532,
+      "sha256": "4bdb750c6f7ba22cf0f3ef94ceaa33034e5830cd81b8bf18db07d2dce23ccd9c"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXi-1.7.8-1.el6.x86_64.rpm",
+      "bytes": 38440,
+      "sha256": "3b7b5b08f2865e0da73dab056feb525f28f627a82fbc1ae03f3b26a0c1eaa355"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXinerama-1.1.3-2.1.el6.x86_64.rpm",
+      "bytes": 12988,
+      "sha256": "d521385486e0cb10deb0b859a56919f06e5a192e931c388af614fa2bb79d9b49"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXmu-1.1.1-2.el6.x86_64.rpm",
+      "bytes": 67620,
+      "sha256": "b50dcf1540ef648d113a6c45da3703a55bf8700a4a4b374ceda5122def9e6605"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXrandr-1.5.1-1.el6.x86_64.rpm",
+      "bytes": 25124,
+      "sha256": "bea36342e705588ae2274cb88c7268d6855859d4208050afb877ab7e55c5a9f2"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXrender-0.9.10-1.el6.x86_64.rpm",
+      "bytes": 24696,
+      "sha256": "074491b6365454a498783a6413623f62d6f7d505b78d19ddcd57b322d2fe5e80"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXt-1.1.4-6.1.el6.x86_64.rpm",
+      "bytes": 168468,
+      "sha256": "3823da22fbd520ede2c8005671b26b1e7a6353ffff3ce61a62abd972ae027423"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXtst-1.2.3-1.el6.x86_64.rpm",
+      "bytes": 19520,
+      "sha256": "6b4b8f77bac8c59617f67510690ca21d9b0ab245d81e9df1406fc827aac9ef1a"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXv-1.0.11-1.el6.x86_64.rpm",
+      "bytes": 17368,
+      "sha256": "051f022f37e6c87f2f54bfd6f6a4cfae7ceea24cd5fa34ba011fcaf1ec236ac5"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXxf86dga-1.1.4-2.1.el6.x86_64.rpm",
+      "bytes": 18388,
+      "sha256": "7a3e8b84647269b6311d292376eca7cb162f118efc709a06b93b486d1d72fc50"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXxf86misc-1.0.3-4.el6.x86_64.rpm",
+      "bytes": 18188,
+      "sha256": "b27e1e2f3701f8dc76c3fda8290d52345f13f0af65d94a24a7ed035f8f4608d5"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXxf86vm-1.1.3-2.1.el6.x86_64.rpm",
+      "bytes": 16584,
+      "sha256": "e1123e1d4344da63daa2e17f42867ae7be8a9e8d6f6b6bfd35983d74b0cf9827"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libdmx-1.1.3-3.el6.x86_64.rpm",
+      "bytes": 14964,
+      "sha256": "972845507e5fd5938ef98df35c8e20ae2aa105af30766a7a9b7f16705c645977"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/liberation-fonts-common-1.05.1.20090721-5.el6.noarch.rpm",
+      "bytes": 21996,
+      "sha256": "ae80df62eae0e81b310026e4152a1f8a910571103568d2a8dc11f5ef3ddea058"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/liberation-sans-fonts-1.05.1.20090721-5.el6.noarch.rpm",
+      "bytes": 281520,
+      "sha256": "5988ce75894bf434000c248bcab18c44b446256af5ee96ab1ba8e2ac4d36eab7"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libfontenc-1.1.2-3.el6.x86_64.rpm",
+      "bytes": 29440,
+      "sha256": "e401b0e40b50391a68cf1d712bdd09dbcaf708dbeb4d8d2ba87ad96c8c502029"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libjpeg-turbo-1.2.1-3.el6_5.x86_64.rpm",
+      "bytes": 178512,
+      "sha256": "c3dcce9a0f3cbcc5c618fd75ed57dd993b5b74bb4cb195800b5fedef501fc825"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libpng-1.2.49-2.el6_7.x86_64.rpm",
+      "bytes": 186428,
+      "sha256": "0f18ee677b60fe81a24f200cc8db1c9bde26a404cc812e77a73b2bcfd4dd40de"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libthai-0.1.12-3.el6.x86_64.rpm",
+      "bytes": 186972,
+      "sha256": "3217a2b6885dd35ff4213498dd054cd1e4322f44832a9deab85f26ec10f493c5"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libtiff-3.9.4-21.el6_8.x86_64.rpm",
+      "bytes": 354372,
+      "sha256": "882756e964228ec72fc7bd4df910cb48519bfa844419d8134325883356603997"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libxcb-1.12-4.el6.x86_64.rpm",
+      "bytes": 184712,
+      "sha256": "43cef893717cea498ba6cba03a4960f9a02acb92570c67feede28a6addbbc8de"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libxkbfile-1.0.6-1.1.el6.x86_64.rpm",
+      "bytes": 75960,
+      "sha256": "0c8c125d6b4c0db5368f439c045073cb2cc55e6207bdff4d143d5bb48ae873fb"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libxshmfence-1.2-1.el6.x86_64.rpm",
+      "bytes": 6324,
+      "sha256": "8149be38414087a25f003b86688801974fe3916b7b5c6d4a7f09e1a0fc09c6e2"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/mesa-dri-drivers-11.0.7-4.el6.x86_64.rpm",
+      "bytes": 4250876,
+      "sha256": "9d6229146f751141ce3c6fc79eaaa93b9a2c6d2e5f59d254aaec6d4dbfc2a88c"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/mesa-dri-filesystem-11.0.7-4.el6.x86_64.rpm",
+      "bytes": 17060,
+      "sha256": "ef82eabf004a839d57bb705d0169b08f42a8314a7af989733a71f00cb5ebaa6f"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/mesa-dri1-drivers-7.11-8.el6.x86_64.rpm",
+      "bytes": 3941056,
+      "sha256": "1d18996e1bad9e9d59bd28af8f99f154b240e77f24a07ed4d11961c1e5dbafc9"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/mesa-libGL-11.0.7-4.el6.x86_64.rpm",
+      "bytes": 145248,
+      "sha256": "6061908e6a12b5dd427facff2380672233a3ae25205b633718ce82327172578f"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/mesa-private-llvm-3.6.2-1.el6.x86_64.rpm",
+      "bytes": 6777220,
+      "sha256": "13b79d5d9e72b18427392fc31f8ccb4936e02f821b335bcf78aad68744f2100c"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/mozilla-filesystem-1.9-5.1.el6.x86_64.rpm",
+      "bytes": 4840,
+      "sha256": "640459a82e8c8608593a85122b311defb60d03e024c1adbaf74c3d3789fb44a4"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/nss-3.28.4-4.el6_9.x86_64.rpm",
+      "bytes": 900212,
+      "sha256": "9443be70c900ba4987de5f794275c757aafadfe2f6f0445cd296857c371caa0b"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/nss-sysinit-3.28.4-4.el6_9.x86_64.rpm",
+      "bytes": 52516,
+      "sha256": "3ba7c3ccb98ffb6545175105f6023c11fdb59c7e64a03e93662ea54e8e5b4bfa"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/nss-tools-3.28.4-4.el6_9.x86_64.rpm",
+      "bytes": 457360,
+      "sha256": "ad77a286969f96d8edf181d2489ec6dff094a91ceb7fe3da27b75e5492340c80"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/nss-util-3.28.4-1.el6_9.x86_64.rpm",
+      "bytes": 70016,
+      "sha256": "62d946e014cfbfb7cc657a58295a8f27b11043f2136edf91126b3ff467400c85"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/pango-1.28.1-11.el6.x86_64.rpm",
+      "bytes": 359752,
+      "sha256": "0663a5ce99cebf5285d96c4d92fc83155e859976bfd72980bf8691c3e89f92ad"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/pixman-0.32.8-1.el6.x86_64.rpm",
+      "bytes": 248564,
+      "sha256": "d5e9a2ac49bae1bff6fd806367aa0f9125eef6dee1b515a6af6576b883032e91"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/redhat-bookmarks-6-1.el6.centos.noarch.rpm",
+      "bytes": 4224,
+      "sha256": "4d8f7c966a7de50ad0838ac4beaf2de5498c8b40e901a9262452eb2868a8df75"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/startup-notification-0.10-2.1.el6.x86_64.rpm",
+      "bytes": 37908,
+      "sha256": "04e7d2121c886ce5e3fcd394794b7c84b512c6a688db155cccd33ab9d4f45509"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/wqy-zenhei-fonts-0.9.45-3.el6.noarch.rpm",
+      "bytes": 8225624,
+      "sha256": "72d26dd562686be628b345fca36608e26d644ff834c104c19375f0c82faf61ee"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/xdg-utils-1.0.2-17.20091016cvs.el6.noarch.rpm",
+      "bytes": 59152,
+      "sha256": "a371df77e3e50d353c77a7965be90c796a755f0413f8dd62d4fc50b993fe9f69"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/xkeyboard-config-2.16-1.el6.noarch.rpm",
+      "bytes": 820844,
+      "sha256": "a2707a60d5aa9c59fd146dbb86a8716de2c9a9383d0c1deee01bd166be04bb0d"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/xorg-x11-server-Xvfb-1.17.4-16.el6.centos.1.x86_64.rpm",
+      "bytes": 832056,
+      "sha256": "6cb4904903c3c69dfb79b8fd99e509202249d2a98a60744d24477c97cd116849"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/updates/x86_64/Packages/xorg-x11-server-common-1.17.4-16.el6.centos.1.x86_64.rpm",
+      "bytes": 52192,
+      "sha256": "fd8f24f62e0de8475c0eeec2dd9e3356d6bdaaf2a552f17a5fd150a76561f7c7"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/xorg-x11-utils-7.5-14.el6.x86_64.rpm",
+      "bytes": 103024,
+      "sha256": "8ef0c48b512c5f58d4d722ccec09fa4b0918b2eba25c1647f827edcc9aae526d"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/xorg-x11-xauth-1.0.9-1.el6.x86_64.rpm",
+      "bytes": 45344,
+      "sha256": "b8006b5915b5bb9d97400d03831aec3c9c18b622009d7249e8ff376d074c9a82"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/xorg-x11-xkb-utils-7.7-12.el6.x86_64.rpm",
+      "bytes": 100256,
+      "sha256": "51db0cd5bc512969d1e1bb93f28f946db6d154d3ecd6d9591da9c9278ca0df01"
+    },
+    {
+      "url": "https://vault.centos.org/6.9/os/x86_64/Packages/libXau-1.0.6-4.el6.x86_64.rpm",
+      "bytes": 24916,
+      "sha256": "d0a58ddeae0df842fa4b43eb83a143c85a129eb9b44ea797401a4d9f27d6c460"
+    }
+  ]
+}

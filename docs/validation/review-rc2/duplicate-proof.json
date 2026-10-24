@@ -1,0 +1,110 @@
+[
+  {
+    "directory": "build/packages/ic-workbench-0.1.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.1.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "e9241f087de9bec97df3ec5b294b44a841402e36959117fa434eb58e0ef9ab2a",
+    "existingFiles": 27,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.2.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.2.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "55836d2f516a226dbd6164fc1de6dcae4dac576cbefa4401404ab7de05fec16e",
+    "existingFiles": 50,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.3.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.3.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "ceac0b92d3d45965bd45eb8771401cb3ca4e719dabd394c04362b3dc28b0df6a",
+    "existingFiles": 65,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.4.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.4.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "936b12894fdbae93eecde548177e64d55ffad68da3e66d69eab9a76ccd072096",
+    "existingFiles": 91,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.5.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.5.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "db14b18d11852bef566497acd68a4c269e16070a68c4bb7099a1a3d7b71453b2",
+    "existingFiles": 122,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.5.0-rc2-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.5.0-rc2-linux-amd64-production.tar.gz",
+    "archiveSHA256": "c27de97ffea49a378150bd0c98b77460afdbb7326348d734421e35887d360228",
+    "existingFiles": 146,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.5.0-rc3-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.5.0-rc3-linux-amd64-production.tar.gz",
+    "archiveSHA256": "5da4f9c66ecb2879698072bb0370d9256bcfed3f5cf422d7fc04e3aada14f643",
+    "existingFiles": 159,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.6.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.6.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "cb1c92e6c8a77e50413440faf14e8d88ff34528cafc654e67210e5c6dc7541f7",
+    "existingFiles": 190,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.6.0-rc2-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.6.0-rc2-linux-amd64-production.tar.gz",
+    "archiveSHA256": "3bd56c6a8d4b83cbe4e42077883e5c80303f9e9eb585309f15f024c5b9729a57",
+    "existingFiles": 211,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.7.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.7.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "bbc980ea8a2903b1b55a3b286dd3c41969b2b51b9763a7b2629ce2b70ec38b61",
+    "existingFiles": 254,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.7.0-rc2-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.7.0-rc2-linux-amd64-production.tar.gz",
+    "archiveSHA256": "4193296b737ab96527855ed5f9d6970163c99c08d8a8d9dba2395ee09bb37d47",
+    "existingFiles": 270,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  },
+  {
+    "directory": "build/packages/ic-workbench-0.8.0-rc1-linux-amd64-production",
+    "retainedArchive": "release/ic-workbench-0.8.0-rc1-linux-amd64-production.tar.gz",
+    "archiveSHA256": "a2d7598f74191569f198b9524aa778ea4b4ec8ca9ee5d104add3691032beb1d4",
+    "existingFiles": 289,
+    "extraFiles": [],
+    "differentFiles": [],
+    "allRemainingFilesRecoverableFromArchive": true
+  }
+]

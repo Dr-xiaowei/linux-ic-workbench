@@ -1,0 +1,1 @@
+module tb; reg a,b; wire y; integer i; and_gate dut(a,b,y); initial begin for(i=0;i<4;i=i+1) begin {a,b}=i; #1; if(y !== (a & b)) $fatal(1,"AND mismatch"); end $display("AND_TRUTH_TABLE_4_PASS"); $finish; end endmodule

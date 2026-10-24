@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/ngspice/ngspice/blob/032b1c32c4dbad45ff132bcfac1dbecadbd8abb0/examples/measure/rc-meas-ac.sp",
+  "commit": "032b1c32c4dbad45ff132bcfac1dbecadbd8abb0",
+  "inputSHA256": "896eb7c9cf78f0a3b5635842ac9e4b42312f9928e0eb4d9a60a49f00e4b8068c",
+  "outputSHA256": "b7ada6e81f0b748c0858d3f400a33a6ee104c6b21e22900032919df809e27af7",
+  "method": "independent two-node AC equations vs closed-form transfer function",
+  "frequencies": 41,
+  "metrics": 82,
+  "maxAbsoluteComplexError": 5.928593550334434e-17,
+  "notVerified": [
+    "ngspice execution",
+    "Virtuoso execution",
+    "Spectre execution"
+  ]
+}

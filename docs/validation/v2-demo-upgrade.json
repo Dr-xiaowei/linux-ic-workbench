@@ -1,0 +1,26 @@
+{
+  "oldSchema": 2,
+  "newSchema": 3,
+  "oldCounts": {
+    "projects": 1,
+    "sessions": 0,
+    "batches": 1,
+    "jobs": 0,
+    "experiments": 0
+  },
+  "newCounts": {
+    "projects": 1,
+    "sessions": 0,
+    "batches": 1,
+    "jobs": 0,
+    "experiments": 0
+  },
+  "allExistingIDsPreserved": {
+    "projects": true,
+    "sessions": true,
+    "batches": true,
+    "jobs": true,
+    "experiments": true
+  },
+  "migrationBackups": 1
+}

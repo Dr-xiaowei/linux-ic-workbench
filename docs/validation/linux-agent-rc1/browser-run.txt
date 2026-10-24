@@ -1,0 +1,6 @@
+PASS Confirmation holds command; live receipt includes real UID and exit code; authorization resets
+PASS Autonomous execution under second UID; private file writes and cross-user denial
+PASS Next turn defaults off and refuses a model-requested Linux action
+PASS Nonzero exit is retained and displayed; reload restores terminal receipt
+PASS Running stdout is visible; stop cancels actual shell and shows cancelled status
+PASS Bilingual and narrow layout remain usable

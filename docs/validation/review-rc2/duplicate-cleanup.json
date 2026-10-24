@@ -1,0 +1,74 @@
+[
+  {
+    "path": "build/packages/ic-workbench-0.1.0-rc1-linux-amd64-production",
+    "files": 59,
+    "allocatedBytes": 30932992,
+    "retainedArchive": "release/ic-workbench-0.1.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.2.0-rc1-linux-amd64-production",
+    "files": 105,
+    "allocatedBytes": 62390272,
+    "retainedArchive": "release/ic-workbench-0.2.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.3.0-rc1-linux-amd64-production",
+    "files": 135,
+    "allocatedBytes": 77594624,
+    "retainedArchive": "release/ic-workbench-0.3.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.4.0-rc1-linux-amd64-production",
+    "files": 187,
+    "allocatedBytes": 104857600,
+    "retainedArchive": "release/ic-workbench-0.4.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.5.0-rc1-linux-amd64-production",
+    "files": 249,
+    "allocatedBytes": 136839168,
+    "retainedArchive": "release/ic-workbench-0.5.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.5.0-rc2-linux-amd64-production",
+    "files": 299,
+    "allocatedBytes": 162529280,
+    "retainedArchive": "release/ic-workbench-0.5.0-rc2-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.5.0-rc3-linux-amd64-production",
+    "files": 326,
+    "allocatedBytes": 176160768,
+    "retainedArchive": "release/ic-workbench-0.5.0-rc3-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.6.0-rc1-linux-amd64-production",
+    "files": 389,
+    "allocatedBytes": 208666624,
+    "retainedArchive": "release/ic-workbench-0.6.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.6.0-rc2-linux-amd64-production",
+    "files": 432,
+    "allocatedBytes": 230686720,
+    "retainedArchive": "release/ic-workbench-0.6.0-rc2-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.7.0-rc1-linux-amd64-production",
+    "files": 523,
+    "allocatedBytes": 277872640,
+    "retainedArchive": "release/ic-workbench-0.7.0-rc1-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.7.0-rc2-linux-amd64-production",
+    "files": 556,
+    "allocatedBytes": 295174144,
+    "retainedArchive": "release/ic-workbench-0.7.0-rc2-linux-amd64-production.tar.gz"
+  },
+  {
+    "path": "build/packages/ic-workbench-0.8.0-rc1-linux-amd64-production",
+    "files": 596,
+    "allocatedBytes": 315621376,
+    "retainedArchive": "release/ic-workbench-0.8.0-rc1-linux-amd64-production.tar.gz"
+  }
+]

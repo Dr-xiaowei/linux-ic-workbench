@@ -1,0 +1,2 @@
+	icworkbench/cmd/workbench		coverage: 0.0% of statements
+ok  	icworkbench/internal/workbench	22.810s	coverage: 68.7% of statements

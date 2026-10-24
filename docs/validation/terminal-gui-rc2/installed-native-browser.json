@@ -1,0 +1,24 @@
+{
+  "version": "0.6.0-rc2",
+  "browser": {
+    "browserName": "firefox",
+    "browserVersion": "52.8.0",
+    "platformName": "linux",
+    "platformVersion": "2.6.32-696.el6.x86_64",
+    "pageLoadStrategy": "normal",
+    "acceptInsecureCerts": false,
+    "timeouts": {
+      "implicit": 0,
+      "page load": 300000,
+      "script": 30000
+    },
+    "rotatable": false,
+    "specificationLevel": 0,
+    "moz:processID": 1711,
+    "moz:profile": "/home/icwgui/gui-profile",
+    "moz:accessibilityChecks": false
+  },
+  "installedTerminalOpenedGUI": true,
+  "authenticated": true,
+  "rendered": true
+}

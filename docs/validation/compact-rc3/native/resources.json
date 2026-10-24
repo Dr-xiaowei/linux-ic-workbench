@@ -1,0 +1,10 @@
+{
+  "backendMemory": [
+    "VmSize:\t 1233740 kB", 
+    "VmRSS:\t   13052 kB", 
+    "Threads:\t8"
+  ], 
+  "workspaceBytes": 962, 
+  "clientMaxRSSKiB": 41604, 
+  "stateBytes": 2518
+}

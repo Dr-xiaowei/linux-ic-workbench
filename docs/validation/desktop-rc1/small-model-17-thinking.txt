@@ -1,0 +1,10 @@
+PASS model configuration auto-load 
+PASS general engineering question with numeric reference 
+PASS EDA text analysis with grounded missing-model evidence 
+PASS Verilog generation and actual syntax checker 
+PASS imported source optimization and independent numeric tests 
+PASS compiler diagnostics -> AI repair -> real CentOS recheck 
+PASS platform Agent calculator tool result 
+PASS Linux Agent actual command and UID 
+FAIL Linux Agent multi-step file creation and verification Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat 
+SUMMARY 8 / 9

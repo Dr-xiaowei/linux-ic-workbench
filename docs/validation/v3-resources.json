@@ -1,0 +1,8 @@
+{
+  "mode": "macOS arm64 offline Demo, after browser tests",
+  "serverRSSMiB": 20.45,
+  "serverCPUPercentSnapshot": 0.0,
+  "frontendBytes": 88317,
+  "includesBrowserProcesses": false,
+  "centosMeasured": false
+}

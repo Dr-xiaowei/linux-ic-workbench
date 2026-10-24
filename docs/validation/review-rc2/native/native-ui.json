@@ -1,0 +1,79 @@
+{
+  "errors": [], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.8.0-rc2", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 13.869999999999999, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 6.0, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.93999999999999995, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.0900000000000001, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.47999999999999998, 
+      "name": "Calculator variables and disk-persisted result"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 4.6699999999999999, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.74, 
+      "name": "Native plugin registration and real bounded execution"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.47999999999999998, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.6699999999999999, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.93999999999999995, 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.79, 
+      "name": "Native parameter form, backend preview and bounded AI draft"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.67000000000000004, 
+      "name": "Native CSV conversion, specification and mismatched PVT rejection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.51000000000000001, 
+      "name": "Native readable answer keeps original structured receipts available"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 500
+}

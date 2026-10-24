@@ -1,0 +1,157 @@
+{
+  "platform": [
+    "Linux", 
+    "icw-centos69", 
+    "2.6.32-696.el6.x86_64", 
+    "#1 SMP Tue Mar 21 19:29:05 UTC 2017", 
+    "x86_64"
+  ], 
+  "checks": [
+    {
+      "seconds": 0.017999999999999999, 
+      "status": "PASS", 
+      "name": "real_uid_setup", 
+      "evidence": {
+        "users": [
+          {
+            "uid": 503, 
+            "name": "icwqb_a"
+          }, 
+          {
+            "uid": 504, 
+            "name": "icwqb_b"
+          }
+        ]
+      }
+    }, 
+    {
+      "seconds": 0.48499999999999999, 
+      "status": "PASS", 
+      "name": "two_users_default_terminal_start", 
+      "evidence": {
+        "distinctUIDs": true, 
+        "addresses": [
+          "http://127.0.0.1:35185", 
+          "http://127.0.0.1:35569"
+        ], 
+        "privatePermissions": true
+      }
+    }, 
+    {
+      "seconds": 0.20799999999999999, 
+      "status": "PASS", 
+      "name": "data_token_and_project_isolation", 
+      "evidence": {
+        "sharedDataRejected": true, 
+        "crossUserFilesystemDenied": true, 
+        "crossToken401": true, 
+        "projectNotesAndDraftsIndependent": true
+      }
+    }, 
+    {
+      "seconds": 0.156, 
+      "status": "PASS", 
+      "name": "repeat_launch_and_terminal_status", 
+      "evidence": {
+        "statusAuthenticated": true, 
+        "existingInstanceReused": true
+      }
+    }, 
+    {
+      "seconds": 0.41199999999999998, 
+      "status": "PASS", 
+      "name": "mcp_cli_discovers_own_dynamic_port", 
+      "evidence": [
+        {
+          "ownStateOnly": true, 
+          "user": "icwqb_a", 
+          "readOnlyTools": 3
+        }, 
+        {
+          "ownStateOnly": true, 
+          "user": "icwqb_b", 
+          "readOnlyTools": 3
+        }
+      ]
+    }, 
+    {
+      "seconds": 0.32900000000000001, 
+      "status": "PASS", 
+      "name": "occupied_port_and_old_config", 
+      "evidence": {
+        "explicitPortFailsClearly": true, 
+        "oldFixedConfigFallsBack": true
+      }
+    }, 
+    {
+      "seconds": 0.33400000000000002, 
+      "status": "PASS", 
+      "name": "concurrent_workspace_compare_and_swap", 
+      "evidence": {
+        "conflicts": 15, 
+        "concurrentSaves": 16, 
+        "accepted": 1
+      }
+    }, 
+    {
+      "seconds": 0.60399999999999998, 
+      "status": "PASS", 
+      "name": "sigkill_during_writes_and_restart", 
+      "evidence": {
+        "oldTokenRejected": true, 
+        "recoveredWrite": 8, 
+        "orphanTempsCleared": true, 
+        "otherUserUnaffected": true, 
+        "acknowledgedWrites": 8
+      }
+    }, 
+    {
+      "seconds": 0.46899999999999997, 
+      "status": "PASS", 
+      "name": "actual_disk_full_and_recovery", 
+      "evidence": {
+        "failedWritesVisible": true, 
+        "writesRecoverAfterFreeSpace": true, 
+        "realENOSPC": true, 
+        "previousBytesPreserved": true
+      }
+    }, 
+    {
+      "seconds": 3.2709999999999999, 
+      "status": "PASS", 
+      "name": "cross_uid_process_control", 
+      "evidence": {
+        "otherUIDProcessTerminationRejected": true
+      }
+    }, 
+    {
+      "seconds": 0.114, 
+      "status": "PASS", 
+      "name": "corrupt_data_config_and_permissions", 
+      "evidence": {
+        "corruptionNeverReset": true, 
+        "trailingConfigurationRejected": true, 
+        "worldWritableDataRejected": true
+      }
+    }, 
+    {
+      "seconds": 8.7010000000000005, 
+      "status": "PASS", 
+      "name": "two_user_request_soak", 
+      "evidence": {
+        "processes": {
+          "icwqb_a": [
+            "VmRSS:\t   11152 kB", 
+            "Threads:\t8"
+          ], 
+          "icwqb_b": [
+            "VmRSS:\t   11204 kB", 
+            "Threads:\t8"
+          ]
+        }, 
+        "allResponsesCorrect": true, 
+        "requests": 620
+      }
+    }
+  ]
+}

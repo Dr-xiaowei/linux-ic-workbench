@@ -1,0 +1,21 @@
+{
+  "status": "RETAINED_AWAITING_EXPLICIT_USER_CLEANUP_CONFIRMATION",
+  "date": "2026-09-25T18:45:10.629871+00:00",
+  "environment": "reference-sandbox/linux-validation",
+  "logicalBytes": 3990962914,
+  "logicalGiB": 3.717,
+  "verificationPortsStopped": {
+    "18822": "",
+    "18823": "",
+    "18824": "",
+    "18865": "",
+    "18866": "",
+    "18867": "",
+    "18880": "",
+    "18881": ""
+  },
+  "filesDeleted": false,
+  "demoPort18766KeptRunning": true,
+  "allocatedBytesIncludingFilesystemMetadata": 4519362560,
+  "allocatedGiB": 4.209
+}

@@ -1,0 +1,19 @@
+{
+  "beforeSchema": 3,
+  "afterSchema": 4,
+  "allExistingFieldsPreserved": true,
+  "preservedCollections": {
+    "projects": 1,
+    "sessions": 2,
+    "batches": 1,
+    "jobs": 1,
+    "experiments": 0,
+    "software": 3,
+    "plugins": 1,
+    "fileNotes": 2,
+    "operations": 0
+  },
+  "migrationBackupPresent": true,
+  "servedVersion": "0.3.0-rc1",
+  "codeLanguageCount": 16
+}

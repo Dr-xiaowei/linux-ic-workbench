@@ -1,0 +1,91 @@
+{
+  "errors": [], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.8.0-rc1", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 9.0800000000000001, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.4700000000000002, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.02, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.1799999999999999, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.38, 
+      "name": "Calculator variables and disk-persisted result"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.5800000000000001, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.96, 
+      "name": "Native plugin registration and real bounded execution"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.59999999999999998, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.6000000000000001, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.93999999999999995, 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.8799999999999999, 
+      "name": "Native parameter form, backend preview and bounded AI draft"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.89000000000000001, 
+      "name": "Native CSV conversion, specification and mismatched PVT rejection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 2.6600000000000001, 
+      "name": "Real Qwen3 coordinated two-file proposal, native review, apply, execution and undo"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 1.22, 
+      "traceback": "Traceback (most recent call last):\n  File \"/home/icw/engineering-rc1/native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/home/icw/engineering-rc1/native_guest.py\", line 171, in engineering_template_model\n    assert 'nmos_missing' in r['content'],r\nAssertionError: {u'status': u'completed', u'events': [{u'text': u'\\u8bfb\\u53d6\\u4f1a\\u8bdd\\u4e0e\\u7528\\u6237\\u9009\\u4e2d\\u7684\\u4e0a\\u4e0b\\u6587 / Reading conversation and selected context', u'stage': u'context', u'time': u'2026-09-29T16:41:44Z'}, {u'text': u'\\u6a21\\u578b\\u63a8\\u7406 / Model round 1', u'stage': u'model', u'time': u'2026-09-29T16:41:44Z'}, {u'text': u'Agent finished', u'stage': u'completed', u'time': u'2026-09-29T16:41:45Z'}], u'content': u'{\"name\": \"platform_action\", \"arguments\": {\"action\": \"read-file\", \"input\": {\"file\": \"model-check.log\"}}}', u'session': u'c3a22b9b953ba7b2ecdb7893', u'linuxMode': u'off', u'error': u'', u'id': u'4af34b42dc0411ac3ff21452'}\n", 
+      "name": "Real Qwen3 parameterized read-only log task cites actual file evidence", 
+      "error": "{u'status': u'completed', u'events': [{u'text': u'\\u8bfb\\u53d6\\u4f1a\\u8bdd\\u4e0e\\u7528\\u6237\\u9009\\u4e2d\\u7684\\u4e0a\\u4e0b\\u6587 / Reading conversation and selected context', u'stage': u'context', u'time': u'2026-09-29T16:41:44Z'}, {u'text': u'\\u6a21\\u578b\\u63a8\\u7406 / Model round 1', u'stage': u'model', u'time': u'2026-09-29T16:41:44Z'}, {u'text': u'Agent finished', u'stage': u'completed', u'time': u'2026-09-29T16:41:45Z'}], u'content': u'{\"name\": \"platform_action\", \"arguments\": {\"action\": \"read-file\", \"input\": {\"file\": \"model-check.log\"}}}', u'session': u'c3a22b9b953ba7b2ecdb7893', u'linuxMode': u'off', u'error': u'', u'id': u'4af34b42dc0411ac3ff21452'}"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.56999999999999995, 
+      "name": "Native readable answer keeps original structured receipts available"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 500
+}

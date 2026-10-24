@@ -1,0 +1,19 @@
+{
+  "time": "2026-09-25T15:38:34.125Z",
+  "checks": [
+    "Chat project scope executes browse",
+    "Chat folder scope and independent conversation",
+    "Project page contains file management only",
+    "Inline file analysis with evidence and no chat/session redirect",
+    "Waveform zoom regression",
+    "16 language templates, draft switching and corresponding export formats",
+    "Code save-as explicitly chooses output destination",
+    "Per-language checker config and explicit execution",
+    "Formula variables, forward references, degrees, errors and circuit presets",
+    "MCP discover, confirmed tools/call, receipts and simulated EDA submission",
+    "External MCP config saved; Demo isolates endpoint with local protocol bridge",
+    "English UI and compact responsive layout"
+  ],
+  "errors": [],
+  "mode": "isolated offline Demo; no commercial EDA validation"
+}

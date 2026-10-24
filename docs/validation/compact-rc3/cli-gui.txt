@@ -1,0 +1,13 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+('PASS installed terminal command --open starts native client, API version', u'0.8.0-rc3')
+IC Workbench 0.8.0-rc3 [production] UID=500 PID=1762
+Open http://127.0.0.1:38614/#token=[redacted]
+Data: /home/icw/compact-rc3-cli-data
+MCP token: export ICW_TOKEN=[redacted]
+Keep the startup terminal open; Ctrl+C stops this instance.
+保持启动终端打开，Ctrl+C 停止本实例。
+Remote browser / 远程浏览器: ssh -N -L 18765:127.0.0.1:38614 USER@SERVER
+Then open http://127.0.0.1:18765/ and use the token above.
+PASS terminal client shutdown removes instance

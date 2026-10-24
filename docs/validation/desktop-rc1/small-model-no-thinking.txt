@@ -1,0 +1,10 @@
+FAIL model configuration auto-load {'time': '2026-09-26T04:58:30Z', 'model': 'failed', 'environment': 'ready', 'details': ['model connection failed: Post "http://127.0.0.1:18883/v1/chat/completions": EOF']}
+PASS general engineering question with numeric reference 
+PASS EDA text analysis with grounded missing-model evidence 
+FAIL Verilog generation and actual syntax checker ({'code': 'module gate(input wire a, input wire b, output wire y);\n\n    // Combinational AND logic\n    assign y = a & b;\n\nendmodule\n```\n\n**Assumptions:**\n- The `a` and `b`
+FAIL imported source optimization and independent numeric tests division by zero
+FAIL compiler diagnostics -> AI repair -> real CentOS recheck {'codeResult': {'language': 'python', 'mode': 'repair', 'base': 'def add(a,b)\n    return a+b\n', 'code': 'def add(a, b):\n    return a + b\n', 'stage': 'succeeded', 'summary': '检查
+FAIL platform Agent calculator tool result {'id': 'ebde5dbc3db0425733c02650', 'session': '12978965c2751d486cd9ab45', 'status': 'completed', 'events': [{'time': '2026-09-26T04:59:04Z', 'stage': 'context', 'text': '读取会话与用户选中的
+FAIL Linux Agent actual command and UID {'id': 'bdeb817d8a323893a455049a', 'session': 'b2b0afd2cfd19719078bf77c', 'status': 'completed', 'events': [{'time': '2026-09-26T04:59:05Z', 'stage': 'context', 'text': '读取会话与用户选中的
+FAIL Linux Agent multi-step file creation and verification Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat 
+SUMMARY 2 / 9

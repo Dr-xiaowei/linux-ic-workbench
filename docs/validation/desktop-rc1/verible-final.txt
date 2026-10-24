@@ -1,0 +1,7 @@
+=== RUN   TestCodeVeribleOfficialBinary
+    workflow_test.go:190: Verible actual first diagnostic: /private/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/TestCodeVeribleOfficialBinary3434140125/001/.code-check-3570782055/design.sv:3:1-6: syntax error at token "assign"
+        
+    workflow_test.go:199: Official Verible: syntax repair recheck, selected-line formatting, malformed source rejection passed
+--- PASS: TestCodeVeribleOfficialBinary (0.27s)
+PASS
+ok  	icworkbench/internal/workbench	1.744s

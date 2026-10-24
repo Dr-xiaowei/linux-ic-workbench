@@ -1,0 +1,6 @@
+{
+  "build/linux-amd64/ic-workbench": "8753e05f8d0097cdea3335e4cbaab11c1c9d7496652d2fc3ed3cbd8d8c21da14",
+  "desktop/client.py": "b0b9a5d8e94f45eafc29e0310fc48c87e67edaa952b6912e4d551adff1ae3f2d",
+  "desktop/runtime.py": "aabcbbdc6035be6b3a649f84392c57f8b8fc592303f4395092fc718eb2061ab7",
+  "desktop/engineering.py": "a7bfae9454041eea01e74d9801ad20c91141a8bcbf8b7fb60058ae78d4c1e90a"
+}

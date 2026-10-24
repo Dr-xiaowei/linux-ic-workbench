@@ -1,0 +1,72 @@
+	icworkbench/cmd/workbench		coverage: 0.0% of statements
+=== RUN   TestCSVValidationAndEvidence
+=== RUN   TestCSVValidationAndEvidence/missing-value
+=== RUN   TestCSVValidationAndEvidence/duplicate
+=== RUN   TestCSVValidationAndEvidence/inverted
+=== RUN   TestCSVValidationAndEvidence/unknown-status
+=== RUN   TestCSVValidationAndEvidence/missing-unit
+=== RUN   TestCSVValidationAndEvidence/NaN
+--- PASS: TestCSVValidationAndEvidence (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/missing-value (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/duplicate (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/inverted (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/unknown-status (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/missing-unit (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/NaN (0.00s)
+=== RUN   TestStoreMigrationIsolationRecovery
+--- PASS: TestStoreMigrationIsolationRecovery (0.06s)
+=== RUN   TestPathsAndHTTPBoundary
+=== RUN   TestPathsAndHTTPBoundary/auth
+=== RUN   TestPathsAndHTTPBoundary/origin
+=== RUN   TestPathsAndHTTPBoundary/dns
+--- PASS: TestPathsAndHTTPBoundary (0.05s)
+    --- PASS: TestPathsAndHTTPBoundary/auth (0.00s)
+    --- PASS: TestPathsAndHTTPBoundary/origin (0.00s)
+    --- PASS: TestPathsAndHTTPBoundary/dns (0.00s)
+=== RUN   TestQueueIdempotencyCancellationAndSnapshot
+--- PASS: TestQueueIdempotencyCancellationAndSnapshot (0.34s)
+=== RUN   TestProcessTimeoutAndEnvironment
+--- PASS: TestProcessTimeoutAndEnvironment (0.16s)
+=== RUN   TestGenericAdapterContract
+--- PASS: TestGenericAdapterContract (7.35s)
+=== RUN   TestCommandHelper
+--- PASS: TestCommandHelper (0.00s)
+=== RUN   TestBoundedOptimization
+--- PASS: TestBoundedOptimization (1.88s)
+=== RUN   TestOptimizationPauseResumeAndTimeBudget
+--- PASS: TestOptimizationPauseResumeAndTimeBudget (1.95s)
+=== RUN   TestModelChatEvidenceToolsAndErrors
+--- PASS: TestModelChatEvidenceToolsAndErrors (0.09s)
+=== RUN   TestModelCannotRunWithoutPermission
+--- PASS: TestModelCannotRunWithoutPermission (0.11s)
+=== RUN   TestMCPProtocolAndReadOnlyGate
+=== RUN   TestMCPProtocolAndReadOnlyGate/false
+=== RUN   TestMCPProtocolAndReadOnlyGate/true
+--- PASS: TestMCPProtocolAndReadOnlyGate (0.10s)
+    --- PASS: TestMCPProtocolAndReadOnlyGate/false (0.02s)
+    --- PASS: TestMCPProtocolAndReadOnlyGate/true (0.03s)
+=== RUN   TestCadenceGeneratedScriptsAndBounds
+--- PASS: TestCadenceGeneratedScriptsAndBounds (0.00s)
+=== RUN   TestExportImportAPIWorkflow
+--- PASS: TestExportImportAPIWorkflow (0.05s)
+=== RUN   TestDiagnosisEvidence
+--- PASS: TestDiagnosisEvidence (0.00s)
+=== RUN   TestStaticUIAssets
+--- PASS: TestStaticUIAssets (0.05s)
+=== RUN   TestNativeCadenceContractAndFrozenInputs
+--- PASS: TestNativeCadenceContractAndFrozenInputs (4.48s)
+=== RUN   TestNativeHelper
+--- PASS: TestNativeHelper (0.00s)
+=== RUN   TestModelCancellationAndSelectedEvidence
+--- PASS: TestModelCancellationAndSelectedEvidence (0.17s)
+=== RUN   TestPublicReferenceCSV
+--- PASS: TestPublicReferenceCSV (0.00s)
+=== RUN   TestCSHEnvironmentIsolation
+--- PASS: TestCSHEnvironmentIsolation (0.06s)
+=== RUN   TestMetadataBoundedAndRollbackOnIOFailure
+--- PASS: TestMetadataBoundedAndRollbackOnIOFailure (0.94s)
+=== RUN   TestInfeasibleOptimizationDoesNotClaimRevalidation
+--- PASS: TestInfeasibleOptimizationDoesNotClaimRevalidation (0.96s)
+PASS
+coverage: 74.3% of statements
+ok  	icworkbench/internal/workbench	20.742s	coverage: 74.3% of statements

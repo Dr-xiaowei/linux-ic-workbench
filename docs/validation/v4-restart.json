@@ -1,0 +1,13 @@
+{
+  "time": "2026-09-25T14:08:05.202947+00:00",
+  "processRestart": true,
+  "allStateAndWorkspaceBytesPreserved": true,
+  "workspaceReadThroughNewToken": true,
+  "hashes": {
+    "state.json": "68f93f830b60ab48e3cd6d5e68f7f16124e957c14663608d9e5b3223a70c166d",
+    "workspace.json.gz": "07128ddad2e520fed1c8b9377720170518817195eab103be9998f6611ac15383"
+  },
+  "codeLanguagesSaved": 16,
+  "codeHistorySaved": 12,
+  "analysisRecordsSaved": 4
+}

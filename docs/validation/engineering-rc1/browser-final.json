@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-30",
+  "version": "0.8.0-rc1",
+  "method": "Codex browser UI; semantic keyboard activation and DOM readback",
+  "pages": 10,
+  "viewportWidth": 963,
+  "pageHorizontalOverflow": false,
+  "checks": [
+    "template form and preview",
+    "CSV unit conversion + PVT mismatch",
+    "synthetic multi-file review/apply/undo",
+    "legacy chat JSON and receipts folded",
+    "whole-file layout shows all 3 changed lines",
+    "selected-line layout changes only first line",
+    "unapplied source preserved; test source restored to empty",
+    "English and Chinese labels",
+    "settings asynchronous load completed"
+  ],
+  "consoleErrorsObserved": [],
+  "demoOnly": true
+}

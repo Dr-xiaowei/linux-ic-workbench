@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "fixture": "20-second bounded Python loop, 16 MiB buffer, task name simv-fixture; NOT EDA simulation",
+  "topTask": {
+    "pid": 2620,
+    "start": "301491",
+    "name": "simv-fixture",
+    "cpu": 109.95907230559345,
+    "memoryBytes": 21053440,
+    "own": true,
+    "simulation": true
+  },
+  "terminationRequested": true
+}

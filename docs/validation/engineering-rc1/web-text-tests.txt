@@ -1,0 +1,1 @@
+PASS: legacy JSON and receipts collapsed; HTML injection escaped; fenced HDL preserved; readable headings

@@ -1,0 +1,55 @@
+{
+  "nativeToolkit": "Tk 8.5.7", 
+  "model": "Qwen3-1.7B-Q8_0", 
+  "errors": [
+    "<urlopen error timed out>"
+  ], 
+  "checks": [
+    {
+      "status": "PASS", 
+      "uiFrames": 96, 
+      "seconds": 2.77, 
+      "name": "Real model question and live progress in native chat"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 59, 
+      "seconds": 1.8, 
+      "name": "Real AI file analysis stays on current native page"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 35, 
+      "seconds": 1.27, 
+      "name": "Native code import -> real AI proposal -> apply -> actual CentOS compiler"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 102, 
+      "seconds": 2.9300000000000002, 
+      "name": "Native Linux Agent approval precedes actual command and displays receipt"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 62, 
+      "seconds": 1.7, 
+      "name": "Native UI can cancel real model inference"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 170.13, 
+      "name": "Real AI controls allowed MCP fixture and shows actual progress (no EDA)", 
+      "error": "Native UI timed out", 
+      "uiFrames": 6067, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_ai_guest.py\", line 33, in check\n    try:fn();r={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_ai_guest.py\", line 72, in mcp\n    app.state=api.request('state')['state'];app.eda_id='native-fixture';app.goto('eda');app.buttons['mcp_discover'].invoke();wait(lambda:len(app.mcp_table.rows)==1)\n  File \"/tmp/desktop_ai_guest.py\", line 25, in wait\n    raise AssertionError('Native UI timed out')\nAssertionError: Native UI timed out\n"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 3.5299999999999998, 
+      "name": "Narrow native window retains scroll access to every page control", 
+      "error": "[u'<urlopen error timed out>']", 
+      "uiFrames": 111, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_ai_guest.py\", line 33, in check\n    try:fn();r={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_ai_guest.py\", line 87, in narrow\n    capture(out+'/native-narrow.png');assert not errors,errors\nAssertionError: [u'<urlopen error timed out>']\n"
+    }
+  ]
+}

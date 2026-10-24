@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "model": "Qwen2.5-Coder-1.5B-Instruct Q4_K_M, temperature 0",
+  "checks": [
+    {
+      "language": "verilog",
+      "response": {
+        "code": "module and2 (\n    input a,\n    input b,\n    output y\n);\n\n    // AND operation\n    assign y = a & b;\n\nendmodule\n",
+        "demo": false,
+        "extension": ".v",
+        "validated": false
+      },
+      "verification": "Real code-model request through CentOS. Source structure inspected; vendor compilation/simulation excluded."
+    },
+    {
+      "language": "systemverilog",
+      "response": {
+        "code": "module counter4(input logic clk, rst, output logic [3:0] q);\n    // Initialize the counter to 0\n    logic [3:0] counter = 4'b0000;\n\n    // Reset the counter to 0 on the rising edge of the reset signal\n    always @(posedge rst or negedge clk) begin\n        if (rst) begin\n            counter <= 4'b0000;\n        end else begin\n            counter <= counter + 1'b1;\n        end\n    end\n\n    // Output the current value of the counter\n    always @(*) begin\n        q <= counter;\n    end\nendmodule\n",
+        "demo": false,
+        "extension": ".sv",
+        "validated": false
+      },
+      "verification": "Real code-model request through CentOS. Source structure inspected; vendor compilation/simulation excluded.",
+      "contentReview": {
+        "status": "FAILED_REQUIREMENT",
+        "finding": "Requested synchronous active-high reset; first output uses asynchronous posedge rst and negedge clk. Source structure alone does not prove correctness."
+      },
+      "reviewedCorrection": {
+        "code": "module counter4(input logic clk, rst, output logic [3:0] q);\n    // Initialize the counter to 0\n    logic [3:0] counter = 4'b0000;\n\n    // Reset the counter to 0 on the rising edge of the reset signal\n    always_ff @(posedge clk) begin\n        if (rst) begin\n            counter <= 4'b0000;\n        end else begin\n            counter <= counter + 1'b1;\n        end\n    end\n\n    // Output the current value of the counter\n    always @(*) begin\n        q <= counter;\n    end\nendmodule",
+        "demo": false,
+        "summary": "The reset and clock semantics have been corrected. The reset is now sampled only on the rising edge of the clock, and the counter is reset to 0 on the rising edge of the reset signal. The clock is not used in the sensitivity list, and the output of the counter is updated on every clock cycle. The module counter4 ports have been preserved.",
+        "validated": false
+      },
+      "correctionReview": {
+        "requestedSensitivityCorrect": true,
+        "notCompiledOrSimulated": true
+      }
+    },
+    {
+      "language": "vhdl",
+      "response": {
+        "code": "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity AND2 is\n    Port (\n        A : in STD_LOGIC;\n        B : in STD_LOGIC;\n        Y : out STD_LOGIC\n    );\nend AND2;\n\narchitecture Behavioral of AND2 is\nbegin\n    Y <= A AND B;\nend Behavioral;\n",
+        "demo": false,
+        "extension": ".vhd",
+        "validated": false
+      },
+      "verification": "Real code-model request through CentOS. Source structure inspected; vendor compilation/simulation excluded."
+    }
+  ],
+  "scope": "PASS only means platform generation/editing flow. One initial SystemVerilog answer violated reset requirements; correction was separately reviewed. No RTL compiler/simulator was run."
+}

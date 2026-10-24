@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "version": "0.5.0-rc3",
+  "archiveSHA256": "5da4f9c66ecb2879698072bb0370d9256bcfed3f5cf422d7fc04e3aada14f643",
+  "archiveBytes": 11097482,
+  "binarySHA256": "6cf0fb38605391c36a8cde870297f2122842568b808fb708ab02f2a8cfca90cc",
+  "verifiedPackageFiles": 158,
+  "terminalLink": [
+    "/home/icw/validation/app/current-production/start.sh",
+    "releases/0.5.0-rc3-production"
+  ],
+  "shells": [
+    "sh",
+    "bash",
+    "csh",
+    "tcsh"
+  ],
+  "oldStateWorkspaceConfigBytesPreserved": true,
+  "repeatInstallRejected": true,
+  "unrelatedCommandPreserved": true,
+  "SIGINTStopsAndRestartWorks": true,
+  "newTokenAfterRestart": true,
+  "startupValidation": {
+    "time": "2026-09-25T18:38:46Z",
+    "model": "connected",
+    "environment": "ready",
+    "details": []
+  },
+  "verificationSummary": {
+    "hostRacePass": 57,
+    "linuxPass": 55,
+    "linuxSkipped": [
+      "clang not installed",
+      "Verible not installed"
+    ],
+    "realUIDFaultGroups": 12,
+    "browserGroups": 5,
+    "sustainedLoadRequests": 2624,
+    "sustainedLoadSeconds": 180.23,
+    "demoDataBytesPreserved": true
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "mode": "production",
+    "archive": "release/ic-workbench-0.8.0-rc3-linux-amd64-production.tar.gz",
+    "archiveBytes": 3618583,
+    "verifiedFiles": 29,
+    "SHA256": "5ce36ecdfd1f228cc71337266bf86570ff59feb3dffc69c8cfd839f2f082854e",
+    "binaryMatchesInspectedELF": true,
+    "dataAndCredentialIsolation": true
+  }
+]

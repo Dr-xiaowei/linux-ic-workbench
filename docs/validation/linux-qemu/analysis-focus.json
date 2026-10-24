@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "question": "请用中文，仅指出 R1 的阻值问题，并引用第 2 行。",
+  "requestQuestion": "请用中文，仅指出 R1 的阻值问题，并引用第 2 行。",
+  "answer": "R1 的阻值问题，引用第 2 行。",
+  "preservedAfterReload": true,
+  "inline": true
+}

@@ -1,0 +1,108 @@
+{
+  "oldUserUpgrade": {
+    "binary": "/home/icw/.local/bin/ic-workbench", 
+    "uid": 500, 
+    "sessions": 12, 
+    "after": {
+      "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb", 
+      "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31", 
+      "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+    }, 
+    "version": "0.6.0-rc2", 
+    "preserved": true, 
+    "terminalStatusPassed": true, 
+    "idleRSS": "VmRSS:\t    7468 kB", 
+    "projects": 4, 
+    "before": {
+      "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb", 
+      "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31", 
+      "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+    }
+  }, 
+  "runningExecutable": "/home/icwgui/.local/opt/ic-workbench/releases/0.6.0-rc2-production/ic-workbench", 
+  "privateFiles": [
+    {
+      "path": "/home/icwgui/.local/share/ic-workbench/production", 
+      "uid": 505, 
+      "mode": "0700"
+    }, 
+    {
+      "path": "/home/icwgui/.local/share/ic-workbench/production/state.json", 
+      "uid": 505, 
+      "mode": "0600"
+    }, 
+    {
+      "path": "/home/icwgui/.local/share/ic-workbench/production/workspace.json.gz", 
+      "uid": 505, 
+      "mode": "0600"
+    }, 
+    {
+      "path": "/home/icwgui/.config/ic-workbench/production", 
+      "uid": 505, 
+      "mode": "0700"
+    }, 
+    {
+      "path": "/home/icwgui/.config/ic-workbench/production/config.json", 
+      "uid": 505, 
+      "mode": "0600"
+    }
+  ], 
+  "freshInstallUID": 505, 
+  "processMemory": "PID COMMAND           RSS\n 1523 Xvfb            27056\n 1703 xdg-open         1460\n 1711 firefox         193940\n 2142 ic-workbench    11404", 
+  "checksummedFiles": {
+    "fresh": 210, 
+    "upgrade": 210
+  }, 
+  "guiUserRecordsUnchanged": true, 
+  "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda2       3.7G  1.6G  2.0G  45% /", 
+  "terminalSymlink": "/home/icwgui/.local/opt/ic-workbench/current-production/start.sh", 
+  "system": "Linux 2.6.32-696.el6.x86_64 x86_64 GNU/Linux", 
+  "archiveSHA256": "3bd56c6a8d4b83cbe4e42077883e5c80303f9e9eb585309f15f024c5b9729a57", 
+  "installedBinarySHA256": "b0359e0df0faa3a59a4bdb35966cc5c4bfa4547d0a0a582c8b06d69fb55be527", 
+  "terminalChecks": {
+    "samePIDAndToken": true, 
+    "version": "0.6.0-rc2", 
+    "uid": 505, 
+    "checks": [
+      {
+        "version": "0.6.0-rc2", 
+        "pid": 2142, 
+        "name": "running candidate", 
+        "uid": 505
+      }, 
+      {
+        "status": "PASS", 
+        "name": "/bin/sh terminal status"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "/bin/bash terminal status"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "/bin/csh terminal status"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "/bin/tcsh terminal status"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "repeat --open uses desktop opener and reuses backend"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "--status --open explicit Firefox executable"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "headless, missing/failing browser and incompatible flags report errors without stopping service"
+      }, 
+      {
+        "status": "PASS", 
+        "name": "first headless --open keeps HTTP available; auto port; Ctrl+C removes receipt"
+      }
+    ]
+  }, 
+  "priorReleaseRetained": true
+}

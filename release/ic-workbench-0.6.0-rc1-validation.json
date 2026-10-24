@@ -1,0 +1,66 @@
+{
+  "status": "PLATFORM_VALIDATED_MODEL_PLANNING_NOT_ACCEPTED",
+  "version": "0.6.0-rc1",
+  "package": {
+    "mode": "production",
+    "archive": "release/ic-workbench-0.6.0-rc1-linux-amd64-production.tar.gz",
+    "archiveBytes": 11537071,
+    "verifiedFiles": 189,
+    "SHA256": "cb1c92e6c8a77e50413440faf14e8d88ff34528cafc654e67210e5c6dc7541f7",
+    "binaryMatchesInspectedELF": true,
+    "dataAndCredentialIsolation": true
+  },
+  "binary": {
+    "format": "ELF64 little-endian x86_64",
+    "static": true,
+    "interpreter": null,
+    "dynamicSegment": false,
+    "sizeBytes": 8663192,
+    "SHA256": "a0235243675721d3d5f73ef1dd9d75d9c2949b7f117c905954bfbf3ea2427fc9",
+    "toolchain": "go1.23.12",
+    "target": "GOOS=linux GOARCH=amd64 GOAMD64=v1 CGO_ENABLED=0",
+    "execution": "Structural inspection only; runtime evidence is recorded separately in docs/validation/linux-qemu/"
+  },
+  "tests": {
+    "host": {
+      "passed": 67,
+      "skipped": 0
+    },
+    "centos": {
+      "passed": 65,
+      "skipped": 2
+    }
+  },
+  "twoUIDBrowserGroups": 6,
+  "demoOpensAndDataPreserved": true,
+  "installedViaTerminal": {
+    "binary": "/home/icw/.local/bin/ic-workbench",
+    "version": "0.6.0-rc1",
+    "uid": 500,
+    "preserved": true,
+    "sessions": 12,
+    "terminalStatusPassed": true,
+    "after": {
+      "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb",
+      "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31",
+      "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+    },
+    "idleRSS": "VmRSS:\t    8416 kB",
+    "projects": 4,
+    "before": {
+      "/home/icw/validation/data/state.json": "e145c66866ac76880e0cb41d879ea5721893f77779517ea25b09721e1371a4bb",
+      "/home/icw/validation/config/config.json": "a771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31",
+      "/home/icw/validation/data/workspace.json.gz": "1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08"
+    }
+  },
+  "realModel": {
+    "nativeCommandActuallyExecuted": "pwd",
+    "requestedUIDCommandOmitted": true,
+    "multistepPlanningPassed": false,
+    "companyGLMValidated": false
+  },
+  "oldRC3PackageUnchanged": true,
+  "environmentRemoval": "Not authorized; retained",
+  "validationServicesStopped": true,
+  "userDemoLeftRunning": true
+}

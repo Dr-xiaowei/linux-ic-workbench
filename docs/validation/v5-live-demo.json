@@ -1,0 +1,11 @@
+{
+  "time": "2026-09-25T15:49:43.523Z",
+  "version": "0.5.0-rc1",
+  "loopbackPort": 18766,
+  "login": true,
+  "chat": true,
+  "edaTaskInput": true,
+  "codeRepair": true,
+  "backupControlRemoved": true,
+  "errors": []
+}

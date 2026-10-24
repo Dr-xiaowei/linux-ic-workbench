@@ -1,0 +1,89 @@
+{
+  "errors": [], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.8.0-rc1", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 9.0700000000000003, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.4199999999999999, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.03, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.1100000000000001, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.28999999999999998, 
+      "name": "Calculator variables and disk-persisted result"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.5499999999999998, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.8999999999999999, 
+      "name": "Native plugin registration and real bounded execution"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.60999999999999999, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.74, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.91000000000000003, 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.8899999999999999, 
+      "name": "Native parameter form, backend preview and bounded AI draft"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.67000000000000004, 
+      "name": "Native CSV conversion, specification and mismatched PVT rejection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 2.5899999999999999, 
+      "name": "Real Qwen3 coordinated two-file proposal, native review, apply, execution and undo"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.4199999999999999, 
+      "name": "Real Qwen3 parameterized read-only log task cites actual file evidence"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.53000000000000003, 
+      "name": "Native readable answer keeps original structured receipts available"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 500
+}

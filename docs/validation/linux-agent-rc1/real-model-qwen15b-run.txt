@@ -1,0 +1,7 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+Traceback (most recent call last):
+  File "<project>/tests/linux_agent_real_model.py", line 25, in <module>
+    assert r.get('terminal') and r['terminal']['exitCode']==0 and 'REAL_MODEL_OK' in r['terminal']['output'] and '503' in r['terminal']['output'],r
+AssertionError: {'id': 'adf54de10a7c2f62ab1a62d5', 'session': '46ecf8fc77a4a5ab19d35f38', 'status': 'completed', 'events': [{'time': '2026-09-26T02:18:17Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T02:18:17Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T02:18:27Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': '```json\n{\n  "name": "linux_action",\n  "arguments": {\n    "action": "write-file",\n    "input": {\n      "path": "real-model-note.txt",\n      "content": "REAL_MODEL_OK\\n",\n      "expectedSHA256": "new"\n    }\n  }\n}\n```', 'error': '', 'linuxMode': 'auto', 'directory': '/home/icwqb_a/linux-agent-project'}

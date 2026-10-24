@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-21T15:25:46.541Z",
+  "host": "macOS arm64 / Chrome; not CentOS browser certification",
+  "checks": [
+    "Authenticated landing / Chinese",
+    "Independent chat / save / rename / demo marking",
+    "Environment card save",
+    "Project notes / tags / scoped file preview",
+    "Reliable-reference CSV import / export / AI evidence selection",
+    "Log evidence / AI handoff",
+    "Virtuoso demo probe / status / identity evidence",
+    "Bounded optimization / baseline / revalidation / 4-run budget",
+    "Backup / bilingual toggle / language persistence"
+  ],
+  "metrics": {
+    "domNodes": 138,
+    "jsHeap": 5474683,
+    "resources": [
+      {
+        "name": "/style.css",
+        "bytes": 9844
+      },
+      {
+        "name": "/app.js",
+        "bytes": 44970
+      },
+      {
+        "name": "/api/state",
+        "bytes": 6253
+      },
+      {
+        "name": "/favicon.svg",
+        "bytes": 535
+      }
+    ],
+    "horizontalOverflow": false
+  },
+  "resourceSample": {
+    "host": "macOS ARM64, one sample after UI actions",
+    "browserTreeRSSMiB": 1275.390625,
+    "processCount": 9
+  },
+  "errors": []
+}

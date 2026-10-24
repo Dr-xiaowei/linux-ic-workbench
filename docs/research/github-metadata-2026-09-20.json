@@ -1,0 +1,2301 @@
+{
+  "queried_at_utc": "2026-09-20T13:52:37.892991+00:00",
+  "repositories": {
+    "optuna/optuna": {
+      "repo": {
+        "source": "https://api.github.com/repos/optuna/optuna",
+        "data": {
+          "full_name": "optuna/optuna",
+          "html_url": "https://github.com/optuna/optuna",
+          "description": "A hyperparameter optimization framework",
+          "created_at": "2018-02-21T06:12:56Z",
+          "updated_at": "2026-09-20T07:39:04Z",
+          "pushed_at": "2026-09-18T04:50:13Z",
+          "stargazers_count": 14817,
+          "forks_count": 1391,
+          "open_issues_count": 21,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "master",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/optuna/optuna/commits?per_page=10",
+        "data": [
+          {
+            "sha": "7d08bfa1824606d7caedb80abfd8558bc63826d7",
+            "url": "https://github.com/optuna/optuna/commit/7d08bfa1824606d7caedb80abfd8558bc63826d7",
+            "date": "2026-09-18T04:50:13Z",
+            "message": "Merge pull request #6863 from y0z/feature/fix-sphinx-ci",
+            "author": "c-bata"
+          },
+          {
+            "sha": "ca9b4547781533fc9322baab5fc3a35df98adb00",
+            "url": "https://github.com/optuna/optuna/commit/ca9b4547781533fc9322baab5fc3a35df98adb00",
+            "date": "2026-09-18T04:15:18Z",
+            "message": "Pin sphinx-gallery to fix docs CI error",
+            "author": "y0z"
+          },
+          {
+            "sha": "f19413647e0e50d106f96e1b341a2a6d4e21274b",
+            "url": "https://github.com/optuna/optuna/commit/f19413647e0e50d106f96e1b341a2a6d4e21274b",
+            "date": "2026-09-18T02:15:54Z",
+            "message": "Merge pull request #6832 from gen740/fix/grpc-datetime-serialization",
+            "author": "c-bata"
+          },
+          {
+            "sha": "1819276a9284465961ad6790e5095765113b082d",
+            "url": "https://github.com/optuna/optuna/commit/1819276a9284465961ad6790e5095765113b082d",
+            "date": "2026-09-16T22:55:26Z",
+            "message": "Merge pull request #6858 from bodapatisaikrishna/docs/remove-obsolete-chainermn-faq-references",
+            "author": "c-bata"
+          },
+          {
+            "sha": "16bab9da410a61253e6f3510f200e764957a7dd1",
+            "url": "https://github.com/optuna/optuna/commit/16bab9da410a61253e6f3510f200e764957a7dd1",
+            "date": "2026-09-16T11:05:16Z",
+            "message": "Remove obsolete `ChainerMNStudy` note and fix Sphinx roles in FAQ",
+            "author": "bodapatisaikrishna"
+          },
+          {
+            "sha": "7b8225f8ad3c881f12612f905c9f6e2c88f3e4f0",
+            "url": "https://github.com/optuna/optuna/commit/7b8225f8ad3c881f12612f905c9f6e2c88f3e4f0",
+            "date": "2026-09-16T07:56:19Z",
+            "message": "Merge pull request #6857 from optuna/dependabot/github_actions/reviewdog/action-suggester-1.25.0",
+            "author": "y0z"
+          },
+          {
+            "sha": "f896ca6faf0857fc9ee5605d25843de14af20107",
+            "url": "https://github.com/optuna/optuna/commit/f896ca6faf0857fc9ee5605d25843de14af20107",
+            "date": "2026-09-16T07:30:00Z",
+            "message": "Bump reviewdog/action-suggester from 1.24.3 to 1.25.0",
+            "author": "dependabot[bot]"
+          },
+          {
+            "sha": "918d19b135a3e226deba4a7a20b12a7e49180fc4",
+            "url": "https://github.com/optuna/optuna/commit/918d19b135a3e226deba4a7a20b12a7e49180fc4",
+            "date": "2026-09-16T07:25:53Z",
+            "message": "Merge pull request #6853 from c-bata/dependabot",
+            "author": "y0z"
+          },
+          {
+            "sha": "78a73fddd878e06e56d2f96b803f5ff870ad8587",
+            "url": "https://github.com/optuna/optuna/commit/78a73fddd878e06e56d2f96b803f5ff870ad8587",
+            "date": "2026-09-16T07:25:30Z",
+            "message": "Merge pull request #6852 from c-bata/pin-github-actions",
+            "author": "y0z"
+          },
+          {
+            "sha": "57197052c504d5b208300833e8e86401c3b5bf8d",
+            "url": "https://github.com/optuna/optuna/commit/57197052c504d5b208300833e8e86401c3b5bf8d",
+            "date": "2026-09-16T07:23:05Z",
+            "message": "Merge pull request #6850 from bodapatisaikrishna/docs/faq-update-failure-reporting-examples",
+            "author": "kAIto47802"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/optuna/optuna/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "v5.0.0",
+            "html_url": "https://github.com/optuna/optuna/releases/tag/v5.0.0",
+            "published_at": "2026-09-07T05:15:45Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "release-v5.0.0",
+            "name": "v5.0.0"
+          },
+          {
+            "tag_name": "v5.0.0-rc1",
+            "html_url": "https://github.com/optuna/optuna/releases/tag/v5.0.0-rc1",
+            "published_at": "2026-08-03T05:30:29Z",
+            "prerelease": true,
+            "draft": false,
+            "target_commitish": "release-v5.0.0-rc1",
+            "name": "v5.0.0-rc1"
+          },
+          {
+            "tag_name": "v4.9.0",
+            "html_url": "https://github.com/optuna/optuna/releases/tag/v4.9.0",
+            "published_at": "2026-06-01T06:22:47Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "release-v4.9.0",
+            "name": "v4.9.0"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/optuna/optuna/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 6864,
+            "url": "https://github.com/optuna/optuna/pull/6864",
+            "title": "Fix _FanovaTree instances never being garbage collected",
+            "updated_at": "2026-09-19T14:36:48Z",
+            "created_at": "2026-09-19T14:36:48Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/optuna/optuna/issues/6864/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 6862,
+            "url": "https://github.com/optuna/optuna/pull/6862",
+            "title": "Remove obsolete NumPy 1.x constraint from Windows CI",
+            "updated_at": "2026-09-19T04:02:52Z",
+            "created_at": "2026-09-17T22:54:23Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/optuna/optuna/issues/6862/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 6833,
+            "url": "https://github.com/optuna/optuna/pull/6833",
+            "title": "docs: combine visualization backend examples",
+            "updated_at": "2026-09-18T09:29:51Z",
+            "created_at": "2026-08-28T07:06:20Z",
+            "comments": 3,
+            "comments_url": "https://api.github.com/repos/optuna/optuna/issues/6833/comments",
+            "state": "open",
+            "author_association": "MEMBER",
+            "is_pr": true
+          },
+          {
+            "number": 6863,
+            "url": "https://github.com/optuna/optuna/pull/6863",
+            "title": "Pin sphinx-gallery to fix docs CI error",
+            "updated_at": "2026-09-18T04:50:29Z",
+            "created_at": "2026-09-18T04:17:11Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/optuna/optuna/issues/6863/comments",
+            "state": "closed",
+            "author_association": "MEMBER",
+            "is_pr": true
+          },
+          {
+            "number": 6832,
+            "url": "https://github.com/optuna/optuna/pull/6832",
+            "title": "Fix gRPC trial datetime serialization",
+            "updated_at": "2026-09-18T02:15:54Z",
+            "created_at": "2026-08-28T06:19:25Z",
+            "comments": 3,
+            "comments_url": "https://api.github.com/repos/optuna/optuna/issues/6832/comments",
+            "state": "closed",
+            "author_association": "MEMBER",
+            "is_pr": true
+          }
+        ]
+      },
+      "open_pulls": {
+        "source": "https://api.github.com/repos/optuna/optuna/pulls?state=open&per_page=1",
+        "data": {
+          "count": 12
+        }
+      },
+      "maintainer_comments": {
+        "source": "https://api.github.com/repos/optuna/optuna/issues/6832/comments?per_page=100",
+        "data": [
+          {
+            "url": "https://github.com/optuna/optuna/pull/6832#issuecomment-5520196496",
+            "date": "2026-09-03T04:08:12Z",
+            "updated_at": "2026-09-03T04:08:12Z",
+            "author": "c-bata",
+            "association": "MEMBER",
+            "excerpt": "@yen-0 Could you review this PR?"
+          },
+          {
+            "url": "https://github.com/optuna/optuna/pull/6832#issuecomment-5627986045",
+            "date": "2026-09-11T01:25:45Z",
+            "updated_at": "2026-09-11T01:25:45Z",
+            "author": "yen-0",
+            "association": "COLLABORATOR",
+            "excerpt": "Certainly!"
+          }
+        ]
+      }
+    },
+    "mlflow/mlflow": {
+      "repo": {
+        "source": "https://api.github.com/repos/mlflow/mlflow",
+        "data": {
+          "full_name": "mlflow/mlflow",
+          "html_url": "https://github.com/mlflow/mlflow",
+          "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+          "created_at": "2018-06-05T16:05:58Z",
+          "updated_at": "2026-09-20T13:22:28Z",
+          "pushed_at": "2026-09-20T09:00:11Z",
+          "stargazers_count": 28053,
+          "forks_count": 6329,
+          "open_issues_count": 2120,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "master",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/mlflow/mlflow/commits?per_page=10",
+        "data": [
+          {
+            "sha": "929b211ce54ffccc92f4fcb99905538d8040a52c",
+            "url": "https://github.com/mlflow/mlflow/commit/929b211ce54ffccc92f4fcb99905538d8040a52c",
+            "date": "2026-09-20T08:57:42Z",
+            "message": "Improve check status logging in `protect.js` (#26014)",
+            "author": "Copilot"
+          },
+          {
+            "sha": "7951fc7e87db100da5cd89f876fd163238a72c65",
+            "url": "https://github.com/mlflow/mlflow/commit/7951fc7e87db100da5cd89f876fd163238a72c65",
+            "date": "2026-09-20T08:04:38Z",
+            "message": "Restore artifact registry after mocked test reload (#26013)",
+            "author": "Copilot"
+          },
+          {
+            "sha": "3fcdea5611a52d512873b1fd971cea35ca16a8ea",
+            "url": "https://github.com/mlflow/mlflow/commit/3fcdea5611a52d512873b1fd971cea35ca16a8ea",
+            "date": "2026-09-20T00:53:27Z",
+            "message": "Convert Python and GitHub Actions rules to shared skills (#26010)",
+            "author": "Copilot"
+          },
+          {
+            "sha": "1d34d997fc4876886128c113c9bfd61f172cf042",
+            "url": "https://github.com/mlflow/mlflow/commit/1d34d997fc4876886128c113c9bfd61f172cf042",
+            "date": "2026-09-19T15:18:15Z",
+            "message": "Add OpenAI-compatible model discovery to the MLflow Gateway (#25940)",
+            "author": "RussellLuo"
+          },
+          {
+            "sha": "215b274dc702a10147c86e48dfff692f1350bf30",
+            "url": "https://github.com/mlflow/mlflow/commit/215b274dc702a10147c86e48dfff692f1350bf30",
+            "date": "2026-09-19T09:52:20Z",
+            "message": "Fix syntax error in `ml_flow_models/example` (#24699)",
+            "author": "Andrej730"
+          },
+          {
+            "sha": "f156258b9387cf97d26490f0bf902a2b92276525",
+            "url": "https://github.com/mlflow/mlflow/commit/f156258b9387cf97d26490f0bf902a2b92276525",
+            "date": "2026-09-19T09:09:57Z",
+            "message": "Fix Python version in Contributor Setup (#25999)",
+            "author": "M-Iswarya2"
+          },
+          {
+            "sha": "53e212391904411c9360f87b263b84ffbfe55346",
+            "url": "https://github.com/mlflow/mlflow/commit/53e212391904411c9360f87b263b84ffbfe55346",
+            "date": "2026-09-19T09:03:14Z",
+            "message": "Refuse to connect to client-named artifact hosts outside the default artifact root (GHSA-mr9f-g8qf-4w4j) (#25891)",
+            "author": "tanghaoji"
+          },
+          {
+            "sha": "e6310bb9714f704cadfc0dafdbefbc85edc5a90d",
+            "url": "https://github.com/mlflow/mlflow/commit/e6310bb9714f704cadfc0dafdbefbc85edc5a90d",
+            "date": "2026-09-19T07:54:56Z",
+            "message": "Reject conflicting protobuf field spellings in request bodies (GHSA-3g8m-hm3x-gh2r) (#25869)",
+            "author": "tanghaoji"
+          },
+          {
+            "sha": "b54e1f3f809cd52e90c0cb35275aa560873f968f",
+            "url": "https://github.com/mlflow/mlflow/commit/b54e1f3f809cd52e90c0cb35275aa560873f968f",
+            "date": "2026-09-19T07:52:25Z",
+            "message": "Improve `ScoringServerClient.wait_server_ready()` timeout diagnostics (#25998)",
+            "author": "Copilot"
+          },
+          {
+            "sha": "9a8edef60d47a908c610758827e35a3e46a85a71",
+            "url": "https://github.com/mlflow/mlflow/commit/9a8edef60d47a908c610758827e35a3e46a85a71",
+            "date": "2026-09-19T07:42:57Z",
+            "message": "Bind `trace_ids` to the authorized experiment on `issues/invoke` and `genai/evaluate/invoke` (#25873)",
+            "author": "tanghaoji"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/mlflow/mlflow/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "model-catalog/latest",
+            "html_url": "https://github.com/mlflow/mlflow/releases/tag/model-catalog/latest",
+            "published_at": "2026-04-06T05:49:14Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "master",
+            "name": "Model Catalog"
+          },
+          {
+            "tag_name": "v3.16.1",
+            "html_url": "https://github.com/mlflow/mlflow/releases/tag/v3.16.1",
+            "published_at": "2026-09-17T02:40:08Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "master",
+            "name": "MLflow 3.16.1"
+          },
+          {
+            "tag_name": "v3.16.0",
+            "html_url": "https://github.com/mlflow/mlflow/releases/tag/v3.16.0",
+            "published_at": "2026-09-04T08:30:54Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "master",
+            "name": "MLflow 3.16.0"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/mlflow/mlflow/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 26017,
+            "url": "https://github.com/mlflow/mlflow/pull/26017",
+            "title": "Add Atlas Cloud as a gateway provider",
+            "updated_at": "2026-09-20T13:48:42Z",
+            "created_at": "2026-09-20T13:48:10Z",
+            "comments": 3,
+            "comments_url": "https://api.github.com/repos/mlflow/mlflow/issues/26017/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 25969,
+            "url": "https://github.com/mlflow/mlflow/pull/25969",
+            "title": "Add manual issue reproduction triage workflow",
+            "updated_at": "2026-09-20T11:17:43Z",
+            "created_at": "2026-09-18T10:40:47Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/mlflow/mlflow/issues/25969/comments",
+            "state": "open",
+            "author_association": "COLLABORATOR",
+            "is_pr": true
+          },
+          {
+            "number": 25258,
+            "url": "https://github.com/mlflow/mlflow/pull/25258",
+            "title": "[Tracing] Fix metrics provider leak on processor reinitialization",
+            "updated_at": "2026-09-20T09:29:43Z",
+            "created_at": "2026-08-21T09:13:44Z",
+            "comments": 6,
+            "comments_url": "https://api.github.com/repos/mlflow/mlflow/issues/25258/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 26015,
+            "url": "https://github.com/mlflow/mlflow/pull/26015",
+            "title": "Let uv install Python for lint",
+            "updated_at": "2026-09-20T09:05:42Z",
+            "created_at": "2026-09-20T08:44:25Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/mlflow/mlflow/issues/26015/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 26014,
+            "url": "https://github.com/mlflow/mlflow/pull/26014",
+            "title": "Improve check status logging in `protect.js`",
+            "updated_at": "2026-09-20T09:00:12Z",
+            "created_at": "2026-09-20T08:14:26Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/mlflow/mlflow/issues/26014/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          }
+        ]
+      },
+      "open_pulls": {
+        "source": "https://api.github.com/repos/mlflow/mlflow/pulls?state=open&per_page=1",
+        "data": {
+          "count": 636
+        }
+      },
+      "maintainer_comments": {
+        "source": "https://api.github.com/repos/mlflow/mlflow/issues/25258/comments?per_page=100",
+        "data": []
+      }
+    },
+    "aiidateam/aiida-core": {
+      "repo": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core",
+        "data": {
+          "full_name": "aiidateam/aiida-core",
+          "html_url": "https://github.com/aiidateam/aiida-core",
+          "description": "The official repository for the AiiDA code",
+          "created_at": "2016-12-23T15:38:21Z",
+          "updated_at": "2026-09-18T16:32:51Z",
+          "pushed_at": "2026-09-18T16:24:12Z",
+          "stargazers_count": 590,
+          "forks_count": 269,
+          "open_issues_count": 713,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "main",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core/commits?per_page=10",
+        "data": [
+          {
+            "sha": "a1e01a8d51dd257882e3217d16597dd4865d3523",
+            "url": "https://github.com/aiidateam/aiida-core/commit/a1e01a8d51dd257882e3217d16597dd4865d3523",
+            "date": "2026-09-18T14:20:44Z",
+            "message": "🧪 Cover CalcJob presubmit validation (#7665)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "17d8f6643a23fc788b67b69d2dafb9df4c7974dd",
+            "url": "https://github.com/aiidateam/aiida-core/commit/17d8f6643a23fc788b67b69d2dafb9df4c7974dd",
+            "date": "2026-09-18T14:20:44Z",
+            "message": "🧪 Cover QbField tab completion (#7665)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "a367fb2e77c4988727384eadb18c9d561ab0f972",
+            "url": "https://github.com/aiidateam/aiida-core/commit/a367fb2e77c4988727384eadb18c9d561ab0f972",
+            "date": "2026-09-18T14:20:44Z",
+            "message": "🧪 Cover daemon shutdown while resetting storage (#7665)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "94d31d401171f12b2ac1202cb6f40191a7876bdc",
+            "url": "https://github.com/aiidateam/aiida-core/commit/94d31d401171f12b2ac1202cb6f40191a7876bdc",
+            "date": "2026-09-18T14:20:44Z",
+            "message": "🧪 Make monitor polling test deterministic (#7665)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "6e43bd1e87405bcd9d5efc502e0e9bd6acfb3276",
+            "url": "https://github.com/aiidateam/aiida-core/commit/6e43bd1e87405bcd9d5efc502e0e9bd6acfb3276",
+            "date": "2026-09-18T14:20:44Z",
+            "message": "🔧 Exclude t.TYPE_CHECKING blocks from coverage (#7665)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "33f53d42cd868685ca0c15af3c347219033a63c3",
+            "url": "https://github.com/aiidateam/aiida-core/commit/33f53d42cd868685ca0c15af3c347219033a63c3",
+            "date": "2026-09-18T13:19:26Z",
+            "message": "🐛 Prevent interrupting completed CalcJob transport tasks (#7671)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "edcbd11494d72d9a1da1748e0dbda62cb9c89c9c",
+            "url": "https://github.com/aiidateam/aiida-core/commit/edcbd11494d72d9a1da1748e0dbda62cb9c89c9c",
+            "date": "2026-09-18T12:03:08Z",
+            "message": "🧪 Namespace model test users (#7670)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "919ae7461f73953d3cec0399b8ab9cbc0c4feea3",
+            "url": "https://github.com/aiidateam/aiida-core/commit/919ae7461f73953d3cec0399b8ab9cbc0c4feea3",
+            "date": "2026-09-18T10:54:28Z",
+            "message": "🧪 Retry flaky daemon worker resize test (#7669)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "cd133f0fc5b5ed6b6c6df8e5b0cde2845511ade4",
+            "url": "https://github.com/aiidateam/aiida-core/commit/cd133f0fc5b5ed6b6c6df8e5b0cde2845511ade4",
+            "date": "2026-09-18T10:24:28Z",
+            "message": "🧪 Stabilize await processes log assertion (#7667)",
+            "author": "agoscinski"
+          },
+          {
+            "sha": "3c690ad12692f77c49bd2da73fbe36e5e2f7bea3",
+            "url": "https://github.com/aiidateam/aiida-core/commit/3c690ad12692f77c49bd2da73fbe36e5e2f7bea3",
+            "date": "2026-09-18T10:24:28Z",
+            "message": "🧪 Stabilize CalcJob disable-self monitor test (#7667)",
+            "author": "agoscinski"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "v2.9.2",
+            "html_url": "https://github.com/aiidateam/aiida-core/releases/tag/v2.9.2",
+            "published_at": "2026-09-03T08:10:13Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "AiiDA v2.9.2"
+          },
+          {
+            "tag_name": "v2.8.3",
+            "html_url": "https://github.com/aiidateam/aiida-core/releases/tag/v2.8.3",
+            "published_at": "2026-09-03T08:09:25Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "AiiDA v2.8.3"
+          },
+          {
+            "tag_name": "v2.9.1",
+            "html_url": "https://github.com/aiidateam/aiida-core/releases/tag/v2.9.1",
+            "published_at": "2026-08-27T11:41:05Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "AiiDA v2.9.1"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 7675,
+            "url": "https://github.com/aiidateam/aiida-core/pull/7675",
+            "title": "🧪 Hold RabbitMQ message exchange alive for requires_rmq sessions",
+            "updated_at": "2026-09-20T13:50:55Z",
+            "created_at": "2026-09-20T13:32:45Z",
+            "comments": 2,
+            "comments_url": "https://api.github.com/repos/aiidateam/aiida-core/issues/7675/comments",
+            "state": "open",
+            "author_association": "COLLABORATOR",
+            "is_pr": true
+          },
+          {
+            "number": 7676,
+            "url": "https://github.com/aiidateam/aiida-core/pull/7676",
+            "title": "📝 Generate archive-profile example at runtime",
+            "updated_at": "2026-09-20T13:46:44Z",
+            "created_at": "2026-09-20T13:36:35Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/aiidateam/aiida-core/issues/7676/comments",
+            "state": "open",
+            "author_association": "COLLABORATOR",
+            "is_pr": true
+          },
+          {
+            "number": 7028,
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028",
+            "title": "120 too long. Let's discuss.",
+            "updated_at": "2026-09-20T11:33:19Z",
+            "created_at": "2025-09-29T07:59:17Z",
+            "comments": 10,
+            "comments_url": "https://api.github.com/repos/aiidateam/aiida-core/issues/7028/comments",
+            "state": "open",
+            "author_association": "MEMBER",
+            "is_pr": false
+          },
+          {
+            "number": 7556,
+            "url": "https://github.com/aiidateam/aiida-core/issues/7556",
+            "title": "v3: Redesign `Data` hierarchy",
+            "updated_at": "2026-09-20T09:51:48Z",
+            "created_at": "2026-08-17T04:57:45Z",
+            "comments": 9,
+            "comments_url": "https://api.github.com/repos/aiidateam/aiida-core/issues/7556/comments",
+            "state": "open",
+            "author_association": "MEMBER",
+            "is_pr": false
+          },
+          {
+            "number": 7585,
+            "url": "https://github.com/aiidateam/aiida-core/pull/7585",
+            "title": "Remove legacy code",
+            "updated_at": "2026-09-20T09:09:44Z",
+            "created_at": "2026-08-27T04:09:13Z",
+            "comments": 2,
+            "comments_url": "https://api.github.com/repos/aiidateam/aiida-core/issues/7585/comments",
+            "state": "open",
+            "author_association": "COLLABORATOR",
+            "is_pr": true
+          }
+        ]
+      },
+      "open_pulls": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core/pulls?state=open&per_page=1",
+        "data": {
+          "count": 115
+        }
+      },
+      "maintainer_comments": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core/issues/7028/comments?per_page=100",
+        "data": [
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-3349366691",
+            "date": "2025-09-29T23:21:18Z",
+            "updated_at": "2025-09-29T23:21:18Z",
+            "author": "mbercx",
+            "association": "MEMBER",
+            "excerpt": "I was thinking the same recently. My main qualm is that on most screens, I'm having a hard time fitting two open files next to each other and not having to scroll to see the whole line. Not everyone uses the tiny font size @sphuber can with his elvis"
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-3364248127",
+            "date": "2025-10-03T04:50:46Z",
+            "updated_at": "2025-10-03T04:52:37Z",
+            "author": "edan-bainglass",
+            "association": "MEMBER",
+            "excerpt": "Thanks @mbercx. Your description accurately captures my thoughts. I also do not use my TV as my work screen.\n\n> Not everyone uses the tiny font size [@sphuber](https://github.com/sphuber) can with his elvish Dutch eyes.\n\nI recall once @sphuber sharin"
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-3364807296",
+            "date": "2025-10-03T08:43:18Z",
+            "updated_at": "2025-10-03T08:43:28Z",
+            "author": "GeigerJ2",
+            "association": "COLLABORATOR",
+            "excerpt": "Let's discuss this during the core days :3 \nThis is just a reminder that, if we go through with this change (which I could get on board with), that we add the commit to the `.git-blame-ignore-revs` file, either by doing a merge-commit, not squash-mer"
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-3368057814",
+            "date": "2025-10-04T09:09:23Z",
+            "updated_at": "2025-10-04T09:09:23Z",
+            "author": "edan-bainglass",
+            "association": "MEMBER",
+            "excerpt": "> Some other notes:\n> \n> * I _thought_ we would have a lot of work updating (doc)strings, but apparently Ruff doesn't make a fuss about these?\n> * Seems the formatter does mess up comments to skip rules (`# noqa`), so there might be a bit of work the"
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-3368957213",
+            "date": "2025-10-05T10:33:22Z",
+            "updated_at": "2025-10-05T10:33:22Z",
+            "author": "edan-bainglass",
+            "association": "MEMBER",
+            "excerpt": "> https://pypi.org/project/docformatter/ at least for docstring\n\nMy local testing of docformatter are hit and miss, though the miss follows a pattern. I'll open an issue on docformatter, but for now, I wouldn't rely on it."
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-5629788343",
+            "date": "2026-09-11T05:09:24Z",
+            "updated_at": "2026-09-20T11:32:54Z",
+            "author": "edan-bainglass",
+            "association": "MEMBER",
+            "excerpt": "I think there's enough support to revive this in the next meeting? 120 is still consistently hurting my brain."
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-5630579919",
+            "date": "2026-09-11T06:45:20Z",
+            "updated_at": "2026-09-11T06:45:20Z",
+            "author": "GeigerJ2",
+            "association": "COLLABORATOR",
+            "excerpt": "Added a note to the HackMD for the next team meeting, so we don't forget to discuss it there 👍🏽"
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-5691933496",
+            "date": "2026-09-16T04:14:03Z",
+            "updated_at": "2026-09-16T04:14:03Z",
+            "author": "edan-bainglass",
+            "association": "MEMBER",
+            "excerpt": "Just adding here that the original proposal of 88 is maybe swinging too far in the other direction. 100 would be a nice mid point."
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-5728090132",
+            "date": "2026-09-18T09:31:43Z",
+            "updated_at": "2026-09-18T09:31:43Z",
+            "author": "agoscinski",
+            "association": "COLLABORATOR",
+            "excerpt": "If you generally find a tool to solve E501 rules lint check automatically, I am okay. But if you don't find such a tool then please don't change line limit. A shorter line limit will produce more E501 failures and while you can fix them with an agent"
+          },
+          {
+            "url": "https://github.com/aiidateam/aiida-core/issues/7028#issuecomment-5749533010",
+            "date": "2026-09-20T11:33:19Z",
+            "updated_at": "2026-09-20T11:33:19Z",
+            "author": "edan-bainglass",
+            "association": "MEMBER",
+            "excerpt": "> If you generally find a tool to solve E501 rules lint check automatically, I am okay. But if you don't find such a tool then please don't change line limit. A shorter line limit will produce more E501 failures and while you can fix them with an age"
+          }
+        ]
+      },
+      "license_text": {
+        "source": "https://api.github.com/repos/aiidateam/aiida-core/license?ref=v2.9.2",
+        "data": {
+          "name": "LICENSE.txt",
+          "url": "https://github.com/aiidateam/aiida-core/blob/v2.9.2/LICENSE.txt",
+          "text": "The MIT License (MIT)\n\nCopyright (c), 2014-2020, ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE\n(Theory and Simulation of Materials (THEOS) and National Centre for\nComputational Design and Discovery of Novel Materials (NCCR MARVEL)),\nSwitzerland and ROBERT BOSCH LLC, USA. All rights reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+        }
+      }
+    },
+    "siliconcompiler/siliconcompiler": {
+      "repo": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler",
+        "data": {
+          "full_name": "siliconcompiler/siliconcompiler",
+          "html_url": "https://github.com/siliconcompiler/siliconcompiler",
+          "description": "Modular hardware build system",
+          "created_at": "2020-12-10T21:52:17Z",
+          "updated_at": "2026-09-20T07:28:04Z",
+          "pushed_at": "2026-09-20T00:19:36Z",
+          "stargazers_count": 1214,
+          "forks_count": 138,
+          "open_issues_count": 34,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "main",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler/commits?per_page=10",
+        "data": [
+          {
+            "sha": "6d3fea2a8d2f458f2ed0513d7fdaf043e4aa90f6",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/6d3fea2a8d2f458f2ed0513d7fdaf043e4aa90f6",
+            "date": "2026-09-18T12:17:23Z",
+            "message": "Merge pull request #5410 from siliconcompiler/bot/openroad-update",
+            "author": "gadfort"
+          },
+          {
+            "sha": "8d71c576d862dc8a46f3fa8803818cd8cc68cbde",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/8d71c576d862dc8a46f3fa8803818cd8cc68cbde",
+            "date": "2026-09-18T12:17:14Z",
+            "message": "Merge pull request #5408 from siliconcompiler/bot/opensta-update",
+            "author": "gadfort"
+          },
+          {
+            "sha": "20f79960045820429eea6fabcd632855c5001c12",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/20f79960045820429eea6fabcd632855c5001c12",
+            "date": "2026-09-18T12:17:06Z",
+            "message": "Merge pull request #5409 from siliconcompiler/bot/keplerformal-update",
+            "author": "gadfort"
+          },
+          {
+            "sha": "e0967e61c464e49285254d155c6ce098d71fa694",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/e0967e61c464e49285254d155c6ce098d71fa694",
+            "date": "2026-09-18T00:17:19Z",
+            "message": "Update openroad",
+            "author": null
+          },
+          {
+            "sha": "96739a1c5a2005fb5cc080f8c3c7a5e8f93c9654",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/96739a1c5a2005fb5cc080f8c3c7a5e8f93c9654",
+            "date": "2026-09-18T00:16:39Z",
+            "message": "Update opensta",
+            "author": null
+          },
+          {
+            "sha": "f8b06bec514b0e4d1a272845a6745b12bc6c7624",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/f8b06bec514b0e4d1a272845a6745b12bc6c7624",
+            "date": "2026-09-18T00:16:39Z",
+            "message": "Update keplerformal",
+            "author": null
+          },
+          {
+            "sha": "087ceca330dd0ee76f0b5aa84e6132b9ee83f1f0",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/087ceca330dd0ee76f0b5aa84e6132b9ee83f1f0",
+            "date": "2026-09-17T13:40:53Z",
+            "message": "Merge pull request #5407 from siliconcompiler/bot/openroad-update",
+            "author": "gadfort"
+          },
+          {
+            "sha": "b02935ed05de93a69cf65446a9af3c19fe2e8a37",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/b02935ed05de93a69cf65446a9af3c19fe2e8a37",
+            "date": "2026-09-17T10:36:38Z",
+            "message": "Update openroad",
+            "author": null
+          },
+          {
+            "sha": "c02fe9dc24f1c55b5e9b922e727a74ef1aa4acb9",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/c02fe9dc24f1c55b5e9b922e727a74ef1aa4acb9",
+            "date": "2026-09-17T01:06:15Z",
+            "message": "Merge pull request #5406 from siliconcompiler/bot/keplerformal-update",
+            "author": "gadfort"
+          },
+          {
+            "sha": "88fd4e18f86a444efa9ba12a9857ad5f8196d6e0",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/88fd4e18f86a444efa9ba12a9857ad5f8196d6e0",
+            "date": "2026-09-17T00:46:23Z",
+            "message": "Merge pull request #5405 from siliconcompiler/bot/opensta-update",
+            "author": "gadfort"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "v0.38.8",
+            "html_url": "https://github.com/siliconcompiler/siliconcompiler/releases/tag/v0.38.8",
+            "published_at": "2026-09-14T12:10:44Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "v0.38.8"
+          },
+          {
+            "tag_name": "v0.38.7",
+            "html_url": "https://github.com/siliconcompiler/siliconcompiler/releases/tag/v0.38.7",
+            "published_at": "2026-09-03T13:57:54Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "v0.38.7"
+          },
+          {
+            "tag_name": "v0.38.6",
+            "html_url": "https://github.com/siliconcompiler/siliconcompiler/releases/tag/v0.38.6",
+            "published_at": "2026-09-02T13:36:08Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "v0.38.6"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 5411,
+            "url": "https://github.com/siliconcompiler/siliconcompiler/pull/5411",
+            "title": "[SC-BOT] Update openroad",
+            "updated_at": "2026-09-20T00:19:41Z",
+            "created_at": "2026-09-19T00:17:28Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues/5411/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 5412,
+            "url": "https://github.com/siliconcompiler/siliconcompiler/pull/5412",
+            "title": "[SC-BOT] Update opensta",
+            "updated_at": "2026-09-20T00:18:53Z",
+            "created_at": "2026-09-20T00:18:47Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues/5412/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 5410,
+            "url": "https://github.com/siliconcompiler/siliconcompiler/pull/5410",
+            "title": "[SC-BOT] Update openroad",
+            "updated_at": "2026-09-18T12:17:26Z",
+            "created_at": "2026-09-18T00:17:21Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues/5410/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 5408,
+            "url": "https://github.com/siliconcompiler/siliconcompiler/pull/5408",
+            "title": "[SC-BOT] Update opensta",
+            "updated_at": "2026-09-18T12:17:17Z",
+            "created_at": "2026-09-18T00:16:41Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues/5408/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 5409,
+            "url": "https://github.com/siliconcompiler/siliconcompiler/pull/5409",
+            "title": "[SC-BOT] Update keplerformal",
+            "updated_at": "2026-09-18T12:17:09Z",
+            "created_at": "2026-09-18T00:16:41Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues/5409/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          }
+        ]
+      },
+      "open_pulls": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler/pulls?state=open&per_page=1",
+        "data": {
+          "count": 2
+        }
+      },
+      "maintainer_comments": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler/issues/5410/comments?per_page=100",
+        "data": []
+      },
+      "commits_extended": {
+        "source": "https://api.github.com/repos/siliconcompiler/siliconcompiler/commits?per_page=50",
+        "data": [
+          {
+            "sha": "6d3fea2a8d2f458f2ed0513d7fdaf043e4aa90f6",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/6d3fea2a8d2f458f2ed0513d7fdaf043e4aa90f6",
+            "date": "2026-09-18T12:17:23Z",
+            "message": "Merge pull request #5410 from siliconcompiler/bot/openroad-update"
+          },
+          {
+            "sha": "8d71c576d862dc8a46f3fa8803818cd8cc68cbde",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/8d71c576d862dc8a46f3fa8803818cd8cc68cbde",
+            "date": "2026-09-18T12:17:14Z",
+            "message": "Merge pull request #5408 from siliconcompiler/bot/opensta-update"
+          },
+          {
+            "sha": "20f79960045820429eea6fabcd632855c5001c12",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/20f79960045820429eea6fabcd632855c5001c12",
+            "date": "2026-09-18T12:17:06Z",
+            "message": "Merge pull request #5409 from siliconcompiler/bot/keplerformal-update"
+          },
+          {
+            "sha": "e0967e61c464e49285254d155c6ce098d71fa694",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/e0967e61c464e49285254d155c6ce098d71fa694",
+            "date": "2026-09-18T00:17:19Z",
+            "message": "Update openroad"
+          },
+          {
+            "sha": "96739a1c5a2005fb5cc080f8c3c7a5e8f93c9654",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/96739a1c5a2005fb5cc080f8c3c7a5e8f93c9654",
+            "date": "2026-09-18T00:16:39Z",
+            "message": "Update opensta"
+          },
+          {
+            "sha": "f8b06bec514b0e4d1a272845a6745b12bc6c7624",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/f8b06bec514b0e4d1a272845a6745b12bc6c7624",
+            "date": "2026-09-18T00:16:39Z",
+            "message": "Update keplerformal"
+          },
+          {
+            "sha": "087ceca330dd0ee76f0b5aa84e6132b9ee83f1f0",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/087ceca330dd0ee76f0b5aa84e6132b9ee83f1f0",
+            "date": "2026-09-17T13:40:53Z",
+            "message": "Merge pull request #5407 from siliconcompiler/bot/openroad-update"
+          },
+          {
+            "sha": "b02935ed05de93a69cf65446a9af3c19fe2e8a37",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/b02935ed05de93a69cf65446a9af3c19fe2e8a37",
+            "date": "2026-09-17T10:36:38Z",
+            "message": "Update openroad"
+          },
+          {
+            "sha": "c02fe9dc24f1c55b5e9b922e727a74ef1aa4acb9",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/c02fe9dc24f1c55b5e9b922e727a74ef1aa4acb9",
+            "date": "2026-09-17T01:06:15Z",
+            "message": "Merge pull request #5406 from siliconcompiler/bot/keplerformal-update"
+          },
+          {
+            "sha": "88fd4e18f86a444efa9ba12a9857ad5f8196d6e0",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/88fd4e18f86a444efa9ba12a9857ad5f8196d6e0",
+            "date": "2026-09-17T00:46:23Z",
+            "message": "Merge pull request #5405 from siliconcompiler/bot/opensta-update"
+          },
+          {
+            "sha": "014787975dfd0165de9e4e68f7e82f6833e43a43",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/014787975dfd0165de9e4e68f7e82f6833e43a43",
+            "date": "2026-09-17T00:15:50Z",
+            "message": "Update keplerformal"
+          },
+          {
+            "sha": "0e9d5263e90ed5403f3ebfee775672bb3b5e1e41",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/0e9d5263e90ed5403f3ebfee775672bb3b5e1e41",
+            "date": "2026-09-17T00:15:50Z",
+            "message": "Update opensta"
+          },
+          {
+            "sha": "2fe555230d4a1d4978d2b0b968828c5019ae1960",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/2fe555230d4a1d4978d2b0b968828c5019ae1960",
+            "date": "2026-09-16T19:09:59Z",
+            "message": "Merge pull request #5404 from siliconcompiler/fix-io-check"
+          },
+          {
+            "sha": "ac6bcbfbc887599728bf16d83c6883f6ca14c02b",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/ac6bcbfbc887599728bf16d83c6883f6ca14c02b",
+            "date": "2026-09-16T18:46:41Z",
+            "message": "do not forward a previous run's SKIPPED status"
+          },
+          {
+            "sha": "9927a0513d902688d669fa3ef47b8f52a2dd4493",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/9927a0513d902688d669fa3ef47b8f52a2dd4493",
+            "date": "2026-09-16T18:19:33Z",
+            "message": "Merge remote-tracking branch 'origin/main' into fix-io-check"
+          },
+          {
+            "sha": "9d69b4d72808e08c119a870ed7eba36032df2d3e",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/9d69b4d72808e08c119a870ed7eba36032df2d3e",
+            "date": "2026-09-16T18:17:54Z",
+            "message": "account for skips and earlier reruns on IO checks"
+          },
+          {
+            "sha": "9513d679d73236ff4101f4fd11e9b28a12a6bcde",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/9513d679d73236ff4101f4fd11e9b28a12a6bcde",
+            "date": "2026-09-16T13:41:15Z",
+            "message": "Merge pull request #5371 from siliconcompiler/bot/yosys-update"
+          },
+          {
+            "sha": "abf3ecedbe16b3b7831004ebad589fb1fadccb92",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/abf3ecedbe16b3b7831004ebad589fb1fadccb92",
+            "date": "2026-09-16T11:01:52Z",
+            "message": "Update yosys"
+          },
+          {
+            "sha": "16052f91fbd74d9518ea3ab37971b528a5372789",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/16052f91fbd74d9518ea3ab37971b528a5372789",
+            "date": "2026-09-16T11:01:37Z",
+            "message": "Merge pull request #5401 from siliconcompiler/bot/opensta-update"
+          },
+          {
+            "sha": "8a18147acd9c63b55cf2662fb55e50814df2ff80",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/8a18147acd9c63b55cf2662fb55e50814df2ff80",
+            "date": "2026-09-16T11:01:24Z",
+            "message": "Merge pull request #5402 from siliconcompiler/bot/keplerformal-update"
+          },
+          {
+            "sha": "9077c2f1066dee884598e22f3cb92a32f7a06839",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/9077c2f1066dee884598e22f3cb92a32f7a06839",
+            "date": "2026-09-16T11:01:10Z",
+            "message": "Merge pull request #5403 from siliconcompiler/bot/openroad-update"
+          },
+          {
+            "sha": "659996d983f9e37a7c2ea6580aafb2675e65c283",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/659996d983f9e37a7c2ea6580aafb2675e65c283",
+            "date": "2026-09-16T00:16:35Z",
+            "message": "Update openroad"
+          },
+          {
+            "sha": "0c453229b1031b4c9bb67e5c5aefd11f30ccfa96",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/0c453229b1031b4c9bb67e5c5aefd11f30ccfa96",
+            "date": "2026-09-16T00:16:04Z",
+            "message": "Update keplerformal"
+          },
+          {
+            "sha": "a17d586b49b39febaf5a493c4a77c41a1d24508b",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/a17d586b49b39febaf5a493c4a77c41a1d24508b",
+            "date": "2026-09-16T00:16:03Z",
+            "message": "Update opensta"
+          },
+          {
+            "sha": "0b6ef6c0ef16d5a531a9470928232f3bf343d824",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/0b6ef6c0ef16d5a531a9470928232f3bf343d824",
+            "date": "2026-09-15T18:28:30Z",
+            "message": "Merge pull request #5400 from siliconcompiler/speedup-load"
+          },
+          {
+            "sha": "acc3c1e6cde0a669b2dacf1d13f07df1a7a04052",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/acc3c1e6cde0a669b2dacf1d13f07df1a7a04052",
+            "date": "2026-09-15T18:04:35Z",
+            "message": "reduce unconditional imports to speed up initial load"
+          },
+          {
+            "sha": "82380d4f80bcd2b5f662fa9b39c44b4c9a4a1dba",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/82380d4f80bcd2b5f662fa9b39c44b4c9a4a1dba",
+            "date": "2026-09-15T17:30:30Z",
+            "message": "Merge pull request #5399 from siliconcompiler/deps-diet"
+          },
+          {
+            "sha": "90d19b9bb1711d7f305d34903e9082ed002bf933",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/90d19b9bb1711d7f305d34903e9082ed002bf933",
+            "date": "2026-09-15T17:10:29Z",
+            "message": "address copilot feedback"
+          },
+          {
+            "sha": "0b7af9c013ddc55fd722fed88c010c71d62017b2",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/0b7af9c013ddc55fd722fed88c010c71d62017b2",
+            "date": "2026-09-15T16:56:51Z",
+            "message": "address coderabbit feedback"
+          },
+          {
+            "sha": "c504e7c62412db5fb5eafb659e5bf6d46a3d096d",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/c504e7c62412db5fb5eafb659e5bf6d46a3d096d",
+            "date": "2026-09-15T16:31:08Z",
+            "message": "create server extra requirements and move pandas into dashboard only"
+          },
+          {
+            "sha": "495e5ca28dac3a0a2edc3fdbc50532f478a15864",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/495e5ca28dac3a0a2edc3fdbc50532f478a15864",
+            "date": "2026-09-15T12:05:25Z",
+            "message": "Merge pull request #5397 from siliconcompiler/bot/chisel-update"
+          },
+          {
+            "sha": "eea54852fcad31f64cc6089c428c918dd789fdf0",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/eea54852fcad31f64cc6089c428c918dd789fdf0",
+            "date": "2026-09-15T12:05:09Z",
+            "message": "Merge pull request #5398 from siliconcompiler/bot/openroad-update"
+          },
+          {
+            "sha": "b054ec5a73b56d2783894672da2be20f933b36a2",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/b054ec5a73b56d2783894672da2be20f933b36a2",
+            "date": "2026-09-15T12:04:56Z",
+            "message": "Merge pull request #5396 from siliconcompiler/bot/vcd2fst-update"
+          },
+          {
+            "sha": "9b1e4475abdb49883673d515da9bcf73c2f13114",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/9b1e4475abdb49883673d515da9bcf73c2f13114",
+            "date": "2026-09-15T00:18:09Z",
+            "message": "Update openroad"
+          },
+          {
+            "sha": "b941ce4c8ebc5eec2c39267440fe3c46c8dcf7b3",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/b941ce4c8ebc5eec2c39267440fe3c46c8dcf7b3",
+            "date": "2026-09-15T00:17:29Z",
+            "message": "Update chisel"
+          },
+          {
+            "sha": "b83c465844850428a9847268d09263263c907518",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/b83c465844850428a9847268d09263263c907518",
+            "date": "2026-09-15T00:17:25Z",
+            "message": "Update vcd2fst"
+          },
+          {
+            "sha": "df9d860bdb2a72986b443b2ebfb6ff6bc60bf82e",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/df9d860bdb2a72986b443b2ebfb6ff6bc60bf82e",
+            "date": "2026-09-14T13:06:26Z",
+            "message": "Merge pull request #5395 from siliconcompiler/fix-docs"
+          },
+          {
+            "sha": "6dc240355437b44df8b1fe96658b06e0720ab148",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/6dc240355437b44df8b1fe96658b06e0720ab148",
+            "date": "2026-09-14T12:47:53Z",
+            "message": "fix docs links"
+          },
+          {
+            "sha": "08b1a77dc6b6a836682e1530af9600974bee2e32",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/08b1a77dc6b6a836682e1530af9600974bee2e32",
+            "date": "2026-09-14T12:12:33Z",
+            "message": "Merge pull request #5393 from siliconcompiler/bot/openroad-update"
+          },
+          {
+            "sha": "0bb594b6373e00541e2158e4c917feb1ae062e88",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/0bb594b6373e00541e2158e4c917feb1ae062e88",
+            "date": "2026-09-14T12:12:25Z",
+            "message": "Merge pull request #5391 from siliconcompiler/bot/opensta-update"
+          },
+          {
+            "sha": "e1d71f631e798acd0830f2e29503316303cda73f",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/e1d71f631e798acd0830f2e29503316303cda73f",
+            "date": "2026-09-14T12:12:16Z",
+            "message": "Merge pull request #5392 from siliconcompiler/bot/keplerformal-update"
+          },
+          {
+            "sha": "6ea9308b4953227e23bd3606148bd738abe11171",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/6ea9308b4953227e23bd3606148bd738abe11171",
+            "date": "2026-09-14T12:10:09Z",
+            "message": "Merge pull request #5390 from siliconcompiler/version0.38.8"
+          },
+          {
+            "sha": "7960bc4106effc77971db69a672b4444bf49fa72",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/7960bc4106effc77971db69a672b4444bf49fa72",
+            "date": "2026-09-14T00:19:27Z",
+            "message": "Update openroad"
+          },
+          {
+            "sha": "c4998abc1dadbcd16d624a98995f5a0de96bd327",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/c4998abc1dadbcd16d624a98995f5a0de96bd327",
+            "date": "2026-09-14T00:18:48Z",
+            "message": "Update keplerformal"
+          },
+          {
+            "sha": "7cce10991cbc2c67d5e7284614aee805367463f6",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/7cce10991cbc2c67d5e7284614aee805367463f6",
+            "date": "2026-09-14T00:18:45Z",
+            "message": "Update opensta"
+          },
+          {
+            "sha": "997f8065c1bade04ef99e4d4aababf9f36269fa8",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/997f8065c1bade04ef99e4d4aababf9f36269fa8",
+            "date": "2026-09-13T22:01:20Z",
+            "message": "version 0.38.8"
+          },
+          {
+            "sha": "43299e526feb4d5e4fab474e8934d9109dc7e43e",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/43299e526feb4d5e4fab474e8934d9109dc7e43e",
+            "date": "2026-09-13T13:34:54Z",
+            "message": "Merge pull request #5389 from siliconcompiler/bot/openroad-update"
+          },
+          {
+            "sha": "1e4dd99308a43991a3b7e67301cafd2f2e86310b",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/1e4dd99308a43991a3b7e67301cafd2f2e86310b",
+            "date": "2026-09-13T13:34:25Z",
+            "message": "Merge pull request #5387 from siliconcompiler/bot/opensta-update"
+          },
+          {
+            "sha": "ef51ff400a91f8802eb2470e246164c23de607c5",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/ef51ff400a91f8802eb2470e246164c23de607c5",
+            "date": "2026-09-13T13:34:11Z",
+            "message": "Merge pull request #5388 from siliconcompiler/bot/keplerformal-update"
+          },
+          {
+            "sha": "9cbfdea0c875629fc0a584d4832d9f37da9206a0",
+            "url": "https://github.com/siliconcompiler/siliconcompiler/commit/9cbfdea0c875629fc0a584d4832d9f37da9206a0",
+            "date": "2026-09-13T00:19:34Z",
+            "message": "Update openroad"
+          }
+        ]
+      }
+    },
+    "OSC/ondemand": {
+      "repo": {
+        "source": "https://api.github.com/repos/OSC/ondemand",
+        "data": {
+          "full_name": "OSC/ondemand",
+          "html_url": "https://github.com/OSC/ondemand",
+          "description": "Supercomputing. Seamlessly. Open, Interactive HPC Via the Web",
+          "created_at": "2017-10-31T18:25:23Z",
+          "updated_at": "2026-09-18T19:33:03Z",
+          "pushed_at": "2026-09-19T03:06:09Z",
+          "stargazers_count": 513,
+          "forks_count": 195,
+          "open_issues_count": 412,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "master",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/OSC/ondemand/commits?per_page=10",
+        "data": [
+          {
+            "sha": "79cecc106b2303f2a8fa8ea6dada66ccd4d19afe",
+            "url": "https://github.com/OSC/ondemand/commit/79cecc106b2303f2a8fa8ea6dada66ccd4d19afe",
+            "date": "2026-09-18T19:32:58Z",
+            "message": "Change `file_download_max` to `download_file_max` (#5810)",
+            "author": "Bubballoo3"
+          },
+          {
+            "sha": "c9e0edb7ff9e74ae2602c75cbfc66b6753301bc9",
+            "url": "https://github.com/OSC/ondemand/commit/c9e0edb7ff9e74ae2602c75cbfc66b6753301bc9",
+            "date": "2026-09-18T16:08:50Z",
+            "message": "Reduce E2E login and PUN cleanup races (#5807)",
+            "author": "GlazerMann"
+          },
+          {
+            "sha": "47c01b88c4d416b95e0e7b042648ea876608e10d",
+            "url": "https://github.com/OSC/ondemand/commit/47c01b88c4d416b95e0e7b042648ea876608e10d",
+            "date": "2026-09-18T14:43:53Z",
+            "message": "move header out into its own partial (#5806)",
+            "author": "karcaw"
+          },
+          {
+            "sha": "76792ebb24213f0ff52f252125a88d996e795760",
+            "url": "https://github.com/OSC/ondemand/commit/76792ebb24213f0ff52f252125a88d996e795760",
+            "date": "2026-09-17T16:17:35Z",
+            "message": "Add test cases for the left part of the navbar (#5778)",
+            "author": "SimonX1a0"
+          },
+          {
+            "sha": "44983bb7ee7170b5c150a19b1ec4040bade3ca82",
+            "url": "https://github.com/OSC/ondemand/commit/44983bb7ee7170b5c150a19b1ec4040bade3ca82",
+            "date": "2026-09-17T16:08:46Z",
+            "message": "Update Changelog (#5791)",
+            "author": "osc-bot"
+          },
+          {
+            "sha": "bf7d9c6f2f3e8ea64e5b525428fe64bb473afb53",
+            "url": "https://github.com/OSC/ondemand/commit/bf7d9c6f2f3e8ea64e5b525428fe64bb473afb53",
+            "date": "2026-09-17T15:24:05Z",
+            "message": "feat: localize strings in views/apps (#5800)",
+            "author": "SimonX1a0"
+          },
+          {
+            "sha": "18d91ec2b89ddb98f6cdd95859bd6c366bdd5eca",
+            "url": "https://github.com/OSC/ondemand/commit/18d91ec2b89ddb98f6cdd95859bd6c366bdd5eca",
+            "date": "2026-09-16T19:12:24Z",
+            "message": "lint a random file (#5799)",
+            "author": "osc-bot"
+          },
+          {
+            "sha": "fa636fb63c64374d3da790f9ae1a304e68d0781a",
+            "url": "https://github.com/OSC/ondemand/commit/fa636fb63c64374d3da790f9ae1a304e68d0781a",
+            "date": "2026-09-15T16:35:23Z",
+            "message": "Fix undefined data-label on select options (#5787)",
+            "author": "bstepanovski"
+          },
+          {
+            "sha": "4fc4ceb3af8ceacbd08ba702e589113993a099ec",
+            "url": "https://github.com/OSC/ondemand/commit/4fc4ceb3af8ceacbd08ba702e589113993a099ec",
+            "date": "2026-09-14T15:33:08Z",
+            "message": "Preserve batch connect session card tab state (#5766)",
+            "author": "bstepanovski"
+          },
+          {
+            "sha": "4a805bd68e556f4ad3a1741a9f3b7c755c54ca31",
+            "url": "https://github.com/OSC/ondemand/commit/4a805bd68e556f4ad3a1741a9f3b7c755c54ca31",
+            "date": "2026-09-14T14:06:39Z",
+            "message": "lint a random file (#5790)",
+            "author": "osc-bot"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/OSC/ondemand/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "v4.1.7",
+            "html_url": "https://github.com/OSC/ondemand/releases/tag/v4.1.7",
+            "published_at": "2026-08-31T19:53:14Z",
+            "prerelease": true,
+            "draft": false,
+            "target_commitish": "release_4.1",
+            "name": "v4.1.7"
+          },
+          {
+            "tag_name": "v4.2.4",
+            "html_url": "https://github.com/OSC/ondemand/releases/tag/v4.2.4",
+            "published_at": "2026-08-25T21:57:44Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "release_4.2",
+            "name": "v4.2.4"
+          },
+          {
+            "tag_name": "v4.2.3",
+            "html_url": "https://github.com/OSC/ondemand/releases/tag/v4.2.3",
+            "published_at": "2026-06-24T20:16:12Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "release_4.2",
+            "name": "v4.2.3"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/OSC/ondemand/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 5804,
+            "url": "https://github.com/OSC/ondemand/pull/5804",
+            "title": "Implement touch keyboard and visual viewport sizing",
+            "updated_at": "2026-09-20T12:27:21Z",
+            "created_at": "2026-09-16T20:05:55Z",
+            "comments": 11,
+            "comments_url": "https://api.github.com/repos/OSC/ondemand/issues/5804/comments",
+            "state": "open",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 5813,
+            "url": "https://github.com/OSC/ondemand/pull/5813",
+            "title": "Fix detached-node race in BatchConnectTest",
+            "updated_at": "2026-09-20T10:35:20Z",
+            "created_at": "2026-09-18T19:14:05Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/OSC/ondemand/issues/5813/comments",
+            "state": "open",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 5809,
+            "url": "https://github.com/OSC/ondemand/pull/5809",
+            "title": "Serialize PUN lifecycle operations and prevent concurrent startup and shutdown races",
+            "updated_at": "2026-09-20T02:46:15Z",
+            "created_at": "2026-09-18T14:33:57Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/OSC/ondemand/issues/5809/comments",
+            "state": "open",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 5815,
+            "url": "https://github.com/OSC/ondemand/pull/5815",
+            "title": "Fix accessibility tests with async script execution",
+            "updated_at": "2026-09-20T02:19:38Z",
+            "created_at": "2026-09-18T19:34:36Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/OSC/ondemand/issues/5815/comments",
+            "state": "open",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 5816,
+            "url": "https://github.com/OSC/ondemand/pull/5816",
+            "title": "Fix FilesTest race with asynchronous file removal",
+            "updated_at": "2026-09-20T02:19:03Z",
+            "created_at": "2026-09-18T20:20:39Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/OSC/ondemand/issues/5816/comments",
+            "state": "open",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          }
+        ]
+      },
+      "open_pulls": {
+        "source": "https://api.github.com/repos/OSC/ondemand/pulls?state=open&per_page=1",
+        "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      "maintainer_comments": {
+        "source": "https://api.github.com/repos/OSC/ondemand/issues/5804/comments?per_page=100",
+        "data": []
+      }
+    },
+    "TACC/Lmod": {
+      "repo": {
+        "source": "https://api.github.com/repos/TACC/Lmod",
+        "data": {
+          "full_name": "TACC/Lmod",
+          "html_url": "https://github.com/TACC/Lmod",
+          "description": "Lmod: An Environment Module System based on Lua, Reads TCL Modules, Supports a Software Hierarchy",
+          "created_at": "2013-04-11T22:17:13Z",
+          "updated_at": "2026-09-17T08:30:10Z",
+          "pushed_at": "2026-09-09T19:10:48Z",
+          "stargazers_count": 610,
+          "forks_count": 147,
+          "open_issues_count": 25,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "main",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/TACC/Lmod/commits?per_page=10",
+        "data": [
+          {
+            "sha": "217cdbe02ab382522c3c0ec0ec8f2a5390c04bb1",
+            "url": "https://github.com/TACC/Lmod/commit/217cdbe02ab382522c3c0ec0ec8f2a5390c04bb1",
+            "date": "2026-09-09T19:10:33Z",
+            "message": "Minor update",
+            "author": null
+          },
+          {
+            "sha": "d2e058ff53d0b46eb5ec08b983969d296616fd5a",
+            "url": "https://github.com/TACC/Lmod/commit/d2e058ff53d0b46eb5ec08b983969d296616fd5a",
+            "date": "2026-09-09T17:38:39Z",
+            "message": "moving to TAG_VERSION 9.4.2",
+            "author": null
+          },
+          {
+            "sha": "4cd077c6e82dbe352b334b9270e5039a9dcef903",
+            "url": "https://github.com/TACC/Lmod/commit/4cd077c6e82dbe352b334b9270e5039a9dcef903",
+            "date": "2026-09-09T17:27:11Z",
+            "message": "Fix bug in src/Version.lua",
+            "author": null
+          },
+          {
+            "sha": "be407c5e3c803476b273838462668ab064b9e27e",
+            "url": "https://github.com/TACC/Lmod/commit/be407c5e3c803476b273838462668ab064b9e27e",
+            "date": "2026-09-09T16:14:38Z",
+            "message": "Merging in 9.4.1",
+            "author": null
+          },
+          {
+            "sha": "0f333127ce0f3f04878e02dc31417ff4c75ae433",
+            "url": "https://github.com/TACC/Lmod/commit/0f333127ce0f3f04878e02dc31417ff4c75ae433",
+            "date": "2026-09-09T16:06:22Z",
+            "message": "moving to TAG_VERSION 9.4.1",
+            "author": null
+          },
+          {
+            "sha": "d406bc92739a24bda882322da79558a7e7cfe8be",
+            "url": "https://github.com/TACC/Lmod/commit/d406bc92739a24bda882322da79558a7e7cfe8be",
+            "date": "2026-09-09T16:05:25Z",
+            "message": "Issue #857: pass only user command to startup and finalize hooks",
+            "author": null
+          },
+          {
+            "sha": "c3f11ada11dea63ca8e5b71ae451ef506b3d6ad8",
+            "url": "https://github.com/TACC/Lmod/commit/c3f11ada11dea63ca8e5b71ae451ef506b3d6ad8",
+            "date": "2026-09-08T09:39:14Z",
+            "message": "moving to TAG_VERSION 9.4",
+            "author": null
+          },
+          {
+            "sha": "32c49a5ea68270882edbd462202f89d549618f13",
+            "url": "https://github.com/TACC/Lmod/commit/32c49a5ea68270882edbd462202f89d549618f13",
+            "date": "2026-09-08T09:39:14Z",
+            "message": "moving to TAG_VERSION 9.4",
+            "author": null
+          },
+          {
+            "sha": "364f544474d2bb6a119c430307571c95c6ae8d32",
+            "url": "https://github.com/TACC/Lmod/commit/364f544474d2bb6a119c430307571c95c6ae8d32",
+            "date": "2026-09-08T09:22:53Z",
+            "message": "Merging main branch with injection",
+            "author": null
+          },
+          {
+            "sha": "0a07c6e8171102451c773ace6e073f658bf7bf4e",
+            "url": "https://github.com/TACC/Lmod/commit/0a07c6e8171102451c773ace6e073f658bf7bf4e",
+            "date": "2026-09-08T09:21:20Z",
+            "message": "Merge branch 'main' of github.com:TACC/Lmod",
+            "author": null
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/TACC/Lmod/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "9.4.2",
+            "html_url": "https://github.com/TACC/Lmod/releases/tag/9.4.2",
+            "published_at": "2026-09-09T17:39:13Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "9.4.2"
+          },
+          {
+            "tag_name": "9.4.1",
+            "html_url": "https://github.com/TACC/Lmod/releases/tag/9.4.1",
+            "published_at": "2026-09-09T16:06:45Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "9.4.1"
+          },
+          {
+            "tag_name": "9.4",
+            "html_url": "https://github.com/TACC/Lmod/releases/tag/9.4",
+            "published_at": "2026-09-08T09:39:34Z",
+            "prerelease": false,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "9.4"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/TACC/Lmod/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 712,
+            "url": "https://github.com/TACC/Lmod/pull/712",
+            "title": "rebuild debian docker stuff",
+            "updated_at": "2026-09-17T09:36:15Z",
+            "created_at": "2024-07-12T19:35:29Z",
+            "comments": 11,
+            "comments_url": "https://api.github.com/repos/TACC/Lmod/issues/712/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 726,
+            "url": "https://github.com/TACC/Lmod/pull/726",
+            "title": "makefile warn undefined variables",
+            "updated_at": "2026-09-16T21:54:29Z",
+            "created_at": "2024-10-01T20:17:46Z",
+            "comments": 1,
+            "comments_url": "https://api.github.com/repos/TACC/Lmod/issues/726/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 858,
+            "url": "https://github.com/TACC/Lmod/issues/858",
+            "title": "Pager breaks terminal",
+            "updated_at": "2026-09-15T09:29:36Z",
+            "created_at": "2026-09-11T09:36:27Z",
+            "comments": 2,
+            "comments_url": "https://api.github.com/repos/TACC/Lmod/issues/858/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": false
+          },
+          {
+            "number": 857,
+            "url": "https://github.com/TACC/Lmod/issues/857",
+            "title": "value passed to `startup_hook` include debug info",
+            "updated_at": "2026-09-10T19:40:53Z",
+            "created_at": "2026-09-08T16:13:14Z",
+            "comments": 8,
+            "comments_url": "https://api.github.com/repos/TACC/Lmod/issues/857/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": false
+          },
+          {
+            "number": 851,
+            "url": "https://github.com/TACC/Lmod/pull/851",
+            "title": "change the order of suggested commands to give latest version first",
+            "updated_at": "2026-09-08T13:56:27Z",
+            "created_at": "2026-08-19T15:58:57Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/TACC/Lmod/issues/851/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": true
+          }
+        ]
+      },
+      "open_pulls": {
+        "source": "https://api.github.com/repos/TACC/Lmod/pulls?state=open&per_page=1",
+        "data": {
+          "count": 4
+        }
+      },
+      "maintainer_comments": {
+        "source": "https://api.github.com/repos/TACC/Lmod/issues/857/comments?per_page=100",
+        "data": [
+          {
+            "url": "https://github.com/TACC/Lmod/issues/857#issuecomment-5588768386",
+            "date": "2026-09-08T16:53:41Z",
+            "updated_at": "2026-09-08T16:53:41Z",
+            "author": "rtmclay",
+            "association": "MEMBER",
+            "excerpt": "The output you are receiving is part of the standard debugging that Lmod uses:\n\n```\nfunction Load_Usr(...)\n   dbg.start{\"Load_Usr(\",concatTbl({...},\", \"),\")\"}\n   local check_must_load = true\n   local argA            = pack(...)\n   l_usrLoad(argA, che"
+          },
+          {
+            "url": "https://github.com/TACC/Lmod/issues/857#issuecomment-5605239095",
+            "date": "2026-09-09T16:28:15Z",
+            "updated_at": "2026-09-09T16:28:15Z",
+            "author": "rtmclay",
+            "association": "MEMBER",
+            "excerpt": "O.K.  It was intentional on our part to better understand where command were coming from.  But I have changed back to where the true name of the the user command is sent to the startup and finalize hooks.  I'm sorry that I was confused.  I'm less con"
+          },
+          {
+            "url": "https://github.com/TACC/Lmod/issues/857#issuecomment-5606186371",
+            "date": "2026-09-09T17:41:00Z",
+            "updated_at": "2026-09-09T17:41:00Z",
+            "author": "rtmclay",
+            "association": "MEMBER",
+            "excerpt": "There was an issue with a failed merge with 9.4.1.  So please try 9.4.2\n"
+          },
+          {
+            "url": "https://github.com/TACC/Lmod/issues/857#issuecomment-5624154454",
+            "date": "2026-09-10T19:19:03Z",
+            "updated_at": "2026-09-10T19:19:03Z",
+            "author": "rtmclay",
+            "association": "MEMBER",
+            "excerpt": "It is late at night and you are making dumb mistakes:\nTry:\n```\nlocal hook = require(\"Hook\")\nlocal dbg  = require(\"Dbg\"):dbg()\nfunction startup_hook(usrCmd)\n    dbg.print{\"Received usrCmd: \", usrCmd, \"\\n\"}\nend\n```\n\nYou can't use print().  Why?  Where "
+          },
+          {
+            "url": "https://github.com/TACC/Lmod/issues/857#issuecomment-5624426654",
+            "date": "2026-09-10T19:40:53Z",
+            "updated_at": "2026-09-10T19:40:53Z",
+            "author": "rtmclay",
+            "association": "MEMBER",
+            "excerpt": "You are welcome.  Closing this issue.\n"
+          }
+        ]
+      },
+      "license_text": {
+        "source": "https://api.github.com/repos/TACC/Lmod/license?ref=9.4.2",
+        "data": {
+          "name": "License",
+          "url": "https://github.com/TACC/Lmod/blob/9.4.2/License",
+          "text": "--------------------------------------------------------------------------\n-- Lmod License\n--------------------------------------------------------------------------\n--\n--  Lmod is licensed under the terms of the MIT license reproduced below.\n--  This means that Lmod is free software and can be used for both academic\n--  and commercial purposes at absolutely no cost.\n--\n--  ----------------------------------------------------------------------\n--\n--  Copyright (C) 2008-2025 Robert McLay\n--\n--  Permission is hereby granted, free of charge, to any person obtaining\n--  a copy of this software and associated documentation files (the\n--  \"Software\"), to deal in the Software without restriction, including\n--  without limitation the rights to use, copy, modify, merge, publish,\n--  distribute, sublicense, and/or sell copies of the Software, and to\n--  permit persons to whom the Software is furnished to do so, subject\n--  to the following conditions:\n--\n--  The above copyright notice and this permission notice shall be\n--  included in all copies or substantial portions of the Software.\n--\n--  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\n--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n--  NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS\n--  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN\n--  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n--  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n--  THE SOFTWARE.\n--\n--------------------------------------------------------------------------\n\n"
+        }
+      }
+    },
+    "ucb-art/bag3_readthedocs": {
+      "repo": {
+        "source": "https://api.github.com/repos/ucb-art/bag3_readthedocs",
+        "data": {
+          "full_name": "ucb-art/bag3_readthedocs",
+          "html_url": "https://github.com/ucb-art/bag3_readthedocs",
+          "description": "Documentation for BAG3.0 and BAG3++",
+          "created_at": "2023-04-19T20:51:14Z",
+          "updated_at": "2026-08-30T05:47:19Z",
+          "pushed_at": "2023-10-05T19:15:32Z",
+          "stargazers_count": 5,
+          "forks_count": 7,
+          "open_issues_count": 0,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "main",
+          "license": null
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/ucb-art/bag3_readthedocs/commits?per_page=10",
+        "data": [
+          {
+            "sha": "186531bb481eb39eda534d8fd1408295d87d4f0e",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/186531bb481eb39eda534d8fd1408295d87d4f0e",
+            "date": "2023-10-05T19:15:29Z",
+            "message": "updating author to Berkeley Wireless Research Center",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "a4758fc0de2b5d2e5d456de95f4f53490c9c4ea7",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/a4758fc0de2b5d2e5d456de95f4f53490c9c4ea7",
+            "date": "2023-10-05T19:06:47Z",
+            "message": "eliminating some API clutter",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "bdc568d937d79bfefa7c5461620e3fdebd60f4a7",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/bdc568d937d79bfefa7c5461620e3fdebd60f4a7",
+            "date": "2023-10-05T07:04:00Z",
+            "message": "adding requirements.txt",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "5697a36829cc9f979e6c463b83e625b4f68d1539",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/5697a36829cc9f979e6c463b83e625b4f68d1539",
+            "date": "2023-10-05T05:13:59Z",
+            "message": "submodules didn't clone",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "13f7c7b5ac7ad9cf3b629abbeac35ee1ee7bf619",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/13f7c7b5ac7ad9cf3b629abbeac35ee1ee7bf619",
+            "date": "2023-10-05T05:11:32Z",
+            "message": "trying adding the yaml again",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "7f8717e695c866e5806b023a48e325b3a5714ee8",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/7f8717e695c866e5806b023a48e325b3a5714ee8",
+            "date": "2023-10-05T04:52:57Z",
+            "message": "rtd yaml required now",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "c09ff3c68a63bdf4331c7d7d2398f0c9aa1df551",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/c09ff3c68a63bdf4331c7d7d2398f0c9aa1df551",
+            "date": "2023-10-05T04:45:47Z",
+            "message": "adding api",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "69a4fc7285de6ccea3ea00bbea71c4e2c5af2430",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/69a4fc7285de6ccea3ea00bbea71c4e2c5af2430",
+            "date": "2023-09-18T19:10:01Z",
+            "message": "Merge branch 'main' of github.com:ucb-art/bag3_readthedocs into main",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "26d5732267ffa12ecfb37070b26ddef118169a92",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/26d5732267ffa12ecfb37070b26ddef118169a92",
+            "date": "2023-09-18T19:09:53Z",
+            "message": "Some dependencies notes",
+            "author": "FeliciaG"
+          },
+          {
+            "sha": "f37009d75106df9f4efaad4c365c9fe1f0e60fa3",
+            "url": "https://github.com/ucb-art/bag3_readthedocs/commit/f37009d75106df9f4efaad4c365c9fe1f0e60fa3",
+            "date": "2023-05-11T05:54:04Z",
+            "message": "add points of contact",
+            "author": "ayan-biswas"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/ucb-art/bag3_readthedocs/releases?per_page=3",
+        "data": []
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/ucb-art/bag3_readthedocs/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 4,
+            "url": "https://github.com/ucb-art/bag3_readthedocs/pull/4",
+            "title": "Adding more information to Initial Server Setup section",
+            "updated_at": "2023-08-27T17:53:32Z",
+            "created_at": "2023-06-19T16:27:53Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ucb-art/bag3_readthedocs/issues/4/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 2,
+            "url": "https://github.com/ucb-art/bag3_readthedocs/pull/2",
+            "title": "Update environment.yml",
+            "updated_at": "2023-05-04T23:05:23Z",
+            "created_at": "2023-05-04T08:22:24Z",
+            "comments": 2,
+            "comments_url": "https://api.github.com/repos/ucb-art/bag3_readthedocs/issues/2/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 3,
+            "url": "https://github.com/ucb-art/bag3_readthedocs/pull/3",
+            "title": "Update dependencies.rst (typo fixed)",
+            "updated_at": "2023-05-04T17:12:36Z",
+            "created_at": "2023-05-04T08:24:22Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ucb-art/bag3_readthedocs/issues/3/comments",
+            "state": "closed",
+            "author_association": "CONTRIBUTOR",
+            "is_pr": true
+          },
+          {
+            "number": 1,
+            "url": "https://github.com/ucb-art/bag3_readthedocs/pull/1",
+            "title": "Update index.rst",
+            "updated_at": "2023-04-25T19:48:00Z",
+            "created_at": "2023-04-25T00:33:57Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ucb-art/bag3_readthedocs/issues/1/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          }
+        ]
+      }
+    },
+    "ksettaluri6/AutoCkt": {
+      "repo": {
+        "source": "https://api.github.com/repos/ksettaluri6/AutoCkt",
+        "data": {
+          "full_name": "ksettaluri6/AutoCkt",
+          "html_url": "https://github.com/ksettaluri6/AutoCkt",
+          "description": "Deep Reinforcement Learning of Analog Circuit Designs",
+          "created_at": "2019-12-23T22:20:02Z",
+          "updated_at": "2026-09-13T16:30:06Z",
+          "pushed_at": "2023-06-12T18:45:48Z",
+          "stargazers_count": 136,
+          "forks_count": 45,
+          "open_issues_count": 3,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "master",
+          "license": null
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/ksettaluri6/AutoCkt/commits?per_page=10",
+        "data": [
+          {
+            "sha": "a6c8a61d3dffb8b433f19251e135994a5b0f6ee4",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/a6c8a61d3dffb8b433f19251e135994a5b0f6ee4",
+            "date": "2022-03-17T22:36:41Z",
+            "message": "Update README.md",
+            "author": "ksettaluri6"
+          },
+          {
+            "sha": "2d01bc62cc6b26ec301d3598daac724c3b45af40",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/2d01bc62cc6b26ec301d3598daac724c3b45af40",
+            "date": "2020-01-31T22:30:28Z",
+            "message": "corr env",
+            "author": null
+          },
+          {
+            "sha": "befee97c4eebc08f43def8a1d94c00ad8eecbb54",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/befee97c4eebc08f43def8a1d94c00ad8eecbb54",
+            "date": "2020-01-31T22:21:47Z",
+            "message": "trained specs",
+            "author": null
+          },
+          {
+            "sha": "bd697ee455a6c643334b251756aa8b2537d9f7c3",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/bd697ee455a6c643334b251756aa8b2537d9f7c3",
+            "date": "2020-01-31T22:20:30Z",
+            "message": "mod hyperparameters",
+            "author": null
+          },
+          {
+            "sha": "26c86297879aff08301c111afc708782a385450e",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/26c86297879aff08301c111afc708782a385450e",
+            "date": "2020-01-31T22:19:30Z",
+            "message": "mod readme",
+            "author": null
+          },
+          {
+            "sha": "4f7cdd0e00a6d153216207bd2dc4ab63e7696ef9",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/4f7cdd0e00a6d153216207bd2dc4ab63e7696ef9",
+            "date": "2020-01-31T22:18:13Z",
+            "message": "93.8% generalization pickle files",
+            "author": null
+          },
+          {
+            "sha": "72484646aed6031d418a2e95e56e89f8635c7e5b",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/72484646aed6031d418a2e95e56e89f8635c7e5b",
+            "date": "2020-01-31T22:07:52Z",
+            "message": "readme",
+            "author": null
+          },
+          {
+            "sha": "0bc6ed2e3450861e179524427aa4e96ed6d1b85f",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/0bc6ed2e3450861e179524427aa4e96ed6d1b85f",
+            "date": "2020-01-31T22:04:49Z",
+            "message": "merged",
+            "author": null
+          },
+          {
+            "sha": "766243b00698a58f00981b4ca4b1dd4f9ab5161d",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/766243b00698a58f00981b4ca4b1dd4f9ab5161d",
+            "date": "2020-01-31T22:04:02Z",
+            "message": "working hp",
+            "author": null
+          },
+          {
+            "sha": "166810fc7b3f13f670c9928712cf7d4602f9c9b6",
+            "url": "https://github.com/ksettaluri6/AutoCkt/commit/166810fc7b3f13f670c9928712cf7d4602f9c9b6",
+            "date": "2020-01-31T22:03:34Z",
+            "message": "readme update w results and results image",
+            "author": null
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/ksettaluri6/AutoCkt/releases?per_page=3",
+        "data": []
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/ksettaluri6/AutoCkt/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 10,
+            "url": "https://github.com/ksettaluri6/AutoCkt/pull/10",
+            "title": "added gitignore",
+            "updated_at": "2025-02-17T21:24:54Z",
+            "created_at": "2025-02-17T21:17:18Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ksettaluri6/AutoCkt/issues/10/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 9,
+            "url": "https://github.com/ksettaluri6/AutoCkt/pull/9",
+            "title": "Master wyh test",
+            "updated_at": "2025-02-04T11:42:23Z",
+            "created_at": "2025-02-04T11:06:48Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ksettaluri6/AutoCkt/issues/9/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          },
+          {
+            "number": 5,
+            "url": "https://github.com/ksettaluri6/AutoCkt/issues/5",
+            "title": "Facing error in execution of code ",
+            "updated_at": "2024-12-03T23:04:35Z",
+            "created_at": "2023-03-05T04:15:47Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ksettaluri6/AutoCkt/issues/5/comments",
+            "state": "open",
+            "author_association": "NONE",
+            "is_pr": false
+          },
+          {
+            "number": 8,
+            "url": "https://github.com/ksettaluri6/AutoCkt/issues/8",
+            "title": "ac/dc file doesn't exist",
+            "updated_at": "2024-04-20T18:34:19Z",
+            "created_at": "2024-04-08T23:22:42Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ksettaluri6/AutoCkt/issues/8/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": false
+          },
+          {
+            "number": 7,
+            "url": "https://github.com/ksettaluri6/AutoCkt/pull/7",
+            "title": "Introduced Hdl21 based python model",
+            "updated_at": "2023-06-12T19:45:56Z",
+            "created_at": "2023-06-12T18:45:47Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/ksettaluri6/AutoCkt/issues/7/comments",
+            "state": "closed",
+            "author_association": "NONE",
+            "is_pr": true
+          }
+        ]
+      }
+    },
+    "VlHash/Virtuoso-Flow-Plugin": {
+      "repo": {
+        "source": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin",
+        "data": {
+          "full_name": "VlHash/Virtuoso-Flow-Plugin",
+          "html_url": "https://github.com/VlHash/Virtuoso-Flow-Plugin",
+          "description": "Virtuoso Flow Plugin is a Virtuoso-native workflow extension for design-aware, auditable, and agent-assisted analog IC design automation, paired with VFP Tunnel as its external bridge daemon.",
+          "created_at": "2026-06-08T10:34:03Z",
+          "updated_at": "2026-09-02T07:19:56Z",
+          "pushed_at": "2026-07-20T06:31:41Z",
+          "stargazers_count": 6,
+          "forks_count": 0,
+          "open_issues_count": 0,
+          "archived": false,
+          "disabled": false,
+          "default_branch": "main",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        }
+      },
+      "commits": {
+        "source": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/commits?per_page=10",
+        "data": [
+          {
+            "sha": "406efdf022ba34d6e9099abeeb5cc717b9bcc609",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/406efdf022ba34d6e9099abeeb5cc717b9bcc609",
+            "date": "2026-06-23T15:49:48Z",
+            "message": "Delete docs/VFP_logo.png",
+            "author": "luohongbing83-commits"
+          },
+          {
+            "sha": "c3b2261f0a25a92d464a161c6712dc2ebf64e02c",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/c3b2261f0a25a92d464a161c6712dc2ebf64e02c",
+            "date": "2026-06-23T15:49:41Z",
+            "message": "Delete README (1).md",
+            "author": "VlHash"
+          },
+          {
+            "sha": "de4aec199242cccb04805031da4c28bb7d836828",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/de4aec199242cccb04805031da4c28bb7d836828",
+            "date": "2026-06-23T15:48:01Z",
+            "message": "Add files via upload",
+            "author": "luohongbing83-commits"
+          },
+          {
+            "sha": "9c921cc51319164d5f85a700183f7c198e6454e7",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/9c921cc51319164d5f85a700183f7c198e6454e7",
+            "date": "2026-06-23T15:47:41Z",
+            "message": "Add files via upload",
+            "author": "luohongbing83-commits"
+          },
+          {
+            "sha": "f4fc0cf0688973a8e0edd18e40708596245f5832",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/f4fc0cf0688973a8e0edd18e40708596245f5832",
+            "date": "2026-06-23T08:35:45Z",
+            "message": "Merge pull request #75 from VlHash/feat/route-servicer-handoff",
+            "author": "VlHash"
+          },
+          {
+            "sha": "be8a638ea18260cf0ee90f3522310a158d6f7f47",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/be8a638ea18260cf0ee90f3522310a158d6f7f47",
+            "date": "2026-06-23T08:34:56Z",
+            "message": "Expose `route` as an explicit layout-servicer method + handoff for an optimizer",
+            "author": "VlHash"
+          },
+          {
+            "sha": "1beade27bbc27c532c1de66e7cd1d0ac017acd71",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/1beade27bbc27c532c1de66e7cd1d0ac017acd71",
+            "date": "2026-06-23T08:32:01Z",
+            "message": "Merge pull request #74 from VlHash/feat/layout-router",
+            "author": "VlHash"
+          },
+          {
+            "sha": "c45c7e95cd7740840d853decb4639255f5a48fdc",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/c45c7e95cd7740840d853decb4639255f5a48fdc",
+            "date": "2026-06-23T08:23:37Z",
+            "message": "Layout routing: pluggable router interface + a basic built-in router",
+            "author": "VlHash"
+          },
+          {
+            "sha": "3b76c5f2c5d4fcbbb8e1dc8d75a0be50ec2ec37e",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/3b76c5f2c5d4fcbbb8e1dc8d75a0be50ec2ec37e",
+            "date": "2026-06-23T02:17:13Z",
+            "message": "Merge pull request #73 from VlHash/fix/netconn-single-pin",
+            "author": "VlHash"
+          },
+          {
+            "sha": "85662c6af4cb58f14c257d8414b6881c0731bfa6",
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/commit/85662c6af4cb58f14c257d8414b6881c0731bfa6",
+            "date": "2026-06-23T02:13:42Z",
+            "message": "Merge pull request #72 from VlHash/feat/extension-layout-servicer",
+            "author": "VlHash"
+          }
+        ]
+      },
+      "releases": {
+        "source": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/releases?per_page=3",
+        "data": [
+          {
+            "tag_name": "ETV-Alpha-0.1.0",
+            "html_url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/releases/tag/ETV-Alpha-0.1.0",
+            "published_at": "2026-06-17T09:35:03Z",
+            "prerelease": true,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "ETV-Alpha-0.1.0 — Major Update"
+          },
+          {
+            "tag_name": "ETV-Alpha-0.0.2",
+            "html_url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/releases/tag/ETV-Alpha-0.0.2",
+            "published_at": "2026-06-15T09:36:43Z",
+            "prerelease": true,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "ETV-Alpha-0.0.2 — Major Update"
+          },
+          {
+            "tag_name": "ETV-Alpha-0.0.1",
+            "html_url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/releases/tag/ETV-Alpha-0.0.1",
+            "published_at": "2026-06-14T07:33:16Z",
+            "prerelease": true,
+            "draft": false,
+            "target_commitish": "main",
+            "name": "ETV-Alpha-0.0.1 — Early Test Version"
+          }
+        ]
+      },
+      "activity": {
+        "source": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/issues?state=all&sort=updated&direction=desc&per_page=5",
+        "data": [
+          {
+            "number": 76,
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/pull/76",
+            "title": "Fix layout-router terminal extraction for repeated device masters",
+            "updated_at": "2026-07-20T06:31:41Z",
+            "created_at": "2026-06-23T23:49:50Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/issues/76/comments",
+            "state": "closed",
+            "author_association": "OWNER",
+            "is_pr": true
+          },
+          {
+            "number": 75,
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/pull/75",
+            "title": "Expose route as a layout-servicer method + handoff",
+            "updated_at": "2026-06-23T08:35:46Z",
+            "created_at": "2026-06-23T08:32:51Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/issues/75/comments",
+            "state": "closed",
+            "author_association": "OWNER",
+            "is_pr": true
+          },
+          {
+            "number": 74,
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/pull/74",
+            "title": "Layout routing: pluggable router interface + a basic built-in router",
+            "updated_at": "2026-06-23T08:32:01Z",
+            "created_at": "2026-06-23T08:23:57Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/issues/74/comments",
+            "state": "closed",
+            "author_association": "OWNER",
+            "is_pr": true
+          },
+          {
+            "number": 73,
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/pull/73",
+            "title": "Fix vfpNetConnCount crash on single-terminal nets",
+            "updated_at": "2026-06-23T02:17:13Z",
+            "created_at": "2026-06-23T02:11:50Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/issues/73/comments",
+            "state": "closed",
+            "author_association": "OWNER",
+            "is_pr": true
+          },
+          {
+            "number": 72,
+            "url": "https://github.com/VlHash/Virtuoso-Flow-Plugin/pull/72",
+            "title": "Extension API: plugin \"layout\" servicer (drive L1-L5 over the action channel)",
+            "updated_at": "2026-06-23T02:13:42Z",
+            "created_at": "2026-06-23T01:50:34Z",
+            "comments": 0,
+            "comments_url": "https://api.github.com/repos/VlHash/Virtuoso-Flow-Plugin/issues/72/comments",
+            "state": "closed",
+            "author_association": "OWNER",
+            "is_pr": true
+          }
+        ]
+      }
+    },
+    "ucb-art/bag": {
+      "commits": {
+        "source": "https://api.github.com/repos/ucb-art/bag/commits?per_page=3",
+        "data": [
+          {
+            "sha": "ec9754a1e57fb83a3e02a51bcfcff3dfdca205ed",
+            "url": "https://github.com/ucb-art/bag/commit/ec9754a1e57fb83a3e02a51bcfcff3dfdca205ed",
+            "date": "2024-12-27T23:51:00Z",
+            "message": "Merge pull request #49 from boblinchuan/layout_features"
+          },
+          {
+            "sha": "9dfa5fec4b6540d276674707a4e51f20e5b56e1b",
+            "url": "https://github.com/ucb-art/bag/commit/9dfa5fec4b6540d276674707a4e51f20e5b56e1b",
+            "date": "2024-12-27T23:50:23Z",
+            "message": "Merge pull request #48 from boblinchuan/sim_features"
+          },
+          {
+            "sha": "3071e9175afc31683927756d4acdb7e18df51ca4",
+            "url": "https://github.com/ucb-art/bag/commit/3071e9175afc31683927756d4acdb7e18df51ca4",
+            "date": "2024-12-27T23:49:46Z",
+            "message": "Pybag, README bump (#47)"
+          }
+        ]
+      }
+    },
+    "bluecheetah/bag": {
+      "commits": {
+        "source": "https://api.github.com/repos/bluecheetah/bag/commits?per_page=3",
+        "data": [
+          {
+            "sha": "a496368ad8fc92ff0f5bf3bfb4ebaa45c540a104",
+            "url": "https://github.com/bluecheetah/bag/commit/a496368ad8fc92ff0f5bf3bfb4ebaa45c540a104",
+            "date": "2020-08-22T21:09:05Z",
+            "message": "Remove unused BAG2 skill functions and unused OA cellviews."
+          },
+          {
+            "sha": "5007602bc221f81827472fda05caf10179779656",
+            "url": "https://github.com/bluecheetah/bag/commit/5007602bc221f81827472fda05caf10179779656",
+            "date": "2020-06-24T18:20:22Z",
+            "message": "update to latest bag-3.0 version."
+          },
+          {
+            "sha": "43004c07a5f5f694a19d4b66aa0492b677e889d9",
+            "url": "https://github.com/bluecheetah/bag/commit/43004c07a5f5f694a19d4b66aa0492b677e889d9",
+            "date": "2020-06-24T18:19:12Z",
+            "message": "update pybag version."
+          }
+        ]
+      }
+    },
+    "ucb-art/BAG_framework": {
+      "commits": {
+        "source": "https://api.github.com/repos/ucb-art/BAG_framework/commits?per_page=3",
+        "data": [
+          {
+            "sha": "daf4b0aaa72f056c7b3c90a402812a07dba9b4d7",
+            "url": "https://github.com/ucb-art/BAG_framework/commit/daf4b0aaa72f056c7b3c90a402812a07dba9b4d7",
+            "date": "2022-12-04T01:18:31Z",
+            "message": "Merge pull request #26 from ucb-art/cell_cache_fix"
+          },
+          {
+            "sha": "f3ca0a36ffe155cd3fc2543f29ba6310cbf96399",
+            "url": "https://github.com/ucb-art/BAG_framework/commit/f3ca0a36ffe155cd3fc2543f29ba6310cbf96399",
+            "date": "2022-12-04T01:04:22Z",
+            "message": "Fixing bug that can arise if child cell has same cell name as parent cell"
+          },
+          {
+            "sha": "738690008a2c213c63a097bb7228abaeb0cdfe26",
+            "url": "https://github.com/ucb-art/BAG_framework/commit/738690008a2c213c63a097bb7228abaeb0cdfe26",
+            "date": "2022-02-23T23:00:25Z",
+            "message": "Merge pull request #21 from aalto-ele/pcell_interfacing_update"
+          }
+        ]
+      }
+    }
+  },
+  "supplement_queried_at_utc": "2026-09-20T13:56:32.630000+00:00"
+}

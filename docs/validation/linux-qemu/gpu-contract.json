@@ -1,0 +1,1 @@
+{"status": "PASS", "highUsage": [{"usage": 95, "name": "NVIDIA-TEST-FIXTURE", "memory": 95}], "kind": "NVIDIA CLI contract fixture, NOT physical hardware", "alerts": ["GPU NVIDIA-TEST-FIXTURE exceeds threshold"], "invalidValuesRejected": true}

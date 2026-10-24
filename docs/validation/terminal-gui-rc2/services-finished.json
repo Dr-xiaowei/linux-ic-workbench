@@ -1,0 +1,16 @@
+{
+  "validationPortsListening": {
+    "18822": false,
+    "18823": false,
+    "18824": false,
+    "18865": false,
+    "18868": false,
+    "18880": false
+  },
+  "demoPort": 18766,
+  "demoVersion": "0.6.0-rc2",
+  "demoDataUnchanged": true,
+  "environmentFilesRetained": true,
+  "vmDiskBytes": 1820459008,
+  "filesNotUninstalled": true
+}

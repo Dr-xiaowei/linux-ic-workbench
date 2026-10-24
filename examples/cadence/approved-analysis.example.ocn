@@ -1,0 +1,8 @@
+; Configuration example for a USER-CREATED analogLib RC testbench, no PDK bundled.
+; Save a reviewed copy as the setup path in project.example.json.
+; Each case configures analysis, modelFile (when needed), temperature and saved nodes.
+; The application owns design(), resultsDir(), desVar(), createNetlist(), run(), export and exit.
+; Do not add run(), plot(), exit(), dbSave(), asynchronous jobs or original-project writes here.
+analysis('ac ?start "1k" ?stop "10M" ?dec 10)
+temp(27)
+save('v "/out")

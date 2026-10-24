@@ -1,0 +1,9 @@
+{
+  "testQEMUStopped": true,
+  "ownedXvfbStopped": true,
+  "nativeBackendStopped": true,
+  "modelNotStartedThisTurn": true,
+  "demoHTTP": 200,
+  "validationEnvironmentFilesRetained": true,
+  "unrelatedVirtualMachinesUntouched": true
+}

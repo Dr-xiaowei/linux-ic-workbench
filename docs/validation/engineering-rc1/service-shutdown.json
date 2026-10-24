@@ -1,0 +1,9 @@
+{
+  "qemuStopped": true,
+  "modelStopped": true,
+  "ownedXvfbStopped": true,
+  "nativeOwnedBackendsStopped": true,
+  "demoHTTP": 200,
+  "environmentFilesRetained": true,
+  "method": "guest sync; ACPI unhandled, QMP quit; model SIGTERM"
+}

@@ -1,0 +1,140 @@
+{
+  "model": "Qwen3-0.6B-Q4_0",
+  "backend": "CentOS 6.9 production native desktop API",
+  "inference": "host llama.cpp b11146 via loopback SSH",
+  "checks": [
+    {
+      "name": "model configuration auto-load",
+      "status": "PASS",
+      "evidence": {
+        "time": "2026-09-26T05:17:34Z",
+        "model": "connected",
+        "environment": "ready",
+        "details": []
+      },
+      "seconds": 0.4
+    },
+    {
+      "name": "general engineering question with numeric reference",
+      "status": "FAIL",
+      "error": "{'id': 'c1f348c38889c00f3a83f50b', 'session': '28fbd09a0fe0371a9c0445cd', 'status': 'completed', 'events': [{'time': '2026-09-26T05:17:35Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:17:35Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:17:35Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The current in amperes is 0.01 A, and in milliamps it is 10 mA. The formula is $ I = \\\\frac{V}{R} $.', 'error': '', 'linuxMode': 'off'}",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 51, in question\n    assert re.search(r'0\\.001|1\\s*mA',r['content']),r\nAssertionError: {'id': 'c1f348c38889c00f3a83f50b', 'session': '28fbd09a0fe0371a9c0445cd', 'status': 'completed', 'events': [{'time': '2026-09-26T05:17:35Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:17:35Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:17:35Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The current in amperes is 0.01 A, and in milliamps it is 10 mA. The formula is $ I = \\\\frac{V}{R} $.', 'error': '', 'linuxMode': 'off'}\n",
+      "seconds": 0.95
+    },
+    {
+      "name": "EDA text analysis with grounded missing-model evidence",
+      "status": "PASS",
+      "evidence": {
+        "content": "The observed fatal cause is that the simulation failed to detect a missing model (`nmos_missing`), which is critical for proper functionality. The missing model is not identified in the log, so we cannot confirm its existence. Transient results may exist, but the simulation could not detect them due to incomplete or incomplete analysis.  \n\n**Hypothesis:** The missing model `nmos_missing` is not detected in the simulation, and transient results may exist but are not captured due to incomplete simulation setup.  \n\n**Next Check:** Verify the model name (`nmos_missing`) in the simulation logs and ensure that the simulation is properly configured to detect missing models. If the model is not detected, the issue may be with the simulation setup or the model itself.",
+        "demo": false,
+        "limited": false
+      },
+      "seconds": 0.48
+    },
+    {
+      "name": "Verilog generation and actual syntax checker",
+      "status": "FAIL",
+      "error": "({'code': 'module gate(input wire a, input wire b, output wire y);\\n\\n    // Combinational AND logic\\n    assign y = a & b;\\n\\nendmodule\\n```\\n\\n**Assumptions:**\\n- The `a` and `b` inputs are wire types (i.e., they are not connected to a clock or other external components).\\n- The `y` output is simply the logical AND of the two inputs.', 'demo': False, 'extension': '.v', 'validated': False}, '<project>/docs/validation/desktop-rc1/generated-and-gate.v:7:3: lexical error at token \"`\"\\n', '')",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 65, in generate\n    assert p.returncode==0,(r,p.stdout,p.stderr)\nAssertionError: ({'code': 'module gate(input wire a, input wire b, output wire y);\\n\\n    // Combinational AND logic\\n    assign y = a & b;\\n\\nendmodule\\n```\\n\\n**Assumptions:**\\n- The `a` and `b` inputs are wire types (i.e., they are not connected to a clock or other external components).\\n- The `y` output is simply the logical AND of the two inputs.', 'demo': False, 'extension': '.v', 'validated': False}, '<project>/docs/validation/desktop-rc1/generated-and-gate.v:7:3: lexical error at token \"`\"\\n', '')\n",
+      "seconds": 0.31
+    },
+    {
+      "name": "imported source optimization and independent numeric tests",
+      "status": "FAIL",
+      "error": "division by zero",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 77, in improve\n    f=scope['safe_divide'];assert f(3,2)==1.5 and f(7,0) is None and f(-3,2)==-1.5,r\n  File \"model-proposal\", line 2, in safe_divide\nZeroDivisionError: division by zero\n",
+      "seconds": 0.25
+    },
+    {
+      "name": "compiler diagnostics -> AI repair -> real CentOS recheck",
+      "status": "PASS",
+      "evidence": {
+        "codeResult": {
+          "language": "python",
+          "mode": "repair",
+          "base": "def add(a,b)\n    return a+b\n",
+          "code": "def add(a, b):\n    return a + b\n",
+          "stage": "succeeded",
+          "summary": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+          "checks": [
+            {
+              "round": 1,
+              "passed": false,
+              "executed": true,
+              "log": "SyntaxError: ('invalid syntax', ('/home/icwgui/.local/share/ic-workbench/production/.code-check-4133303511/design.py', 1, 13, 'def add(a,b)\\n'))\n",
+              "error": "exit status 1",
+              "diagnostics": [
+                {
+                  "file": "/home/icwgui/.local/share/ic-workbench/production/.code-check-4133303511/design.py",
+                  "line": 1,
+                  "column": 13,
+                  "severity": "error",
+                  "message": "SyntaxError: invalid syntax",
+                  "currentFile": true
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "passed": true,
+              "executed": true,
+              "log": "",
+              "diagnostics": []
+            }
+          ],
+          "repairs": 1,
+          "maxRepairs": 2,
+          "demo": false
+        },
+        "command": {
+          "executable": "/usr/bin/python",
+          "args": [
+            "-m",
+            "py_compile",
+            "{file}"
+          ]
+        },
+        "environment": {
+          "id": "",
+          "name": "",
+          "version": "",
+          "executable": "",
+          "args": null,
+          "setup": "",
+          "shell": "/bin/bash"
+        },
+        "directory": "",
+        "id": "7c379664bc323473c923f4e9",
+        "kind": "compile",
+        "name": "Code repair · python",
+        "status": "succeeded",
+        "created": "2026-09-26T05:17:37Z",
+        "finished": "2026-09-26T05:17:37Z",
+        "log": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+        "error": ""
+      },
+      "seconds": 0.92
+    },
+    {
+      "name": "platform Agent calculator tool result",
+      "status": "FAIL",
+      "error": "{'id': '5a80a388d9658a01c796fde4', 'session': '1fdb9781be1222fa3579d12c', 'status': 'completed', 'events': [{'time': '2026-09-26T05:17:38Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'tool', 'text': 'calculate · {\"R\": \"2k\", \"C\": \"5n\"}'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'receipt', 'text': 'calculate · json: unknown field \"C\"\\nnull'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'model', 'text': '模型推理 / Model round 2'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The calculation result is not available in the receipt. Please check the platform action configuration or provide additional information for a correct result.\\n\\n[Tool receipts]\\ncalculate · json: unknown field \"C\"', 'error': '', 'linuxMode': 'off'}",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 96, in calculator\n    assert receipts and any('0.00001' in x or '1e-05' in x or '1e-5' in x for x in receipts),r\nAssertionError: {'id': '5a80a388d9658a01c796fde4', 'session': '1fdb9781be1222fa3579d12c', 'status': 'completed', 'events': [{'time': '2026-09-26T05:17:38Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'tool', 'text': 'calculate · {\"R\": \"2k\", \"C\": \"5n\"}'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'receipt', 'text': 'calculate · json: unknown field \"C\"\\nnull'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'model', 'text': '模型推理 / Model round 2'}, {'time': '2026-09-26T05:17:38Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The calculation result is not available in the receipt. Please check the platform action configuration or provide additional information for a correct result.\\n\\n[Tool receipts]\\ncalculate · json: unknown field \"C\"', 'error': '', 'linuxMode': 'off'}\n",
+      "seconds": 0.93
+    },
+    {
+      "name": "Linux Agent actual command and UID",
+      "status": "FAIL",
+      "error": "{'id': 'df7ccb644e9ada15e2affc93', 'session': 'f4c8c981260768eb000b5973', 'status': 'completed', 'events': [{'time': '2026-09-26T05:17:39Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'tool', 'text': 'linux:inspect · {\"command\": \"pwd\", \"expectedSHA256\": \"new\"}'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'receipt', 'text': 'linux:inspect · completed\\n{\"arch\":\"amd64\",\"directory\":\"/home/icwgui/desktop-ai-project\",\"hostname\":\"icw-centos69\",\"os\":\"linux\",\"sandbox\":false,\"shell\":\"/bin/bash\",\"uid\":505}'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'model', 'text': '模型推理 / Model round 2'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The output is:\\n```\\n/home/icwgui/desktop-ai-project\\n```\\n\\nThe exit code is 0.\\n\\n[Tool receipts]\\nlinux:inspect · completed', 'error': '', 'linuxMode': 'auto', 'directory': '/home/icwgui/desktop-ai-project'}",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 101, in linux_command\n    assert r['status']=='completed' and t.get('exitCode')==0 and '/home/icwgui/desktop-ai-project' in t.get('output','') and '505' in t.get('output',''),r\nAssertionError: {'id': 'df7ccb644e9ada15e2affc93', 'session': 'f4c8c981260768eb000b5973', 'status': 'completed', 'events': [{'time': '2026-09-26T05:17:39Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'tool', 'text': 'linux:inspect · {\"command\": \"pwd\", \"expectedSHA256\": \"new\"}'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'receipt', 'text': 'linux:inspect · completed\\n{\"arch\":\"amd64\",\"directory\":\"/home/icwgui/desktop-ai-project\",\"hostname\":\"icw-centos69\",\"os\":\"linux\",\"sandbox\":false,\"shell\":\"/bin/bash\",\"uid\":505}'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'model', 'text': '模型推理 / Model round 2'}, {'time': '2026-09-26T05:17:39Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The output is:\\n```\\n/home/icwgui/desktop-ai-project\\n```\\n\\nThe exit code is 0.\\n\\n[Tool receipts]\\nlinux:inspect · completed', 'error': '', 'linuxMode': 'auto', 'directory': '/home/icwgui/desktop-ai-project'}\n",
+      "seconds": 0.93
+    },
+    {
+      "name": "Linux Agent multi-step file creation and verification",
+      "status": "FAIL",
+      "error": "Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat /home/icwgui/desktop-ai-project/model-note-1790399860.txt']' returned non-zero exit status 1.",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 106, in linux_multistep\n    out=subprocess.check_output(SSH+['cat /home/icwgui/desktop-ai-project/'+name],stderr=subprocess.DEVNULL)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\", line 424, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\", line 528, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat /home/icwgui/desktop-ai-project/model-note-1790399860.txt']' returned non-zero exit status 1.\n",
+      "seconds": 1.31
+    }
+  ]
+}

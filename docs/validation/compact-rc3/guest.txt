@@ -1,0 +1,79 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/DEPLOYMENT.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/EDA_ADAPTER.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/EDA_MCP.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/EDA_TASKS_AND_CODE_CHECKS.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/LOCAL_DATA_AND_CODE.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/MCP.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/MODE: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/README.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/SHA256SUMS: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/THIRD_PARTY_NOTICES.md: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/VERSION: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/acceptance-linux.sh: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/config.json: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/desktop/client.py: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/desktop/engineering.py: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/desktop/runtime.py: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/desktop: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/docs/validation/reference-rc.json: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/docs/validation/toolchain.json: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/docs/validation: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/docs: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/examples/cadence/approved-analysis.example.ocn: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/examples/cadence/project.example.json: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/examples/cadence: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/examples: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/go.sum: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/ic-workbench: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/install.sh: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/install_plugins.py: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/licenses/Go-LICENSE: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/licenses/jsonschema-go-LICENSE: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/licenses/mcp-go-sdk-LICENSE: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/licenses/uritemplate-LICENSE: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/licenses: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/service.sh: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production/start.sh: implausibly old time stamp 1970-01-01 08:00:00
+tar: ic-workbench-0.8.0-rc3-linux-amd64-production: implausibly old time stamp 1970-01-01 08:00:00
+DEPLOYMENT.md: OK
+EDA_ADAPTER.md: OK
+EDA_MCP.md: OK
+EDA_TASKS_AND_CODE_CHECKS.md: OK
+LOCAL_DATA_AND_CODE.md: OK
+MCP.md: OK
+MODE: OK
+README.md: OK
+THIRD_PARTY_NOTICES.md: OK
+VERSION: OK
+acceptance-linux.sh: OK
+config.json: OK
+desktop/client.py: OK
+desktop/engineering.py: OK
+desktop/runtime.py: OK
+docs/validation/reference-rc.json: OK
+docs/validation/toolchain.json: OK
+examples/cadence/approved-analysis.example.ocn: OK
+examples/cadence/project.example.json: OK
+go.sum: OK
+ic-workbench: OK
+install.sh: OK
+install_plugins.py: OK
+licenses/Go-LICENSE: OK
+licenses/jsonschema-go-LICENSE: OK
+licenses/mcp-go-sdk-LICENSE: OK
+licenses/uritemplate-LICENSE: OK
+service.sh: OK
+start.sh: OK
+Installed /home/icw/compact-rc3/installed/releases/0.8.0-rc3-production
+Terminal + GUI: /home/icw/compact-rc3/bin/ic-workbench --open
+Status: /home/icw/compact-rc3/bin/ic-workbench --status
+Stop: Ctrl+C in the startup terminal
+If ~/.local/bin is on PATH, use: ic-workbench
+Usage: install_plugins.py [--url http://127.0.0.1:8765] manifest.json
+
+Options:
+  -h, --help  show this help message and exit
+  --url=URL   

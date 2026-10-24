@@ -1,0 +1,32 @@
+{
+  "paths": [
+    {
+      "path": "reference-sandbox/toolchain/go",
+      "files": 28032,
+      "logicalBytes": 296635395,
+      "allocatedBytes": 14823718912
+    },
+    {
+      "path": "reference-sandbox/go-cache",
+      "files": 7282,
+      "logicalBytes": 477040694,
+      "allocatedBytes": 4161798144
+    },
+    {
+      "path": "reference-sandbox/gopath/pkg",
+      "files": 1978,
+      "logicalBytes": 15785151,
+      "allocatedBytes": 1035468800
+    },
+    {
+      "path": "build/packages/ic-workbench-0.8.0-rc2-linux-amd64-production",
+      "files": 616,
+      "logicalBytes": 20860175,
+      "allocatedBytes": 325582848
+    }
+  ],
+  "toolchainRecoverableFrom": "reference-sandbox/toolchain/go1.23.12.darwin-arm64.tar.gz",
+  "stageVerifiedAgainstRetainedArchive": true,
+  "cacheRebuiltOfflineSuccessfully": true,
+  "testEnvironment": "PRESERVE"
+}

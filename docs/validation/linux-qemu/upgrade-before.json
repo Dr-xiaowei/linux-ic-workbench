@@ -1,0 +1,95 @@
+{
+  "state": {
+    "mcpConnections": null,
+    "fileNotes": [
+      {
+        "project": "upgrade-sentinel",
+        "root": "/home/icw/validation/upgrade-project",
+        "path": "design.v",
+        "notes": "keep file note",
+        "description": "keep description"
+      }
+    ],
+    "software": null,
+    "plugins": null,
+    "preferences": {
+      "configured": false,
+      "modelUrl": "",
+      "model": "",
+      "keyEnv": "",
+      "modelTools": false,
+      "shell": "",
+      "setup": "",
+      "workspace": "",
+      "threshold": 0,
+      "pollSeconds": 0,
+      "compiler": {
+        "executable": "",
+        "args": null
+      }
+    },
+    "operations": null,
+    "schema": 5,
+    "mode": "production",
+    "language": "en",
+    "projects": [
+      {
+        "description": "keep description",
+        "paths": [],
+        "id": "upgrade-sentinel",
+        "name": "Upgrade retained project",
+        "root": "/home/icw/validation/upgrade-project",
+        "notes": "keep notes",
+        "tags": [
+          "keep"
+        ],
+        "environment": "",
+        "cadenceConfig": ""
+      }
+    ],
+    "environments": null,
+    "sessions": [
+      {
+        "id": "965d11275087ed422bd43bd0",
+        "title": "Upgrade retained conversation",
+        "project": "",
+        "messages": null
+      },
+      {
+        "id": "10dc72ec33d8ff0d4ccf0702",
+        "title": "Upgrade retained conversation",
+        "project": "",
+        "messages": null
+      }
+    ],
+    "batches": null,
+    "jobs": null,
+    "experiments": null
+  },
+  "workspace": {
+    "schema": 1,
+    "revision": 1,
+    "data": {
+      "codeLanguage": "verilog",
+      "codeDrafts": {
+        "verilog": {
+          "code": "module retained; endmodule\n",
+          "requirements": "keep",
+          "original": "module retained; endmodule\n"
+        }
+      },
+      "codeArchive": null,
+      "calculator": null,
+      "analyses": null,
+      "analysisID": "",
+      "chat": {
+        "text": "unsent upgrade sentinel",
+        "scope": "",
+        "project": "",
+        "folder": "",
+        "session": ""
+      }
+    }
+  },
+  "checksums": "d11644807a2578544383c41741b215676cad62c4cbdc303375982c585cb72329  /home/icw/validation/data/workspace.json.gz\n720d8f9f4932ccab1c83a8e735bdcca7731adcea9ed665a6ff8618483209ab6d  /home/icw/validation/upgrade-project/design.v\na771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31  /home/icw/validation/config/config.json\n"
+}

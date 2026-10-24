@@ -1,0 +1,8 @@
+IC Workbench 0.7.0-rc1 [production] UID=505 PID=2680
+Open http://127.0.0.1:44531/#token=[redacted]
+Data: /home/icwgui/.local/share/ic-workbench/production
+MCP token: export ICW_TOKEN=[redacted]
+Keep the startup terminal open; Ctrl+C stops this instance.
+保持启动终端打开，Ctrl+C 停止本实例。
+Remote browser / 远程浏览器: ssh -N -L 18765:127.0.0.1:44531 USER@SERVER
+Then open http://127.0.0.1:18765/ and use the token above.

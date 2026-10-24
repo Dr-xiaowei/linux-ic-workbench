@@ -1,0 +1,11 @@
+{
+  "testHarnessCorrections": [
+    "Calculator assertion compared numeric value instead of requiring decimal display; 1e-05 is correct.",
+    "GUI RPM cache path corrected to actual yum repository cache layout.",
+    "Old-user installation log renamed because GUI dependency log at prior path belongs to root; installer was not executed in that failed attempt; rerun uses set -e."
+  ],
+  "productFixes": [
+    "Terminal --open/--browser with active instance reuse and desktop/error feedback",
+    "Legacy browser Promise.finally, file reads, clipboard and CSS layout fallbacks"
+  ]
+}

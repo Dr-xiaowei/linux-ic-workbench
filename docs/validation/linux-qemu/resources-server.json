@@ -1,0 +1,61 @@
+{
+  "hz": 100, 
+  "scope": "Workbench server process only, CentOS under TCG; simultaneous UI idle/monitor samples, not a physical server benchmark", 
+  "pid": 2495, 
+  "samples": [
+    {
+      "rssKiB": 13156, 
+      "ticks": 15, 
+      "time": 1790356541.504034
+    }, 
+    {
+      "rssKiB": 12904, 
+      "cpuPercent": 1.1976784312292148, 
+      "ticks": 21, 
+      "time": 1790356546.513726
+    }, 
+    {
+      "rssKiB": 12904, 
+      "cpuPercent": 0.19952162994978404, 
+      "ticks": 22, 
+      "time": 1790356551.5257139
+    }, 
+    {
+      "rssKiB": 12904, 
+      "cpuPercent": 0.0, 
+      "ticks": 22, 
+      "time": 1790356556.5381761
+    }, 
+    {
+      "rssKiB": 13456, 
+      "cpuPercent": 1.7957882099678288, 
+      "ticks": 31, 
+      "time": 1790356561.5499029
+    }, 
+    {
+      "rssKiB": 14004, 
+      "cpuPercent": 0.99800256911118967, 
+      "ticks": 36, 
+      "time": 1790356566.5599101
+    }, 
+    {
+      "rssKiB": 14088, 
+      "cpuPercent": 0.59863488597145975, 
+      "ticks": 39, 
+      "time": 1790356571.571312
+    }, 
+    {
+      "rssKiB": 14240, 
+      "cpuPercent": 0.99783271407479734, 
+      "ticks": 44, 
+      "time": 1790356576.5821719
+    }, 
+    {
+      "rssKiB": 14244, 
+      "cpuPercent": 0.398981235210215, 
+      "ticks": 46, 
+      "time": 1790356581.594939
+    }
+  ], 
+  "maxRSSMiB": 13.91015625
+}

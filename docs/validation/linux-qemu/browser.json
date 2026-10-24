@@ -1,0 +1,67 @@
+{
+  "mode": "CentOS 6.9 production backend; host Chrome via SSH; real local model",
+  "checks": [
+    {
+      "name": "Project create/edit, notes/tags, browse and search in production",
+      "status": "PASS",
+      "seconds": 0.677
+    },
+    {
+      "name": "Software add, common launch command and version environment switching",
+      "status": "PASS",
+      "seconds": 0.566
+    },
+    {
+      "name": "Plugins: single form, disabled import, enable, actual execution, bulk import and guide",
+      "status": "PASS",
+      "seconds": 1.216
+    },
+    {
+      "name": "Live Linux monitor, process filtering and owned task termination",
+      "status": "PASS",
+      "seconds": 4.152
+    },
+    {
+      "name": "Calculator formulas, variables and persisted calculation history",
+      "status": "PASS",
+      "seconds": 0.228
+    },
+    {
+      "name": "Imported reports analyzed by real AI in place; CSV/VCD zoom/pan",
+      "status": "PASS",
+      "seconds": 1.612
+    },
+    {
+      "name": "Code import, actual model review, apply/undo, diagnostics and repair",
+      "status": "PASS",
+      "seconds": 3.398
+    },
+    {
+      "name": "Code selected/full formatting review and sixteen language exports",
+      "status": "PASS",
+      "seconds": 5.998
+    },
+    {
+      "name": "AI chat scopes, real tool receipts, visible progress and conversation rename",
+      "status": "PASS",
+      "seconds": 2.977
+    },
+    {
+      "name": "Settings save auto-load, local storage size and no project backup",
+      "status": "PASS",
+      "seconds": 1.433
+    },
+    {
+      "name": "Reload restores drafts, multi-tab conflict preserves saved data",
+      "status": "PASS",
+      "seconds": 0.891
+    },
+    {
+      "name": "Chinese/English UI, ten pages and responsive layout without JS errors",
+      "status": "PASS",
+      "seconds": 2.104
+    }
+  ],
+  "errors": [],
+  "httpErrors": []
+}

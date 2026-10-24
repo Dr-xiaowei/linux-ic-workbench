@@ -1,0 +1,16 @@
+[
+  {
+    "name": "CentOS through SSH",
+    "version": "0.6.0-rc2",
+    "tenPages": true,
+    "loginAndAgentDefault": true,
+    "pageErrors": []
+  },
+  {
+    "name": "live web Demo",
+    "version": "0.6.0-rc2",
+    "tenPages": true,
+    "loginAndAgentDefault": true,
+    "pageErrors": []
+  }
+]

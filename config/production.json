@@ -1,0 +1,13 @@
+{
+  "mode": "production",
+  "listen": "127.0.0.1:0",
+  "modelUrl": "",
+  "model": "",
+  "keyEnv": "ICW_MODEL_KEY",
+  "modelTools": false,
+  "modelTimeoutSeconds": 120,
+  "timeoutSeconds": 3600,
+  "maxWorkers": 1,
+  "maxPreviewBytes": 262144,
+  "maxRecords": 10000
+}

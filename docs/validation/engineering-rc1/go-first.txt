@@ -1,0 +1,6 @@
+?   	icworkbench/cmd/workbench	[no test files]
+--- FAIL: TestChangeSetProductionConflictUndoAndRestart (0.04s)
+    iteration_test.go:72: symlink roots are excluded
+FAIL
+FAIL	icworkbench/internal/workbench	29.217s
+FAIL

@@ -1,0 +1,66 @@
+{
+  "errors": [], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.7.0-rc2", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 9.2300000000000004, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 18.07, 
+      "traceback": "Traceback (most recent call last):\n  File \"tests/native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"tests/native_guest.py\", line 59, in projects\n    wait(lambda:any(x.get('notes')=='Reviewed in native GUI' for x in app.file_table.rows));app.buttons['file_open'].invoke();wait(lambda:'NATIVE_SEARCH_MARKER' in app.value('preview'))\n  File \"tests/native_guest.py\", line 29, in wait\n    raise AssertionError('UI condition timed out')\nAssertionError: UI condition timed out\n", 
+      "name": "Native project form, directory browser, annotation and keyword search", 
+      "error": "UI condition timed out"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.98999999999999999, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.0900000000000001, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.28999999999999998, 
+      "name": "Calculator variables and disk-persisted result"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.48, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.6899999999999999, 
+      "name": "Native plugin registration and real bounded execution"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.40000000000000002, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.72, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.88, 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 500
+}

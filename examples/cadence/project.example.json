@@ -1,0 +1,23 @@
+{
+  "virtuoso": "/opt/cadence/IC/tools/dfII/bin/virtuoso",
+  "ocean": "/opt/cadence/IC/tools/dfII/bin/ocean",
+  "spectre": "/opt/cadence/SPECTRE/tools/bin/spectre",
+  "library": "yourTestLibrary",
+  "cell": "yourTestbench",
+  "view": "schematic",
+  "design": "your-reviewed-design-revision",
+  "definition": "your-reviewed-measurement-revision",
+  "variables": [
+    {"name":"R","min":900,"max":1200,"step":10,"initial":1000},
+    {"name":"C","min":9e-10,"max":1.2e-9,"step":1e-11,"initial":1e-9}
+  ],
+  "cases": [
+    {
+      "name":"nominal",
+      "setup":"/absolute/project/approved-analysis.ocn",
+      "measurements":[
+        {"point":"ac-1kHz","name":"gain_magnitude","unit":"1","expression":"value(mag(v(\"/out\" ?result 'ac)) 1000)","min":0.9,"max":1.1}
+      ]
+    }
+  ]
+}

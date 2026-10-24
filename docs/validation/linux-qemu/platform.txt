@@ -1,0 +1,12 @@
+Linux icw-centos69 2.6.32-696.el6.x86_64 #1 SMP Tue Mar 21 19:29:05 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+CentOS release 6.9 (Final)
+glibc 2.12
+tcsh-6.17-38.el6.x86_64
+uid=500(icw) gid=500(icw) groups=500(icw) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+Filesystem     1K-blocks   Used Available Use% Mounted on
+/dev/sda2        3803856 824336   2782964  23% /
+df6a13980bb3386cc9ec0a3fe0f4a57e7e0a9e6c3d33334ef601afb9333e6f54  /home/icw/validation/ic-workbench-rc2
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+Python 2.6.6

@@ -1,0 +1,13 @@
+{
+  "version": "0.8.0-rc3",
+  "browser": "Codex in-app browser",
+  "url": "http://127.0.0.1:18766/",
+  "visiblePages": [
+    "chat",
+    "code",
+    "analysis"
+  ],
+  "chatStructuredReceiptsCollapsed": true,
+  "consoleErrors": [],
+  "realModel": "not run; offline demo"
+}
