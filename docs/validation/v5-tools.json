@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-25T15:32:09.084206+00:00",
+  "host": "macOS ARM64",
+  "verible": {
+    "release": "v0.0-4296-g0f262651",
+    "source": "https://github.com/chipsalliance/verible/releases/tag/v0.0-4296-g0f262651",
+    "asset": "verible-v0.0-4296-g0f262651-macOS.tar.gz",
+    "bytes": 7953615,
+    "sha256": "fc397ee02b144184a3cce6d26efb8b9d3e41528e63c95a57cd3bf37dec2b52a4",
+    "version": "Version\tv0.0-4296-g0f262651\nCommit-Timestamp\t2026-09-23T08:15:19Z\nBuilt\t2026-09-23T08:15:48Z\n",
+    "distributedInPackage": false
+  },
+  "clangVersion": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "fixtures": "self-authored deterministic source and official SDK HTTP/stdio model/MCP contract servers; no private design data",
+  "limitations": [
+    "No real GLM calls",
+    "No commercial EDA",
+    "No CentOS runtime test",
+    "Verilator CLI not installed; preset and diagnostic parser tested only"
+  ]
+}

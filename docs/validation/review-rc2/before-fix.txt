@@ -1,0 +1,14 @@
+--- FAIL: TestChangeSetProductionConflictUndoAndRestart (0.08s)
+    iteration_test.go:95: conflict corrupted last known state: checking
+--- FAIL: TestChangeSetWriteFaultAndSymlinkPreserveFiles (0.05s)
+    iteration_test.go:173: path error corrupted review state: checking
+--- FAIL: TestMetricConversionRejectsUnrepresentableInputs (0.00s)
+    iteration_test.go:247: unrepresentable unit conversion accepted: bw,1,MHz,tt,1.8,25,ac,,1e308
+    iteration_test.go:247: unrepresentable unit conversion accepted: bw,1,MHz,tt,1.8,25,ac,-1e308,
+    iteration_test.go:247: unrepresentable unit conversion accepted: delay,5e-324,ps,tt,1.8,25,tran,,
+    iteration_test.go:247: unrepresentable unit conversion accepted: delay,1,ps,tt,1.8,25,tran,5e-324,
+    iteration_test.go:250: invalid text accepted
+    iteration_test.go:250: invalid text accepted
+FAIL
+FAIL	icworkbench/internal/workbench	1.713s
+FAIL

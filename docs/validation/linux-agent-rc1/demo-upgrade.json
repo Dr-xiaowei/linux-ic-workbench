@@ -1,0 +1,11 @@
+{
+  "before": {
+    "state.json": "0306b24115f1fa4940825e48a77dae40e29f99dd9f05924ed7abac7a7fb554ae",
+    "workspace.json.gz": "f49f38070788a52dec8e19560a8421cc5f0bc4f1f2a74be6c9f916128a01dad6"
+  },
+  "after": {
+    "state.json": "0306b24115f1fa4940825e48a77dae40e29f99dd9f05924ed7abac7a7fb554ae",
+    "workspace.json.gz": "f49f38070788a52dec8e19560a8421cc5f0bc4f1f2a74be6c9f916128a01dad6"
+  },
+  "preserved": true
+}

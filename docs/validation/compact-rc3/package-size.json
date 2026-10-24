@@ -1,0 +1,16 @@
+[
+  {
+    "version": "0.8.0-rc2",
+    "archiveBytes": 13012875,
+    "contentBytes": 19557647,
+    "files": 298,
+    "SHA256": "df31ae5406e54d860aa259ad8535e9524f4d8946b9cdc4c5ce2511800c8cb9fb"
+  },
+  {
+    "version": "0.8.0-rc3",
+    "archiveBytes": 3618583,
+    "contentBytes": 8955068,
+    "files": 30,
+    "SHA256": "5ce36ecdfd1f228cc71337266bf86570ff59feb3dffc69c8cfd839f2f082854e"
+  }
+]

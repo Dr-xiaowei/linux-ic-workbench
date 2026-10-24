@@ -1,0 +1,31 @@
+{
+  "mode": "CentOS production, two real UIDs, host Chrome via independent SSH origins; real Qwen2.5-Coder 1.5B",
+  "checks": [
+    {
+      "name": "Expired token returns login form and accepts current terminal token",
+      "status": "PASS",
+      "seconds": 0.166
+    },
+    {
+      "name": "Same browser, two Linux users: projects, file notes, drafts and settings stay separate",
+      "status": "PASS",
+      "seconds": 0.878
+    },
+    {
+      "name": "Real model reconnect, chat and per-user model configuration",
+      "status": "PASS",
+      "seconds": 6.603
+    },
+    {
+      "name": "Inline AI analysis and imported code improvement remain on their own pages",
+      "status": "PASS",
+      "seconds": 4.199
+    },
+    {
+      "name": "All ten pages, bilingual UI, narrow layout and isolated persisted reload",
+      "status": "PASS",
+      "seconds": 3.365
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "format": "ELF64 little-endian x86_64",
+  "static": true,
+  "interpreter": null,
+  "dynamicSegment": false,
+  "sizeBytes": 8790168,
+  "SHA256": "4c41d297a2c31d3bb023b3ec955f201afbab42774d3d17973eebc3c08b52d247",
+  "toolchain": "go1.23.12",
+  "target": "GOOS=linux GOARCH=amd64 GOAMD64=v1 CGO_ENABLED=0",
+  "execution": "Structural inspection only; runtime evidence is recorded separately in docs/validation/linux-qemu/"
+}
+release/ic-workbench-0.8.0-rc2-linux-amd64-production.tar.gz 13004590

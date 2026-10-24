@@ -1,0 +1,24 @@
+=== RUN   TestLinuxFilesConflictAndBoundaries
+--- PASS: TestLinuxFilesConflictAndBoundaries (0.07s)
+=== RUN   TestLinuxCommandReceiptsEnvironmentAndBounds
+--- PASS: TestLinuxCommandReceiptsEnvironmentAndBounds (0.05s)
+=== RUN   TestLinuxOutputSecretChunks
+--- PASS: TestLinuxOutputSecretChunks (0.00s)
+=== RUN   TestLinuxCommandLiveCancellationAndTimeout
+--- PASS: TestLinuxCommandLiveCancellationAndTimeout (1.05s)
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover/off
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover/confirm
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover/auto
+--- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover (0.36s)
+    --- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover/off (0.10s)
+    --- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover/confirm (0.13s)
+    --- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover/auto (0.12s)
+=== RUN   TestLinuxAgentDeclineCancelAndDefaultOff
+--- PASS: TestLinuxAgentDeclineCancelAndDefaultOff (0.19s)
+=== RUN   TestLinuxAgentToolBudgetAndRestart
+--- PASS: TestLinuxAgentToolBudgetAndRestart (0.70s)
+=== RUN   TestLinuxDemoDoesNotExecuteHostCommandsOrWriteFiles
+--- PASS: TestLinuxDemoDoesNotExecuteHostCommandsOrWriteFiles (0.10s)
+PASS
+ok  	icworkbench/internal/workbench	3.875s

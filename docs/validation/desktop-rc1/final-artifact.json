@@ -1,0 +1,14 @@
+{
+  "files": [
+    "ic-workbench", 
+    "start.sh", 
+    "service.sh", 
+    "install.sh", 
+    "desktop/client.py", 
+    "desktop/runtime.py", 
+    "config.json"
+  ], 
+  "finalInstallVerifiedFiles": 253, 
+  "archiveSHA256": "bbc980ea8a2903b1b55a3b286dd3c41969b2b51b9763a7b2629ce2b70ec38b61", 
+  "productionFilesIdenticalToDualUIDVerifiedBuild": true
+}

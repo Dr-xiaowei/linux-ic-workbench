@@ -1,0 +1,5 @@
+  PID COMMAND
+ 1389 Xvfb :97 -screen 0 1360x920x24 -nolisten tcp
+ 1506 sshd: icw@notty  
+ 1507 bash -c cd /home/icw/review-rc2 && mkdir -p final-package && tar xzf ic-workbench-0.8.0-rc2-linux-amd64-production.tar.gz -C final-package && (cd final-package/ic-workbench-0.8.0-rc2-linux-amd64-production && sha256sum -c SHA256SUMS) > final-package-check.txt && sha256sum installed/current-production/ic-workbench installed/current-production/desktop/client.py installed/current-production/desktop/runtime.py installed/current-production/desktop/engineering.py > runtime-sha256.txt && ps -u icw -o pid,args > owned-processes.txt && kill "$(cat xvfb.pid)" && sync
+ 1520 ps -u icw -o pid,args

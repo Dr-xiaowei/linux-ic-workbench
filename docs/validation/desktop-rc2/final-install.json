@@ -1,0 +1,13 @@
+{
+  "version": "0.7.0-rc2",
+  "runtimeMatchesCentOS": true,
+  "files": {
+    "desktop/client.py": "49f2bb5d78865b753414044a6fd9ff20dc37e65a519f61a58b0f424f036ae08d",
+    "desktop/runtime.py": "aabcbbdc6035be6b3a649f84392c57f8b8fc592303f4395092fc718eb2061ab7",
+    "ic-workbench": "130f9c481cf9ccd4fe9ddd5baa862956bd1073c55f54612c1a43df469d4007ee"
+  },
+  "archiveSHA256": "4193296b737ab96527855ed5f9d6970163c99c08d8a8d9dba2395ee09bb37d47",
+  "nativeChecksPassed": 11,
+  "centosAsyncChecksPassed": 12,
+  "webRacesPassed": 8
+}

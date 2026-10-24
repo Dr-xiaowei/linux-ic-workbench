@@ -1,0 +1,7 @@
+PASS Terminal --open launched and authenticated the actual Linux Firefox window
+PASS All ten GUI pages render and navigate in native Firefox
+PASS Formula calculation and local save operate through native GUI
+PASS Native FileReader fallback imports Verilog into Code and saves locally
+PASS Native FileReader fallback opens a log in the analysis page
+PASS Chinese/English and narrow-window layout remain usable
+PASS Reload restores imported source and calculator drafts

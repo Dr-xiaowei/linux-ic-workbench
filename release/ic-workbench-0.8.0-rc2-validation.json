@@ -1,0 +1,15 @@
+{
+  "version": "0.8.0-rc2",
+  "date": "2026-10-12",
+  "archive": "ic-workbench-0.8.0-rc2-linux-amd64-production.tar.gz",
+  "bytes": 13012875,
+  "sha256": "df31ae5406e54d860aa259ad8535e9524f4d8946b9cdc4c5ce2511800c8cb9fb",
+  "verifiedPackageFilesInCentOS": 297,
+  "runtimeIdenticalToTestedInstallation": true,
+  "goRace": "PASS",
+  "linuxBackendPassed": 79,
+  "linuxBackendSkipped": 2,
+  "nativeFlowsPassed": 14,
+  "tkRegressionsPassed": 13,
+  "realModelRerun": false
+}

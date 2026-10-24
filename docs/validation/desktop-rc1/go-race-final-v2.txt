@@ -1,0 +1,204 @@
+?   	icworkbench/cmd/workbench	[no test files]
+=== RUN   TestBrowserLaunchBoundaryAndSingleArgument
+--- PASS: TestBrowserLaunchBoundaryAndSingleArgument (0.29s)
+=== RUN   TestSilentMCPHandshakeDeadline
+--- PASS: TestSilentMCPHandshakeDeadline (0.20s)
+=== RUN   TestPlatformNativeObjectAndLegacyInput
+--- PASS: TestPlatformNativeObjectAndLegacyInput (0.04s)
+=== RUN   TestDesktopAPIHasNoWebInterface
+--- PASS: TestDesktopAPIHasNoWebInterface (0.04s)
+=== RUN   TestLinuxDedicatedFields
+--- PASS: TestLinuxDedicatedFields (0.00s)
+=== RUN   TestLinuxFilesConflictAndBoundaries
+--- PASS: TestLinuxFilesConflictAndBoundaries (0.07s)
+=== RUN   TestLinuxCommandReceiptsEnvironmentAndBounds
+--- PASS: TestLinuxCommandReceiptsEnvironmentAndBounds (0.05s)
+=== RUN   TestLinuxOutputSecretChunks
+--- PASS: TestLinuxOutputSecretChunks (0.00s)
+=== RUN   TestLinuxCommandLiveCancellationAndTimeout
+--- PASS: TestLinuxCommandLiveCancellationAndTimeout (1.05s)
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover/off
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover/confirm
+=== RUN   TestLinuxAgentModesApprovalPersistenceAndNoCarryover/auto
+--- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover (0.36s)
+    --- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover/off (0.10s)
+    --- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover/confirm (0.13s)
+    --- PASS: TestLinuxAgentModesApprovalPersistenceAndNoCarryover/auto (0.12s)
+=== RUN   TestLinuxAgentDeclineCancelAndDefaultOff
+--- PASS: TestLinuxAgentDeclineCancelAndDefaultOff (0.18s)
+=== RUN   TestLinuxAgentToolBudgetAndRestart
+--- PASS: TestLinuxAgentToolBudgetAndRestart (0.64s)
+=== RUN   TestLinuxDemoDoesNotExecuteHostCommandsOrWriteFiles
+--- PASS: TestLinuxDemoDoesNotExecuteHostCommandsOrWriteFiles (0.09s)
+=== RUN   TestLinuxPlainTextToolIsNotExecutedOrReportedAsSuccess
+--- PASS: TestLinuxPlainTextToolIsNotExecutedOrReportedAsSuccess (0.09s)
+=== RUN   TestLinuxNativeObjectToolInput
+--- PASS: TestLinuxNativeObjectToolInput (0.04s)
+=== RUN   TestV2ProjectsAnnotationsSearchPagination
+--- PASS: TestV2ProjectsAnnotationsSearchPagination (0.08s)
+=== RUN   TestV2WaveformsAndHDLFiles
+--- PASS: TestV2WaveformsAndHDLFiles (0.04s)
+=== RUN   TestV2SoftwarePluginAndCompilerExecution
+--- PASS: TestV2SoftwarePluginAndCompilerExecution (0.16s)
+=== RUN   TestV2SettingsLoadAndUpgradePreservesData
+--- PASS: TestV2SettingsLoadAndUpgradePreservesData (0.08s)
+=== RUN   TestV2AgentToolsProgressApprovalAndDenial
+--- PASS: TestV2AgentToolsProgressApprovalAndDenial (0.17s)
+=== RUN   TestV2ProcessParserAndDemoMonitor
+--- PASS: TestV2ProcessParserAndDemoMonitor (0.04s)
+=== RUN   TestV2LargeSearchResumeAndNestedOrder
+--- PASS: TestV2LargeSearchResumeAndNestedOrder (0.12s)
+=== RUN   TestV2DemoNeverContactsConfiguredModel
+--- PASS: TestV2DemoNeverContactsConfiguredModel (0.11s)
+=== RUN   TestPrivateStorageBoundaries
+=== RUN   TestPrivateStorageBoundaries/directory-permissions
+=== RUN   TestPrivateStorageBoundaries/directory-symlink
+=== RUN   TestPrivateStorageBoundaries/state-permissions
+=== RUN   TestPrivateStorageBoundaries/state-symlink
+=== RUN   TestPrivateStorageBoundaries/state-hardlink
+=== RUN   TestPrivateStorageBoundaries/lock-symlink
+=== RUN   TestPrivateStorageBoundaries/workspace-symlink
+--- PASS: TestPrivateStorageBoundaries (0.01s)
+    --- PASS: TestPrivateStorageBoundaries/directory-permissions (0.00s)
+    --- PASS: TestPrivateStorageBoundaries/directory-symlink (0.00s)
+    --- PASS: TestPrivateStorageBoundaries/state-permissions (0.00s)
+    --- PASS: TestPrivateStorageBoundaries/state-symlink (0.00s)
+    --- PASS: TestPrivateStorageBoundaries/state-hardlink (0.00s)
+    --- PASS: TestPrivateStorageBoundaries/lock-symlink (0.00s)
+    --- PASS: TestPrivateStorageBoundaries/workspace-symlink (0.00s)
+=== RUN   TestConfigConcurrentInitializationAndPreservation
+--- PASS: TestConfigConcurrentInitializationAndPreservation (0.32s)
+=== RUN   TestStoreFailedWriteRollbackAndConcurrentEdits
+--- PASS: TestStoreFailedWriteRollbackAndConcurrentEdits (0.40s)
+=== RUN   TestCorruptWorkspacePreserved
+--- PASS: TestCorruptWorkspacePreserved (0.00s)
+=== RUN   TestDurabilityFailureStopsFurtherWrites
+=== RUN   TestDurabilityFailureStopsFurtherWrites/false
+=== RUN   TestDurabilityFailureStopsFurtherWrites/true
+--- PASS: TestDurabilityFailureStopsFurtherWrites (0.08s)
+    --- PASS: TestDurabilityFailureStopsFurtherWrites/false (0.04s)
+    --- PASS: TestDurabilityFailureStopsFurtherWrites/true (0.04s)
+=== RUN   TestDynamicListenerAndAuthenticatedStatus
+--- PASS: TestDynamicListenerAndAuthenticatedStatus (0.09s)
+=== RUN   TestShutdownCancelsStartupValidation
+--- PASS: TestShutdownCancelsStartupValidation (0.03s)
+=== RUN   TestCalculatorEngineeringAndErrors
+--- PASS: TestCalculatorEngineeringAndErrors (0.00s)
+=== RUN   TestCodeLanguagesAnalysisAndScope
+--- PASS: TestCodeLanguagesAnalysisAndScope (0.12s)
+=== RUN   TestEDAMCPBuiltinAndHTTP
+=== RUN   TestEDAMCPBuiltinAndHTTP/demo
+=== RUN   TestEDAMCPBuiltinAndHTTP/production
+--- PASS: TestEDAMCPBuiltinAndHTTP (1.31s)
+    --- PASS: TestEDAMCPBuiltinAndHTTP/demo (0.07s)
+    --- PASS: TestEDAMCPBuiltinAndHTTP/production (0.07s)
+=== RUN   TestEDAStdioFixtureProcess
+--- PASS: TestEDAStdioFixtureProcess (0.00s)
+=== RUN   TestEDAStdioAndSchema4Persistence
+--- PASS: TestEDAStdioAndSchema4Persistence (0.62s)
+=== RUN   TestInlineAnalysisAndCodeUseConfiguredModel
+--- PASS: TestInlineAnalysisAndCodeUseConfiguredModel (0.04s)
+=== RUN   TestWorkspacePersistenceUpgradeConflictAndBackupDisabled
+    storage_test.go:94: workspace fixture raw=750593 gzip=2287 reduction=99.70%
+--- PASS: TestWorkspacePersistenceUpgradeConflictAndBackupDisabled (0.34s)
+=== RUN   TestWorkspaceCorruptionCapacityAndAtomicFailure
+--- PASS: TestWorkspaceCorruptionCapacityAndAtomicFailure (0.20s)
+=== RUN   TestWorkspaceHTTPConflictAndAuthorization
+--- PASS: TestWorkspaceHTTPConflictAndAuthorization (0.04s)
+=== RUN   TestImproveCodeModelContractAndOriginalPreservation
+--- PASS: TestImproveCodeModelContractAndOriginalPreservation (0.07s)
+=== RUN   TestCSVValidationAndEvidence
+=== RUN   TestCSVValidationAndEvidence/missing-unit
+=== RUN   TestCSVValidationAndEvidence/NaN
+=== RUN   TestCSVValidationAndEvidence/missing-value
+=== RUN   TestCSVValidationAndEvidence/duplicate
+=== RUN   TestCSVValidationAndEvidence/inverted
+=== RUN   TestCSVValidationAndEvidence/unknown-status
+--- PASS: TestCSVValidationAndEvidence (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/missing-unit (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/NaN (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/missing-value (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/duplicate (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/inverted (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/unknown-status (0.00s)
+=== RUN   TestStoreMigrationIsolationRecovery
+--- PASS: TestStoreMigrationIsolationRecovery (0.04s)
+=== RUN   TestPathsAndHTTPBoundary
+=== RUN   TestPathsAndHTTPBoundary/auth
+=== RUN   TestPathsAndHTTPBoundary/origin
+=== RUN   TestPathsAndHTTPBoundary/dns
+--- PASS: TestPathsAndHTTPBoundary (0.04s)
+    --- PASS: TestPathsAndHTTPBoundary/auth (0.00s)
+    --- PASS: TestPathsAndHTTPBoundary/origin (0.00s)
+    --- PASS: TestPathsAndHTTPBoundary/dns (0.00s)
+=== RUN   TestQueueIdempotencyCancellationAndSnapshot
+--- PASS: TestQueueIdempotencyCancellationAndSnapshot (0.32s)
+=== RUN   TestProcessTimeoutAndEnvironment
+--- PASS: TestProcessTimeoutAndEnvironment (0.15s)
+=== RUN   TestGenericAdapterContract
+--- PASS: TestGenericAdapterContract (7.29s)
+=== RUN   TestCommandHelper
+--- PASS: TestCommandHelper (0.00s)
+=== RUN   TestBoundedOptimization
+--- PASS: TestBoundedOptimization (1.81s)
+=== RUN   TestOptimizationPauseResumeAndTimeBudget
+--- PASS: TestOptimizationPauseResumeAndTimeBudget (1.93s)
+=== RUN   TestModelChatEvidenceToolsAndErrors
+--- PASS: TestModelChatEvidenceToolsAndErrors (0.07s)
+=== RUN   TestModelCannotRunWithoutPermission
+--- PASS: TestModelCannotRunWithoutPermission (0.11s)
+=== RUN   TestMCPProtocolAndReadOnlyGate
+=== RUN   TestMCPProtocolAndReadOnlyGate/false
+=== RUN   TestMCPProtocolAndReadOnlyGate/true
+--- PASS: TestMCPProtocolAndReadOnlyGate (0.09s)
+    --- PASS: TestMCPProtocolAndReadOnlyGate/false (0.01s)
+    --- PASS: TestMCPProtocolAndReadOnlyGate/true (0.02s)
+=== RUN   TestCadenceGeneratedScriptsAndBounds
+--- PASS: TestCadenceGeneratedScriptsAndBounds (0.00s)
+=== RUN   TestExportImportAPIWorkflow
+--- PASS: TestExportImportAPIWorkflow (0.05s)
+=== RUN   TestDiagnosisEvidence
+--- PASS: TestDiagnosisEvidence (0.00s)
+=== RUN   TestStaticUIAssets
+--- PASS: TestStaticUIAssets (0.04s)
+=== RUN   TestNativeCadenceContractAndFrozenInputs
+--- PASS: TestNativeCadenceContractAndFrozenInputs (4.04s)
+=== RUN   TestNativeHelper
+--- PASS: TestNativeHelper (0.00s)
+=== RUN   TestModelCancellationAndSelectedEvidence
+--- PASS: TestModelCancellationAndSelectedEvidence (0.16s)
+=== RUN   TestPublicReferenceCSV
+--- PASS: TestPublicReferenceCSV (0.00s)
+=== RUN   TestCSHEnvironmentIsolation
+--- PASS: TestCSHEnvironmentIsolation (0.05s)
+=== RUN   TestMetadataBoundedAndRollbackOnIOFailure
+--- PASS: TestMetadataBoundedAndRollbackOnIOFailure (0.82s)
+=== RUN   TestInfeasibleOptimizationDoesNotClaimRevalidation
+--- PASS: TestInfeasibleOptimizationDoesNotClaimRevalidation (0.96s)
+=== RUN   TestCodeDiagnosticsAndBackupDisabled
+--- PASS: TestCodeDiagnosticsAndBackupDisabled (0.04s)
+=== RUN   TestPython26TupleDiagnostics
+--- PASS: TestPython26TupleDiagnostics (0.00s)
+=== RUN   TestCodeRepairRealCheckerAndOriginalPreservation
+    workflow_test.go:113: real clang: first failed, repair candidate passed; original retained; checks=2
+--- PASS: TestCodeRepairRealCheckerAndOriginalPreservation (0.14s)
+=== RUN   TestCodeRepairBudgetValidationAndCancellation
+--- PASS: TestCodeRepairBudgetValidationAndCancellation (0.28s)
+=== RUN   TestCodeFormattingBoundariesOutputAndFailure
+--- PASS: TestCodeFormattingBoundariesOutputAndFailure (0.25s)
+=== RUN   TestCodeVeribleOfficialBinary
+    workflow_test.go:177: set ICW_VERIBLE_BIN to official Verible bin directory
+--- SKIP: TestCodeVeribleOfficialBinary (0.00s)
+=== RUN   TestEDAAgentSelectedToolsLiveProgressAndPersistence
+--- PASS: TestEDAAgentSelectedToolsLiveProgressAndPersistence (0.45s)
+=== RUN   TestEDAAgentCancelAndUnknownTool
+=== RUN   TestEDAAgentCancelAndUnknownTool/false
+=== RUN   TestEDAAgentCancelAndUnknownTool/true
+--- PASS: TestEDAAgentCancelAndUnknownTool (0.27s)
+    --- PASS: TestEDAAgentCancelAndUnknownTool/false (0.16s)
+    --- PASS: TestEDAAgentCancelAndUnknownTool/true (0.11s)
+=== RUN   TestEDAAgentDemoTracksSimulation
+--- PASS: TestEDAAgentDemoTracksSimulation (0.92s)
+PASS
+ok  	icworkbench/internal/workbench	29.403s

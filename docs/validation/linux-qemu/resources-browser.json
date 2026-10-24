@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "phases": {
+    "idle16Seconds": [
+      {
+        "time": 1790356560828,
+        "action": "monitor"
+      }
+    ],
+    "monitor12Seconds": [
+      {
+        "time": 1790356565827,
+        "action": "workspace"
+      },
+      {
+        "time": 1790356569967,
+        "action": "monitor"
+      },
+      {
+        "time": 1790356574996,
+        "action": "monitor"
+      }
+    ],
+    "afterLeavingMonitor7Seconds": []
+  },
+  "metrics": [
+    {
+      "name": "Documents",
+      "value": 1
+    },
+    {
+      "name": "Nodes",
+      "value": 1408
+    },
+    {
+      "name": "JSHeapUsedSize",
+      "value": 2226984
+    },
+    {
+      "name": "JSHeapTotalSize",
+      "value": 3145728
+    }
+  ],
+  "browserVersion": "153.0.8010.53",
+  "scope": "Host Chrome rendering via SSH; no browser in the Linux server"
+}

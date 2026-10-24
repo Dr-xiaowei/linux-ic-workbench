@@ -1,0 +1,13 @@
+{
+  "mode": "demo",
+  "listen": "127.0.0.1:8766",
+  "modelUrl": "",
+  "model": "",
+  "keyEnv": "ICW_DEMO_MODEL_KEY",
+  "modelTools": false,
+  "modelTimeoutSeconds": 120,
+  "timeoutSeconds": 120,
+  "maxWorkers": 1,
+  "maxPreviewBytes": 262144,
+  "maxRecords": 10000
+}

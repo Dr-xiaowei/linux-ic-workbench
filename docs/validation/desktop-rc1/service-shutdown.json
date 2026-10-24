@@ -1,0 +1,28 @@
+{
+  "testServicesStopped": true,
+  "liveDemoKept": true,
+  "portsListening": {
+    "18822": false,
+    "18823": false,
+    "18824": false,
+    "18865": false,
+    "18880": false,
+    "18883": false,
+    "18766": true
+  },
+  "environmentFilesRetained": {
+    "centos69.qcow2": true,
+    "Qwen3-1.7B-Q8_0.gguf": true
+  },
+  "stoppedProcesses": [
+    {
+      "pid": 45202,
+      "port": 18883
+    },
+    {
+      "pid": 30100,
+      "port": 18880
+    }
+  ],
+  "cleanupRequiresUserConfirmation": true
+}

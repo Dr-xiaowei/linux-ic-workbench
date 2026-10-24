@@ -1,0 +1,59 @@
+{
+  "model": "Qwen3 0.6B Q4_0",
+  "scope": "Single guided read-only command only; not a pass for autonomous multistep planning",
+  "prompt": "Use linux_action once: action command, input object with command set to pwd; id -u. Omit all optional fields, including directory. Then summarize the actual tool receipt. Do not create or edit any files. /no_think",
+  "seconds": 3.1197457313537598,
+  "run": {
+    "id": "852de567467efdb2fed388e2",
+    "session": "93e2cd8ef9fb13a99c99be74",
+    "status": "completed",
+    "events": [
+      {
+        "time": "2026-09-26T02:31:41Z",
+        "stage": "context",
+        "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+      },
+      {
+        "time": "2026-09-26T02:31:41Z",
+        "stage": "model",
+        "text": "模型推理 / Model round 1"
+      },
+      {
+        "time": "2026-09-26T02:31:43Z",
+        "stage": "tool",
+        "text": "linux:command · {\"command\": \"pwd\"}"
+      },
+      {
+        "time": "2026-09-26T02:31:43Z",
+        "stage": "receipt",
+        "text": "linux:command · completed\n{\"command\":\"pwd\",\"directory\":\"/home/icwqb_a/linux-agent-project\",\"pid\":1687,\"status\":\"succeeded\",\"output\":\"/home/icwqb_a/linux-agent-project\\n\",\"exitCode\":0,\"truncated\":false,\"started\":\"2026-09-26T02:31:43Z\",\"finished\":\"2026-09-26T02:31:43Z\",\"demo\":false}"
+      },
+      {
+        "time": "2026-09-26T02:31:43Z",
+        "stage": "model",
+        "text": "模型推理 / Model round 2"
+      },
+      {
+        "time": "2026-09-26T02:31:44Z",
+        "stage": "completed",
+        "text": "Agent finished"
+      }
+    ],
+    "content": "The command `pwd` was executed successfully. The output was:\n\n```\n/home/icwqb_a/linux-agent-project\n```\n\nThis confirms that the directory `/home/icwqb_a/linux-agent-project` was accessible and valid.\n\n[Tool receipts]\nlinux:command · completed",
+    "error": "",
+    "linuxMode": "auto",
+    "directory": "/home/icwqb_a/linux-agent-project",
+    "terminal": {
+      "command": "pwd",
+      "directory": "/home/icwqb_a/linux-agent-project",
+      "pid": 1687,
+      "status": "succeeded",
+      "output": "/home/icwqb_a/linux-agent-project\n",
+      "exitCode": 0,
+      "truncated": false,
+      "started": "2026-09-26T02:31:43Z",
+      "finished": "2026-09-26T02:31:43Z",
+      "demo": false
+    }
+  }
+}

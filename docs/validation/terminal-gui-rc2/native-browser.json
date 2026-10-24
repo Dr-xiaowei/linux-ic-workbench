@@ -1,0 +1,58 @@
+{
+  "browser": {
+    "browserName": "firefox",
+    "browserVersion": "52.8.0",
+    "platformName": "linux",
+    "platformVersion": "2.6.32-696.el6.x86_64",
+    "pageLoadStrategy": "normal",
+    "acceptInsecureCerts": false,
+    "timeouts": {
+      "implicit": 0,
+      "page load": 300000,
+      "script": 30000
+    },
+    "rotatable": false,
+    "specificationLevel": 0,
+    "moz:processID": 1711,
+    "moz:profile": "/home/icwgui/gui-profile",
+    "moz:accessibilityChecks": false
+  },
+  "browserRunsInsideCentOS": true,
+  "checks": [
+    {
+      "name": "Terminal --open launched and authenticated the actual Linux Firefox window",
+      "status": "PASS",
+      "seconds": 0.25
+    },
+    {
+      "name": "All ten GUI pages render and navigate in native Firefox",
+      "status": "PASS",
+      "seconds": 5.72
+    },
+    {
+      "name": "Formula calculation and local save operate through native GUI",
+      "status": "PASS",
+      "seconds": 1.76
+    },
+    {
+      "name": "Native FileReader fallback imports Verilog into Code and saves locally",
+      "status": "PASS",
+      "seconds": 1.77
+    },
+    {
+      "name": "Native FileReader fallback opens a log in the analysis page",
+      "status": "PASS",
+      "seconds": 1.69
+    },
+    {
+      "name": "Chinese/English and narrow-window layout remain usable",
+      "status": "PASS",
+      "seconds": 7.54
+    },
+    {
+      "name": "Reload restores imported source and calculator drafts",
+      "status": "PASS",
+      "seconds": 1.84
+    }
+  ]
+}

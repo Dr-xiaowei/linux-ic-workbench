@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-09-25T13:51:28.248327+00:00",
+  "repositories": [
+    {
+      "repository": "Aider-AI/aider",
+      "html_url": "https://github.com/Aider-AI/aider",
+      "archived": false,
+      "pushed_at": "2026-05-22T14:02:20Z",
+      "updated_at": "2026-09-25T13:09:54Z",
+      "stargazers_count": 49179,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "release": {
+        "tag_name": "v0.86.0",
+        "published_at": "2025-08-09T17:42:19Z",
+        "html_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0"
+      },
+      "commit": {
+        "sha": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+        "date": "2026-05-22T14:02:20Z",
+        "url": "https://github.com/Aider-AI/aider/commit/5dc9490bb35f9729ef2c95d00a19ccd30c26339c"
+      }
+    },
+    {
+      "repository": "restic/restic",
+      "html_url": "https://github.com/restic/restic",
+      "archived": false,
+      "pushed_at": "2026-09-20T20:05:21Z",
+      "updated_at": "2026-09-25T13:46:05Z",
+      "stargazers_count": 36249,
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      },
+      "release": {
+        "tag_name": "v0.19.1",
+        "published_at": "2026-07-05T08:13:33Z",
+        "html_url": "https://github.com/restic/restic/releases/tag/v0.19.1"
+      },
+      "commit": {
+        "sha": "6adedec6b48ae9ff0ffbc37bd675ccebd02c728f",
+        "date": "2026-09-20T20:05:21Z",
+        "url": "https://github.com/restic/restic/commit/6adedec6b48ae9ff0ffbc37bd675ccebd02c728f"
+      }
+    },
+    {
+      "repository": "chipsalliance/verible",
+      "html_url": "https://github.com/chipsalliance/verible",
+      "archived": false,
+      "pushed_at": "2026-09-23T09:01:20Z",
+      "updated_at": "2026-09-25T11:29:37Z",
+      "stargazers_count": 1944,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "release": {
+        "tag_name": "v0.0-4296-g0f262651",
+        "published_at": "2026-09-23T09:01:20Z",
+        "html_url": "https://github.com/chipsalliance/verible/releases/tag/v0.0-4296-g0f262651"
+      },
+      "commit": {
+        "sha": "0f26265133bda3ade669bc36fc71a6e1f39ad809",
+        "date": "2026-09-23T08:15:19Z",
+        "url": "https://github.com/chipsalliance/verible/commit/0f26265133bda3ade669bc36fc71a6e1f39ad809"
+      }
+    },
+    {
+      "repository": "verilator/verilator",
+      "html_url": "https://github.com/verilator/verilator",
+      "archived": false,
+      "pushed_at": "2026-09-25T13:43:56Z",
+      "updated_at": "2026-09-25T13:44:01Z",
+      "stargazers_count": 3955,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "releaseError": "HTTP Error 404: Not Found",
+      "commit": {
+        "sha": "0e0ce2be52dbed8ad0ce48db90e7a27643992e4a",
+        "date": "2026-09-25T13:43:55Z",
+        "url": "https://github.com/verilator/verilator/commit/0e0ce2be52dbed8ad0ce48db90e7a27643992e4a"
+      }
+    }
+  ]
+}

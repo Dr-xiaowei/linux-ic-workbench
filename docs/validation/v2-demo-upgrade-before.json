@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "counts": {
+    "projects": 1,
+    "sessions": 0,
+    "batches": 1,
+    "jobs": 0,
+    "experiments": 0
+  },
+  "ids": {
+    "projects": [
+      "demo-rc"
+    ],
+    "sessions": [],
+    "batches": [
+      "3698cec7995c569859801c0e"
+    ],
+    "jobs": [],
+    "experiments": []
+  }
+}

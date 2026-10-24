@@ -1,0 +1,14 @@
+{
+  "host": "macOS ARM64",
+  "transport": "official SDK stdio, real child process",
+  "protocolVersion": "2025-06-18",
+  "tools": [
+    "job_status",
+    "read_batch",
+    "workspace_state"
+  ],
+  "initialize": true,
+  "toolsList": true,
+  "toolCall": true,
+  "readOnlyDefault": true
+}

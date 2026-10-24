@@ -1,0 +1,17 @@
+{
+  "time": "2026-09-25T15:29:40.547Z",
+  "checks": [
+    "Backup control removed; storage explains company backup and retained metadata",
+    "Failed check yields diagnostic, click selects exact source line",
+    "Stale diagnostic blocked; bounded repair rechecks and presents candidate; apply/undo preserves original",
+    "Selected formatting preserves outside lines; full format is a reviewable candidate",
+    "Per-language checker/formatter settings survive general settings save",
+    "EDA conversation executes built-in MCP simulation and displays stages, job completion and receipt in place",
+    "EDA conversations stay separate from general chat; switching conversations restores correct progress",
+    "Added MCP connection gets its own allowlisted task conversation; Demo remains offline",
+    "Code candidate and EDA draft, selected conversation and execution trace survive reload",
+    "Chinese/English light-green UI, 760px layout, no unexpected browser errors"
+  ],
+  "errors": [],
+  "mode": "isolated offline Demo; real CLI and MCP contract tests recorded separately"
+}

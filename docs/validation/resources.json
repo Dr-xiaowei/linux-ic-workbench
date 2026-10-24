@@ -1,0 +1,19 @@
+{
+  "host": "macOS ARM64, development build; NOT CentOS acceptance",
+  "idleSamples10sApart": [
+    {
+      "pid": 8074,
+      "rssMiB": 19.875,
+      "cpuPercent": 0.0,
+      "cpuTime": "0:00.21"
+    },
+    {
+      "pid": 8074,
+      "rssMiB": 19.875,
+      "cpuPercent": 0.0,
+      "cpuTime": "0:00.21"
+    }
+  ],
+  "frontendFilesBytes": 54899,
+  "note": "Chrome process-tree sample is separate in browser.json; prefer personal-computer browser via SSH forwarding."
+}

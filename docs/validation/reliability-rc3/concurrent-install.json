@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exitCodes": [
+    0,
+    1
+  ],
+  "sameVersionConcurrentPublish": "exactly one installer succeeded",
+  "pathWithSpaces": true,
+  "installedFileChecksums": "all passed",
+  "existingPrimaryInstallationUnchanged": true
+}

@@ -1,0 +1,11 @@
+{
+  "host": "macOS ARM64 / Chrome",
+  "aiDraft": "controlled synthetic model reply parsed into review form; not real GLM",
+  "draftFields": true,
+  "automaticExecution": false,
+  "importedMetrics": 10000,
+  "visibleTableRowsIncludingHeader": 101,
+  "pagination": true,
+  "width": 1366,
+  "errors": []
+}

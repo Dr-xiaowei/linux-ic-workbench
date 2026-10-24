@@ -1,0 +1,66 @@
+{
+  "status": "completed", 
+  "events": [
+    {
+      "text": "Explicit protocol fixture (no EDA) \u00b7 \u83b7\u53d6 MCP \u5de5\u5177 / Discovering MCP tools", 
+      "stage": "connecting", 
+      "time": "2026-09-26T05:50:42Z"
+    }, 
+    {
+      "text": "AI \u89c4\u5212 / Model round 1", 
+      "stage": "planning", 
+      "time": "2026-09-26T05:50:42Z"
+    }, 
+    {
+      "text": "Explicit protocol fixture (no EDA) \u00b7 echo\n{\"value\":\"NATIVE_MCP_OK\"}", 
+      "stage": "calling", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "dddfd7eb7bd450477640cd76 \u00b7 queued", 
+      "stage": "operation", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "dddfd7eb7bd450477640cd76 \u00b7 queued", 
+      "stage": "status", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "echo \u00b7 1 / 2 \u00b7 FIXTURE progress: request received", 
+      "stage": "progress", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "dddfd7eb7bd450477640cd76 \u00b7 running", 
+      "stage": "status", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "dddfd7eb7bd450477640cd76 \u00b7 succeeded", 
+      "stage": "status", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "echo \u00b7 tools/call echo\nArguments: {\"value\":\"NATIVE_MCP_OK\"}\n{\"content\":[{\"type\":\"text\",\"text\":\"FIXTURE_RECEIPT NATIVE_MCP_OK (no EDA run)\"}]}", 
+      "stage": "receipt", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "AI \u89c4\u5212 / Model round 2", 
+      "stage": "planning", 
+      "time": "2026-09-26T05:50:44Z"
+    }, 
+    {
+      "text": "EDA Agent finished; inspect actual tool receipts", 
+      "stage": "completed", 
+      "time": "2026-09-26T05:50:46Z"
+    }
+  ], 
+  "content": "The MCP request has been successfully processed. The tool receipt indicates:  \n**FIXTURE_RECEIPT NATIVE_MCP_OK (no EDA run)**  \n\nAn external background job may still be in progress. For real-time status updates, check the advertised status tool for this job.", 
+  "connection": "native-fixture", 
+  "session": "a18e067932eadebcad73c33d", 
+  "linuxMode": "off", 
+  "error": "", 
+  "id": "4806f3ec88fe34b361150ff7"
+}

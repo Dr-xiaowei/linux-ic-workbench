@@ -1,0 +1,12 @@
+[
+  {
+    "mode": "production",
+    "archive": "release/ic-workbench-0.7.0-rc2-linux-amd64-production.tar.gz",
+    "archiveBytes": 12717052,
+    "verifiedFiles": 269,
+    "SHA256": "4193296b737ab96527855ed5f9d6970163c99c08d8a8d9dba2395ee09bb37d47",
+    "binaryMatchesInspectedELF": true,
+    "dataAndCredentialIsolation": true
+  }
+]
+Project Markdown local links: 191 PASS

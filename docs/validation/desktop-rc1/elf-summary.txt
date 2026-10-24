@@ -1,0 +1,11 @@
+{
+  "format": "ELF64 little-endian x86_64",
+  "static": true,
+  "interpreter": null,
+  "dynamicSegment": false,
+  "sizeBytes": 8679576,
+  "SHA256": "e9675031b283057ec9b6a7646698ff16e0b807de1ede76f1823fbb072e920111",
+  "toolchain": "go1.23.12",
+  "target": "GOOS=linux GOARCH=amd64 GOAMD64=v1 CGO_ENABLED=0",
+  "execution": "Structural inspection only; runtime evidence is recorded separately in docs/validation/linux-qemu/"
+}

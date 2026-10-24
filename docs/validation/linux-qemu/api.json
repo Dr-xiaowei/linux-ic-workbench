@@ -1,0 +1,1549 @@
+{
+  "mode": "production, CentOS 6.9 x86_64 under QEMU",
+  "model": "Qwen3-0.6B-Q4_0, llama.cpp b11146 on host via SSH loopback",
+  "checks": [
+    {
+      "name": "settings-auto-load-and-real-model",
+      "status": "PASS",
+      "seconds": 0.844,
+      "evidence": {
+        "time": "2026-09-25T16:46:33Z",
+        "model": "connected",
+        "environment": "ready",
+        "details": []
+      }
+    },
+    {
+      "name": "auth-and-production-mode",
+      "status": "PASS",
+      "seconds": 0.017,
+      "evidence": {
+        "version": "0.5.0-rc1",
+        "unauthenticatedRejected": true
+      }
+    },
+    {
+      "name": "software-shell-and-csh-versions",
+      "status": "PASS",
+      "seconds": 1.543,
+      "evidence": [
+        {
+          "command": {
+            "executable": "/bin/sh",
+            "args": [
+              "-c",
+              ". '/home/icw/validation/fixtures/v1.sh' && printf \"%s:%s\" \"$ICW_VERSION\" \"$ICW_GLOBAL\""
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "",
+            "shell": "/bin/sh"
+          },
+          "directory": "/home/icw/validation",
+          "id": "0ce318ee2fc8bbb8396bf5f3",
+          "kind": "software",
+          "name": "Environment probe one",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:34Z",
+          "finished": "2026-09-25T16:46:34Z",
+          "log": "one:loaded",
+          "error": ""
+        },
+        {
+          "command": {
+            "executable": "/bin/sh",
+            "args": [
+              "-c",
+              ". '/home/icw/validation/fixtures/v2.sh' && printf \"%s:%s\" \"$ICW_VERSION\" \"$ICW_GLOBAL\""
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "",
+            "shell": "/bin/sh"
+          },
+          "directory": "/home/icw/validation",
+          "id": "9fa14836e3ba49b2078f8a0c",
+          "kind": "software",
+          "name": "Environment probe two",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:34Z",
+          "finished": "2026-09-25T16:46:34Z",
+          "log": "two:loaded",
+          "error": ""
+        },
+        {
+          "command": {
+            "executable": "/bin/csh",
+            "args": [
+              "-fc",
+              "source '/home/icw/validation/fixtures/v3.csh' && printf \"%s:%s\" \"$ICW_VERSION\" \"$ICW_GLOBAL\""
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "",
+            "shell": "/bin/csh"
+          },
+          "directory": "/home/icw/validation",
+          "id": "097347915902916288be3108",
+          "kind": "software",
+          "name": "CSH probe three",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:35Z",
+          "finished": "2026-09-25T16:46:35Z",
+          "log": "csh_three:loaded",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "name": "plugins-batch-python26-timeout-cancel",
+      "status": "PASS",
+      "seconds": 2.581,
+      "evidence": {
+        "successful": {
+          "command": {
+            "executable": "/bin/sh",
+            "args": [
+              "-c",
+              "printf \"plugin:%s\" \"$ICW_GLOBAL\""
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "",
+            "shell": ""
+          },
+          "directory": "/home/icw/validation",
+          "id": "d0f1603f8b6fbf16cbe8fc19",
+          "kind": "plugin",
+          "name": "qemu-echo",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:35Z",
+          "finished": "2026-09-25T16:46:35Z",
+          "log": "plugin:loaded",
+          "error": ""
+        },
+        "timeout": "cancelled",
+        "cancelled": "cancelled",
+        "python26BatchImport": true
+      }
+    },
+    {
+      "name": "real-linux-monitor-alerts-process-control",
+      "status": "PASS",
+      "seconds": 11.167,
+      "evidence": {
+        "sample": {
+          "time": "2026-09-25T16:46:48Z",
+          "source": "linux",
+          "cpu": 6.944444444444442,
+          "memory": 8.966253000517732,
+          "storage": 26.261561951871993,
+          "storagePath": "/home/icw/validation",
+          "gpus": [],
+          "processes": [
+            {
+              "pid": 1875,
+              "start": "31682",
+              "name": "ic-workbench",
+              "cpu": 2.7777777777777777,
+              "memoryBytes": 13918208,
+              "own": true,
+              "simulation": false
+            },
+            {
+              "pid": 1719,
+              "start": "21227",
+              "name": "sshd",
+              "cpu": 0.2777777777777778,
+              "memoryBytes": 1990656,
+              "own": true,
+              "simulation": false
+            },
+            {
+              "pid": 1,
+              "start": "4",
+              "name": "init",
+              "cpu": 0.2777777777777778,
+              "memoryBytes": 1499136,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1716,
+              "start": "21191",
+              "name": "sshd",
+              "cpu": 0,
+              "memoryBytes": 4116480,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1111,
+              "start": "2113",
+              "name": "rsyslogd",
+              "cpu": 0,
+              "memoryBytes": 3813376,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1237,
+              "start": "2497",
+              "name": "udevd",
+              "cpu": 0,
+              "memoryBytes": 2670592,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1239,
+              "start": "2497",
+              "name": "udevd",
+              "cpu": 0,
+              "memoryBytes": 2670592,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1207,
+              "start": "2409",
+              "name": "crond",
+              "cpu": 0,
+              "memoryBytes": 1396736,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 428,
+              "start": "714",
+              "name": "udevd",
+              "cpu": 0,
+              "memoryBytes": 1368064,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1195,
+              "start": "2395",
+              "name": "sshd",
+              "cpu": 0,
+              "memoryBytes": 1273856,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1089,
+              "start": "2078",
+              "name": "auditd",
+              "cpu": 0,
+              "memoryBytes": 888832,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1032,
+              "start": "2029",
+              "name": "dhclient",
+              "cpu": 0,
+              "memoryBytes": 729088,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 2026,
+              "start": "40907",
+              "name": "sleep",
+              "cpu": 0,
+              "memoryBytes": 622592,
+              "own": true,
+              "simulation": false
+            },
+            {
+              "pid": 1224,
+              "start": "2436",
+              "name": "agetty",
+              "cpu": 0,
+              "memoryBytes": 606208,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1227,
+              "start": "2458",
+              "name": "mingetty",
+              "cpu": 0,
+              "memoryBytes": 585728,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1238,
+              "start": "2497",
+              "name": "mingetty",
+              "cpu": 0,
+              "memoryBytes": 581632,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1235,
+              "start": "2489",
+              "name": "mingetty",
+              "cpu": 0,
+              "memoryBytes": 581632,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1233,
+              "start": "2483",
+              "name": "mingetty",
+              "cpu": 0,
+              "memoryBytes": 581632,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1229,
+              "start": "2464",
+              "name": "mingetty",
+              "cpu": 0,
+              "memoryBytes": 581632,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 1223,
+              "start": "2436",
+              "name": "mingetty",
+              "cpu": 0,
+              "memoryBytes": 581632,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 28,
+              "start": "15",
+              "name": "kblockd/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 36,
+              "start": "20",
+              "name": "ksuspend_usbd",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 17,
+              "start": "13",
+              "name": "events_power_ef",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 15,
+              "start": "13",
+              "name": "events_long/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 14,
+              "start": "13",
+              "name": "events/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 18,
+              "start": "13",
+              "name": "events_power_ef",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 13,
+              "start": "13",
+              "name": "events/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 19,
+              "start": "13",
+              "name": "cgroup",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 2,
+              "start": "4",
+              "name": "kthreadd",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 20,
+              "start": "13",
+              "name": "khelper",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 12,
+              "start": "12",
+              "name": "events/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 21,
+              "start": "14",
+              "name": "netns",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 22,
+              "start": "14",
+              "name": "async/mgr",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 23,
+              "start": "14",
+              "name": "pm",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 24,
+              "start": "15",
+              "name": "sync_supers",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 25,
+              "start": "15",
+              "name": "bdi-default",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 26,
+              "start": "15",
+              "name": "kintegrityd/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 265,
+              "start": "230",
+              "name": "scsi_eh_0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 266,
+              "start": "230",
+              "name": "scsi_eh_1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 27,
+              "start": "15",
+              "name": "kintegrityd/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 11,
+              "start": "12",
+              "name": "events/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 29,
+              "start": "15",
+              "name": "kblockd/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 3,
+              "start": "5",
+              "name": "migration/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 30,
+              "start": "15",
+              "name": "kacpid",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 31,
+              "start": "15",
+              "name": "kacpi_notify",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 32,
+              "start": "15",
+              "name": "kacpi_hotplug",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 33,
+              "start": "20",
+              "name": "ata_aux",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 339,
+              "start": "322",
+              "name": "jbd2/sda2-8",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 34,
+              "start": "20",
+              "name": "ata_sff/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 340,
+              "start": "323",
+              "name": "ext4-dio-unwrit",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 35,
+              "start": "20",
+              "name": "ata_sff/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 16,
+              "start": "13",
+              "name": "events_long/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 37,
+              "start": "20",
+              "name": "khubd",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 38,
+              "start": "20",
+              "name": "kseriod",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 39,
+              "start": "20",
+              "name": "md/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 4,
+              "start": "5",
+              "name": "ksoftirqd/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 40,
+              "start": "20",
+              "name": "md/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 41,
+              "start": "20",
+              "name": "md_misc/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 42,
+              "start": "20",
+              "name": "md_misc/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 10,
+              "start": "12",
+              "name": "watchdog/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 43,
+              "start": "20",
+              "name": "linkwatch",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 431,
+              "start": "720",
+              "name": "flush-8:0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 44,
+              "start": "88",
+              "name": "khungtaskd",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 45,
+              "start": "88",
+              "name": "kswapd0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 46,
+              "start": "88",
+              "name": "ksmd",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 47,
+              "start": "88",
+              "name": "khugepaged",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 48,
+              "start": "88",
+              "name": "aio/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 49,
+              "start": "88",
+              "name": "aio/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 5,
+              "start": "5",
+              "name": "stopper/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 50,
+              "start": "89",
+              "name": "crypto/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 51,
+              "start": "89",
+              "name": "crypto/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 58,
+              "start": "90",
+              "name": "kthrotld/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 59,
+              "start": "90",
+              "name": "kthrotld/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 6,
+              "start": "6",
+              "name": "watchdog/0",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 61,
+              "start": "120",
+              "name": "kpsmoused",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 62,
+              "start": "121",
+              "name": "usbhid_resumer",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 63,
+              "start": "122",
+              "name": "deferwq",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 7,
+              "start": "6",
+              "name": "migration/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 782,
+              "start": "1332",
+              "name": "kauditd",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 8,
+              "start": "6",
+              "name": "stopper/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 9,
+              "start": "6",
+              "name": "ksoftirqd/1",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 96,
+              "start": "156",
+              "name": "kdmremove",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            },
+            {
+              "pid": 97,
+              "start": "156",
+              "name": "kstriped",
+              "cpu": 0,
+              "memoryBytes": 0,
+              "own": false,
+              "simulation": false
+            }
+          ],
+          "alerts": [],
+          "notes": [
+            "GPU unavailable: NVIDIA driver/nvidia-smi missing or unsupported GPU"
+          ]
+        },
+        "thresholdAlerts": [
+          "Memory 8.9% ≥ 1.0%",
+          "Storage 26.3% ≥ 1.0%"
+        ],
+        "ownedProcessTermination": true,
+        "staleAndForeignPIDRejected": true
+      }
+    },
+    {
+      "name": "calculator-formulas-variables-errors",
+      "status": "PASS",
+      "seconds": 0.057,
+      "evidence": [
+        {
+          "angle": "rad",
+          "expression": "1/(2*pi*R*C)",
+          "formatted": "159154.943092",
+          "value": 159154.94309189534,
+          "variables": {
+            "C": 1e-09,
+            "R": 1000
+          }
+        },
+        {
+          "angle": "rad",
+          "expression": "gain",
+          "formatted": "40",
+          "value": 40,
+          "variables": {
+            "a": 0.01,
+            "b": 1,
+            "gain": 40
+          }
+        },
+        {
+          "angle": "deg",
+          "expression": "sin(30)+cos(60)",
+          "formatted": "1",
+          "value": 1,
+          "variables": {}
+        },
+        {
+          "angle": "rad",
+          "expression": "-2^2+2^3^2",
+          "formatted": "508",
+          "value": 508,
+          "variables": {}
+        }
+      ]
+    },
+    {
+      "name": "analysis-formats-waveforms-inline-ai",
+      "status": "PASS",
+      "seconds": 0.394,
+      "evidence": {
+        "csv": {
+          "name": "analog.csv",
+          "text": "time_s,voltage\n0,0\n1e-9,0.5\n2e-9,1\n",
+          "format": "CSV",
+          "timescale": "time_s",
+          "signals": [
+            {
+              "name": "voltage",
+              "digital": false,
+              "points": [
+                {
+                  "t": 0,
+                  "v": 0
+                },
+                {
+                  "t": 1e-09,
+                  "v": 0.5
+                },
+                {
+                  "t": 2e-09,
+                  "v": 1
+                }
+              ]
+            }
+          ],
+          "limited": false,
+          "diagnostics": []
+        },
+        "vcd": {
+          "name": "digital.vcd",
+          "text": "$timescale 1ns $end\n$scope module tb $end\n$var wire 1 ! clk $end\n$upscope $end\n$enddefinitions $end\n#0\n0!\n#5\n1!\n#10\nx!\n",
+          "format": "VCD",
+          "timescale": "1ns",
+          "signals": [
+            {
+              "name": "tb.clk",
+              "digital": true,
+              "points": [
+                {
+                  "t": 0,
+                  "v": 0,
+                  "raw": "0"
+                },
+                {
+                  "t": 5,
+                  "v": 1,
+                  "raw": "1"
+                },
+                {
+                  "t": 10,
+                  "v": null,
+                  "raw": "x"
+                }
+              ]
+            }
+          ],
+          "limited": false,
+          "diagnostics": []
+        },
+        "inlineAI": {
+          "content": "日志中明确报告的问题是：R1电阻的阻值为负值，-100欧姆。引用原文：ERROR: R1 resistance is negative (-100 ohm). Simulation stopped.",
+          "demo": false,
+          "limited": false
+        },
+        "noChatNavigationOrSessionCreated": true
+      }
+    },
+    {
+      "name": "code-real-ai-python-check-repair-format-save",
+      "status": "PASS",
+      "seconds": 2.43,
+      "evidence": {
+        "generated": {
+          "code": "def add(a, b):\n    \"\"\"\n    Adds two numbers, returning their sum.\n    \n    Parameters:\n        a (int or float): First operand\n        b (int or float): Second operand\n        \n    Returns:\n        int or float: The sum of a and b\n    \"\"\"\n    return a + b\n",
+          "demo": false,
+          "extension": ".py",
+          "validated": false
+        },
+        "realPython26Check": {
+          "codeResult": {
+            "language": "python",
+            "mode": "check",
+            "base": "def add(a, b):\n    \"\"\"\n    Adds two numbers, returning their sum.\n    \n    Parameters:\n        a (int or float): First operand\n        b (int or float): Second operand\n        \n    Returns:\n        int or float: The sum of a and b\n    \"\"\"\n    return a + b\n",
+            "code": "def add(a, b):\n    \"\"\"\n    Adds two numbers, returning their sum.\n    \n    Parameters:\n        a (int or float): First operand\n        b (int or float): Second operand\n        \n    Returns:\n        int or float: The sum of a and b\n    \"\"\"\n    return a + b\n",
+            "stage": "succeeded",
+            "summary": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+            "checks": [
+              {
+                "round": 1,
+                "passed": true,
+                "executed": true,
+                "log": "",
+                "diagnostics": []
+              }
+            ],
+            "repairs": 0,
+            "maxRepairs": 0,
+            "demo": false
+          },
+          "command": {
+            "executable": "/usr/bin/python",
+            "args": [
+              "-m",
+              "py_compile",
+              "{file}"
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "/home/icw/validation/fixtures/global.sh",
+            "shell": "/bin/bash"
+          },
+          "directory": "",
+          "id": "fa77fef5150921a6feeb50ea",
+          "kind": "compile",
+          "name": "Code check · python",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:50Z",
+          "finished": "2026-09-25T16:46:50Z",
+          "log": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+          "error": ""
+        },
+        "improved": {
+          "code": "def add(a, b):\n    return a + b",
+          "demo": false,
+          "summary": "Made the return statement a + b instead of a - b, which is correct and valid in Python. The code now follows the correct syntax for the + operator instead of - operator in this case.",
+          "validated": false
+        },
+        "realAIRepairAndRecheck": {
+          "codeResult": {
+            "language": "python",
+            "mode": "repair",
+            "base": "def add(a, b)\n    return a + b\n",
+            "code": "def add(a, b):\n    return a + b",
+            "stage": "succeeded",
+            "summary": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+            "checks": [
+              {
+                "round": 1,
+                "passed": false,
+                "executed": true,
+                "log": "SyntaxError: ('invalid syntax', ('/home/icw/validation/data/.code-check-1926280080/design.py', 1, 14, 'def add(a, b)\\n'))\n",
+                "error": "exit status 1",
+                "diagnostics": []
+              },
+              {
+                "round": 2,
+                "passed": true,
+                "executed": true,
+                "log": "",
+                "diagnostics": []
+              }
+            ],
+            "repairs": 1,
+            "maxRepairs": 2,
+            "demo": false
+          },
+          "command": {
+            "executable": "/usr/bin/python",
+            "args": [
+              "-m",
+              "py_compile",
+              "{file}"
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "/home/icw/validation/fixtures/global.sh",
+            "shell": "/bin/bash"
+          },
+          "directory": "",
+          "id": "a5ca299e4f87c6aefbfb702f",
+          "kind": "compile",
+          "name": "Code repair · python",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:51Z",
+          "finished": "2026-09-25T16:46:51Z",
+          "log": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+          "error": ""
+        },
+        "selectedFormatFixture": {
+          "codeResult": {
+            "language": "python",
+            "mode": "format",
+            "base": "def add(a, b):  \n    return a + b   \n",
+            "code": "def add(a, b):  \n    return a + b\n",
+            "stage": "succeeded",
+            "summary": "格式化候选，尚未应用 / Formatting candidate, not applied",
+            "checks": [],
+            "repairs": 0,
+            "maxRepairs": 0,
+            "demo": false
+          },
+          "command": {
+            "executable": "/usr/bin/python",
+            "args": [
+              "/home/icw/validation/fixtures/format.py",
+              "{file}",
+              "{startLine}",
+              "{endLine}"
+            ]
+          },
+          "environment": {
+            "id": "",
+            "name": "",
+            "version": "",
+            "executable": "",
+            "args": null,
+            "setup": "/home/icw/validation/fixtures/global.sh",
+            "shell": "/bin/bash"
+          },
+          "directory": "",
+          "id": "9d514c3fbac100c604f0e976",
+          "kind": "compile",
+          "name": "Code format · python",
+          "status": "succeeded",
+          "created": "2026-09-25T16:46:51Z",
+          "finished": "2026-09-25T16:46:52Z",
+          "log": "格式化候选，尚未应用 / Formatting candidate, not applied",
+          "error": ""
+        },
+        "exclusiveSave": true
+      }
+    },
+    {
+      "name": "chat-real-model-tools-and-scopes",
+      "status": "PASS",
+      "seconds": 9.799,
+      "evidence": {
+        "ordinaryQuestion": {
+          "id": "92ab10b5271107ce5741b600",
+          "session": "d4dd7f95a12941e559aa13ff",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:46:52Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:46:52Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:46:55Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "欧姆定律指出，通过欧姆的电路中的电流与两端电压成正比，电压与电阻成正比，且电流与电阻成反比。",
+          "error": ""
+        },
+        "calculatorTool": {
+          "id": "c7bb5e2f36ed022c5626ca25",
+          "session": "8edb3ec37104d2c50c0c4974",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:46:55Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:46:55Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:46:56Z",
+              "stage": "tool",
+              "text": "calculate · running"
+            },
+            {
+              "time": "2026-09-25T16:46:56Z",
+              "stage": "result",
+              "text": "calculate · completed"
+            },
+            {
+              "time": "2026-09-25T16:46:56Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 2"
+            },
+            {
+              "time": "2026-09-25T16:46:56Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "计算结果为 **56**。\n\n[Tool receipts]\ncalculate · completed",
+          "error": ""
+        },
+        "projectScope": {
+          "id": "35855c8456d6c63da236bf9d",
+          "session": "05c2d2bcfb6fd5df47afdcae",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:46:56Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:46:56Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:46:58Z",
+              "stage": "tool",
+              "text": "browse · running"
+            },
+            {
+              "time": "2026-09-25T16:46:58Z",
+              "stage": "result",
+              "text": "browse · completed"
+            },
+            {
+              "time": "2026-09-25T16:46:58Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 2"
+            },
+            {
+              "time": "2026-09-25T16:46:59Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "Gain is 61 dB.\n\n[Tool receipts]\nbrowse · completed",
+          "error": ""
+        },
+        "folderScope": {
+          "id": "ef0178040b8e52dcc6ade251",
+          "session": "91f15be7f6bf66aefb08422f",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:46:59Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:46:59Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:47:01Z",
+              "stage": "tool",
+              "text": "browse · running"
+            },
+            {
+              "time": "2026-09-25T16:47:01Z",
+              "stage": "result",
+              "text": "browse · completed"
+            },
+            {
+              "time": "2026-09-25T16:47:01Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 2"
+            },
+            {
+              "time": "2026-09-25T16:47:02Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "The contents of `extra.log` are:\n\n```\nQEMU_UNIQUE_NEEDLE second-root\n```\n\nLet me know if you need anything else!\n\n[Tool receipts]\nbrowse · completed",
+          "error": ""
+        }
+      }
+    },
+    {
+      "name": "agent-readonly-approval-denial-cancel",
+      "status": "PASS",
+      "seconds": 6.758,
+      "evidence": {
+        "readonly": {
+          "id": "fb6072865bfbd472c9d2937d",
+          "session": "fd4e9b572b9ed744f9325402",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:47:02Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:47:02Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:47:04Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 2"
+            },
+            {
+              "time": "2026-09-25T16:47:05Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "The platform action \"run-plugin\" was not enabled for this message. Please ensure that the platform's configuration allows the use of this action for running plugins. If the issue persists, please provide more details or contact the platform administrator for assistance.",
+          "error": ""
+        },
+        "approval": {
+          "id": "521b42755a6273d00ef37154",
+          "session": "99bdf811a55d9fce06574b06",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:47:05Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:47:05Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:47:05Z",
+              "stage": "approval",
+              "text": "run-plugin"
+            },
+            {
+              "time": "2026-09-25T16:47:06Z",
+              "stage": "tool",
+              "text": "run-plugin · running"
+            },
+            {
+              "time": "2026-09-25T16:47:06Z",
+              "stage": "result",
+              "text": "run-plugin · completed"
+            },
+            {
+              "time": "2026-09-25T16:47:06Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 2"
+            },
+            {
+              "time": "2026-09-25T16:47:07Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "The plugin \"qemu-echo\" has been executed successfully. The command executed was: `printf \"plugin:%s\\\" \\\"$ICW_GLOBAL\\\"` with the output showing the plugin status and global values. The result was successfully queued. Let me know if you need further assistance!\n\n[Tool receipts]\nrun-plugin · completed",
+          "error": ""
+        },
+        "rejected": {
+          "id": "fa0765438e02d5fdd25b9e21",
+          "session": "356f0cb9b178208d0b4de26c",
+          "status": "completed",
+          "events": [
+            {
+              "time": "2026-09-25T16:47:07Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:47:07Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:47:07Z",
+              "stage": "approval",
+              "text": "run-plugin"
+            },
+            {
+              "time": "2026-09-25T16:47:08Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 2"
+            },
+            {
+              "time": "2026-09-25T16:47:08Z",
+              "stage": "completed",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "The user declined the action. Please try again.",
+          "error": ""
+        },
+        "cancelled": {
+          "id": "655a73532f76b28b70f7a147",
+          "session": "68bdc2c32546d29297c8ca26",
+          "status": "cancelled",
+          "events": [
+            {
+              "time": "2026-09-25T16:47:08Z",
+              "stage": "context",
+              "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+            },
+            {
+              "time": "2026-09-25T16:47:08Z",
+              "stage": "model",
+              "text": "模型推理 / Model round 1"
+            },
+            {
+              "time": "2026-09-25T16:47:08Z",
+              "stage": "cancelled",
+              "text": "Agent finished"
+            }
+          ],
+          "content": "\n[Agent stopped] context canceled",
+          "error": "context canceled"
+        }
+      }
+    },
+    {
+      "name": "local-storage-compression-conflict-no-backup",
+      "status": "PASS",
+      "seconds": 1.085,
+      "evidence": {
+        "usage": {
+          "bytes": 15780,
+          "categories": {
+            "backups": 1002,
+            "drafts": 487,
+            "metadata": 14280,
+            "other": 11
+          },
+          "directory": "/home/icw/validation/data",
+          "limited": false,
+          "stateLimit": 67108864,
+          "unreadable": 0,
+          "workspaceLimit": 12582912
+        },
+        "sizes": "14280 /home/icw/validation/data/state.json\n  487 /home/icw/validation/data/workspace.json.gz\n14767 total\nstate.json\nMODE\nworkspace.json.gz\n.lock\npre-migration-bdf98427e253ed8af4e2c84d.json\n",
+        "permissions": "600 /home/icw/validation/data/state.json\n600 /home/icw/validation/data/workspace.json.gz\n",
+        "revision": 2,
+        "conflictRejected": true
+      }
+    },
+    {
+      "name": "projects-files-search-permissions",
+      "status": "PASS",
+      "seconds": 0.151,
+      "evidence": {
+        "search": {
+          "bytesRead": 123,
+          "cancelled": false,
+          "cursor": "{\"inFile\":false,\"key\":\"upgrade-sentinel|/home/icw/validation/upgrade-project|design.v\",\"offset\":0,\"line\":0,\"size\":0,\"modified\":0}",
+          "hits": [
+            {
+              "line": 2,
+              "path": "design.txt",
+              "project": "qemu-project",
+              "root": "/home/icw/validation/projects/alpha",
+              "snippet": "QEMU_UNIQUE_NEEDLE"
+            },
+            {
+              "line": 1,
+              "path": "extra.log",
+              "project": "qemu-project",
+              "root": "/home/icw/validation/projects/beta",
+              "snippet": "QEMU_UNIQUE_NEEDLE second-root"
+            }
+          ],
+          "more": false,
+          "scanned": 6,
+          "skipped": 3
+        },
+        "fileNoteVisible": true,
+        "permissionAndPathBoundaries": true
+      }
+    }
+  ]
+}

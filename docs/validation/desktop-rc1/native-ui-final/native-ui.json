@@ -1,0 +1,64 @@
+{
+  "errors": [], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.7.0-rc1", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 9.0899999999999999, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.3199999999999998, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.01, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.0700000000000001, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.26000000000000001, 
+      "name": "Calculator variables and disk-persisted result"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.5899999999999999, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.73, 
+      "name": "Native plugin registration and real bounded execution"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.46000000000000002, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.6499999999999999, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.81999999999999995, 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 505
+}

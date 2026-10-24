@@ -1,0 +1,20 @@
+.DS_Store
+._*
+.env
+.env.*
+!.env.example
+node_modules/
+reference-sandbox/
+runtime-data/
+secrets/
+.config.local.json
+build/
+__pycache__/
+
+# Keep local company proposal materials and historical installers off GitHub.
+docs/project-proposal/
+release/*.tar.gz
+!release/ic-workbench-0.8.0-rc3-linux-amd64-production.tar.gz
+release/SHA256SUMS
+*.pyc
+*.pyo

@@ -1,0 +1,88 @@
+{
+  "errors": [
+    "'ascii' codec can't encode character u'\\u2014' in position 0: ordinal not in range(128)"
+  ], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.8.0-rc1", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 9.0399999999999991, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.3700000000000001, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.91000000000000003, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.0600000000000001, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.27000000000000002, 
+      "traceback": "Traceback (most recent call last):\n  File \"/home/icw/engineering-rc1/tests/native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/home/icw/engineering-rc1/tests/native_guest.py\", line 81, in calculator\n    assert abs(api.request('workspace')['data']['calculator']['result']['value']-1e-5)<1e-12\nKeyError: u'result'\n", 
+      "name": "Calculator variables and disk-persisted result", 
+      "error": "u'result'"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.5800000000000001, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.8600000000000001, 
+      "name": "Native plugin registration and real bounded execution"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.46999999999999997, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.54, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.81999999999999995, 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.76, 
+      "name": "Native parameter form, backend preview and bounded AI draft"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.65000000000000002, 
+      "name": "Native CSV conversion, specification and mismatched PVT rejection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 2.27, 
+      "name": "Real Qwen3 coordinated two-file proposal, native review, apply, execution and undo"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.51000000000000001, 
+      "name": "Native readable answer keeps original structured receipts available"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 500
+}

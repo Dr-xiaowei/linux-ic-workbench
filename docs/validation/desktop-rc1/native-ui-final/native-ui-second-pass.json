@@ -1,0 +1,70 @@
+{
+  "errors": [
+    "json: cannot unmarshal number into Go struct field Plugin.plugins.enabled of type bool"
+  ], 
+  "nativeWidgets": true, 
+  "toolkit": "Tk 8.5.7", 
+  "backendStopped": true, 
+  "version": "0.7.0-rc1", 
+  "checks": [
+    {
+      "status": "PASS", 
+      "seconds": 9.1300000000000008, 
+      "name": "All ten native workspaces render without Tk callback errors"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.3999999999999999, 
+      "name": "Native project form, directory browser, annotation and keyword search"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.91000000000000003, 
+      "name": "Code native import, apply/undo and stale-proposal conflict protection"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.1200000000000001, 
+      "name": "Native CSV waveform canvas supports zoom and pan"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.27000000000000002, 
+      "name": "Calculator variables and disk-persisted result"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 3.5299999999999998, 
+      "name": "Software registration, version environment selection and actual command"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 16.010000000000002, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 96, in plugin\n    wait(lambda:len(app.plugin_table.rows)>0);app.plugin_table.select(len(app.plugin_table.rows)-1);pump()\n  File \"/tmp/desktop_native_guest.py\", line 29, in wait\n    raise AssertionError('UI condition timed out')\nAssertionError: UI condition timed out\n", 
+      "name": "Native plugin registration and real bounded execution", 
+      "error": "UI condition timed out"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 0.46999999999999997, 
+      "name": "Actual Linux resources and truthful unavailable GPU"
+    }, 
+    {
+      "status": "PASS", 
+      "seconds": 1.55, 
+      "name": "Native settings save/automatic environment reload and bilingual UI"
+    }, 
+    {
+      "status": "FAIL", 
+      "seconds": 0.66000000000000003, 
+      "traceback": "Traceback (most recent call last):\n  File \"/tmp/desktop_native_guest.py\", line 44, in check\n    try:fn();record={'name':name,'status':'PASS'}\n  File \"/tmp/desktop_native_guest.py\", line 122, in persistence\n    assert not errors,errors\nAssertionError: ['json: cannot unmarshal number into Go struct field Plugin.plugins.enabled of type bool']\n", 
+      "name": "Persistent drafts, API-only backend and repeat command focuses same client", 
+      "error": "['json: cannot unmarshal number into Go struct field Plugin.plugins.enabled of type bool']"
+    }, 
+    {
+      "status": "PASS", 
+      "name": "Closing native client stops its owned backend"
+    }
+  ], 
+  "uid": 505
+}

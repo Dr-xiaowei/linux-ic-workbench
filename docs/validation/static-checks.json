@@ -1,0 +1,8 @@
+{
+  "goVet": true,
+  "javascriptSyntax": true,
+  "shellSyntax": true,
+  "pythonSyntax": true,
+  "localMarkdownLinks": 218,
+  "packages": "all checksums, isolation, ELF match verified"
+}

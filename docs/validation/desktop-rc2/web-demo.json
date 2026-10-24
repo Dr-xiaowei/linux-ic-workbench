@@ -1,0 +1,8 @@
+{
+  "version": "0.7.0-rc2",
+  "liveDemoOpens": true,
+  "nativeDistinction": true,
+  "tenPages": true,
+  "defaultLinuxOff": true,
+  "errors": []
+}

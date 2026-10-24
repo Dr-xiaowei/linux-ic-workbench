@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-25T15:43:29.050893+00:00",
+  "host": "macOS ARM64",
+  "note": "Point-in-time workbench server only; browser and external MCP not included; not Linux load certification",
+  "liveDemoRSSMiB": 15.02,
+  "liveDemoCPUPercent": 0.0,
+  "qaRSSMiB": 16.83,
+  "draftUncompressedBytes": 147036,
+  "draftCompressedBytes": 15598,
+  "draftReductionPercent": 89.39,
+  "frontEndBytes": 119458
+}

@@ -1,0 +1,98 @@
+FFF.FFFF.FE
+======================================================================
+ERROR: test_search_response_cannot_replace_directory (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 110, in test_search_response_cannot_replace_directory
+    self.assertEqual('directory-result', a.file_table.rows[0]['name'])
+KeyError: 'name'
+
+======================================================================
+FAIL: test_changed_query_does_not_reuse_old_cursor (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 115, in test_changed_query_does_not_reuse_old_cursor
+    self.assertEqual('', a.pending[1][1]['cursor'])
+AssertionError: '' != 'cursor-old'
++ cursor-old
+
+======================================================================
+FAIL: test_directory_response_cannot_replace_search (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 105, in test_directory_response_cannot_replace_search
+    self.assertEqual('search-result', a.file_table.rows[0]['path'])
+AssertionError: 'search-result' != 'directory-result'
+- search-result
++ directory-result
+
+
+======================================================================
+FAIL: test_leaving_directory_invalidates_file_preview (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 127, in test_leaving_directory_invalidates_file_preview
+    self.assertEqual('', self.preview())
+AssertionError: '' != 'stale content'
++ stale content
+
+======================================================================
+FAIL: test_old_directory_cannot_replace_new_directory (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 89, in test_old_directory_cannot_replace_new_directory
+    self.assertEqual('new-file', a.file_table.rows[0]['name'])
+AssertionError: 'new-file' != 'old-file'
+- new-file
++ old-file
+
+
+======================================================================
+FAIL: test_old_file_cannot_replace_new_file_preview (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 121, in test_old_file_cannot_replace_new_file_preview
+    self.assertEqual('B content', self.preview())
+AssertionError: 'B content' != 'A content'
+- B content
+? ^
++ A content
+? ^
+
+
+======================================================================
+FAIL: test_old_root_cannot_replace_new_root (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 94, in test_old_root_cannot_replace_new_root
+    self.assertEqual('other-root-file', a.file_table.rows[0]['name'])
+AssertionError: 'other-root-file' != 'wrong-root-file'
+- other-root-file
+?  ^^^^
++ wrong-root-file
+? ++ ^^
+
+
+======================================================================
+FAIL: test_old_search_cannot_replace_new_search (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 99, in test_old_search_cannot_replace_new_search
+    self.assertEqual('power', a.file_table.rows[0]['path'])
+AssertionError: 'power' != 'gain'
+- power
++ gain
+
+
+======================================================================
+FAIL: test_queue_full_restores_save_and_keeps_unsaved_data (__main__.DesktopAsyncTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<project>/tests/desktop_async_regression.py", line 68, in test_queue_full_restores_save_and_keeps_unsaved_data
+    self.assertFalse(a.saving)
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+FAILED (failures=8, errors=1)

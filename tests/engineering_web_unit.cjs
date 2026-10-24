@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const text=fs.readFileSync('internal/workbench/web/app.js','utf8');
+const start=text.indexOf('function formatMessage('),end=text.indexOf('async function renderChat',start);
+const context={tr:(zh,en)=>zh,esc:v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),json:v=>JSON.stringify(v,null,2)};
+vm.createContext(context);vm.runInContext(text.slice(start,end),context);
+const old='结果已读取\n{"entries":[{"name":"<img src=x onerror=alert(1)>"}]}\n\n[Tool receipts]\nbrowse · completed';
+const output=context.formatMessage(old);
+assert(output.includes('<details class="message-receipt">'));assert(!output.includes('<img'));assert(output.includes('&lt;img'));assert(output.includes('结果已读取'));
+const code=context.formatMessage('```sv\nmodule x; // <script>\nendmodule\n```');assert(code.includes('module x; // &lt;script&gt;'));assert(!code.includes('<script>'));
+assert(context.formatMessage('## 标题\n**事实**\n- 证据').includes('<h3>标题</h3>'));
+console.log('PASS: legacy JSON and receipts collapsed; HTML injection escaped; fenced HDL preserved; readable headings');

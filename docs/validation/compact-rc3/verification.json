@@ -1,0 +1,15 @@
+{
+  "backendCentOS": {
+    "PASS": 79,
+    "FAIL": 0,
+    "SKIP": 2
+  },
+  "tkTests": 13,
+  "nativeWorkflows": 14,
+  "archiveChecksumsVerified": 29,
+  "testedRuntimeMatchesArchive": true,
+  "realModelRerun": false,
+  "companyEDA": false,
+  "strictUmask": "077",
+  "toolchainArchiveTests": 3
+}

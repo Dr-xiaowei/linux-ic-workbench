@@ -1,0 +1,10 @@
+PASS model configuration auto-load 
+PASS general engineering question with numeric reference 
+PASS EDA text analysis with grounded missing-model evidence 
+PASS Verilog generation and actual syntax checker 
+PASS imported source optimization and independent numeric tests 
+PASS compiler diagnostics -> AI repair -> real CentOS recheck 
+PASS platform Agent calculator tool result 
+FAIL Linux Agent actual command and UID {'id': 'fbfc09f1db16bce4929521a1', 'session': 'fca846c14291ba3e58be9147', 'status': 'completed', 'events': [{'time': '2026-09-26T05:36:13Z', 'stage': 'context', 'text': '读取会话与用户选中的
+FAIL Linux Agent multi-step file creation and verification Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat 
+SUMMARY 7 / 9

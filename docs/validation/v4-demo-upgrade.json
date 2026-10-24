@@ -1,0 +1,21 @@
+{
+  "time": "2026-09-25T14:01:33.829888+00:00",
+  "fromSchema": 4,
+  "toSchema": 5,
+  "allOldFieldsPreserved": true,
+  "oldBytes": 72338,
+  "newBytes": 70402,
+  "backupSHA256": "837a7e00515ed2230db76198979a720e8fc9175de0812856543afd7ae9c6d6e4",
+  "version": "0.4.0-rc1",
+  "counts": {
+    "projects": 1,
+    "software": 3,
+    "fileNotes": 2,
+    "sessions": 2,
+    "batches": 1,
+    "jobs": 1,
+    "plugins": 1,
+    "operations": 0,
+    "mcpConnections": 0
+  }
+}

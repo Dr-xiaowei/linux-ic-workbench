@@ -1,0 +1,65 @@
+{
+  "codeResult": {
+    "language": "python",
+    "mode": "repair",
+    "base": "def add(a,b)\n    return a+b\n",
+    "code": "def add(a, b):\n    return a + b",
+    "stage": "succeeded",
+    "summary": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+    "checks": [
+      {
+        "round": 1,
+        "passed": false,
+        "executed": true,
+        "log": "SyntaxError: ('invalid syntax', ('/home/icwgui/.local/share/ic-workbench/production/.code-check-3095054728/design.py', 1, 13, 'def add(a,b)\\n'))\n",
+        "error": "exit status 1",
+        "diagnostics": [
+          {
+            "file": "/home/icwgui/.local/share/ic-workbench/production/.code-check-3095054728/design.py",
+            "line": 1,
+            "column": 13,
+            "severity": "error",
+            "message": "SyntaxError: invalid syntax",
+            "currentFile": true
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "executed": true,
+        "log": "",
+        "diagnostics": []
+      }
+    ],
+    "repairs": 1,
+    "maxRepairs": 2,
+    "demo": false
+  },
+  "command": {
+    "executable": "/usr/bin/python",
+    "args": [
+      "-m",
+      "py_compile",
+      "{file}"
+    ]
+  },
+  "environment": {
+    "id": "",
+    "name": "",
+    "version": "",
+    "executable": "",
+    "args": null,
+    "setup": "",
+    "shell": "/bin/bash"
+  },
+  "directory": "",
+  "id": "0fdcf6d3194dacea131521a3",
+  "kind": "compile",
+  "name": "Code repair · python",
+  "status": "succeeded",
+  "created": "2026-09-26T05:46:27Z",
+  "finished": "2026-09-26T05:46:30Z",
+  "log": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+  "error": ""
+}

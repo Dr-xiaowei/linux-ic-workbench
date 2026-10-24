@@ -1,0 +1,10 @@
+=== RUN   TestCodeDiagnosticsAndBackupDisabled
+--- PASS: TestCodeDiagnosticsAndBackupDisabled (0.04s)
+=== RUN   TestPython26TupleDiagnostics
+--- PASS: TestPython26TupleDiagnostics (0.00s)
+=== RUN   TestCodeRepairBudgetValidationAndCancellation
+--- PASS: TestCodeRepairBudgetValidationAndCancellation (0.25s)
+=== RUN   TestCodeFormattingBoundariesOutputAndFailure
+--- PASS: TestCodeFormattingBoundariesOutputAndFailure (0.23s)
+PASS
+ok  	icworkbench/internal/workbench	0.976s

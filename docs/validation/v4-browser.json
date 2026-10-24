@@ -1,0 +1,17 @@
+{
+  "time": "2026-09-25T13:55:53.400Z",
+  "checks": [
+    "UTF-8 import detects Verilog; exact original retained; AI proposal shown beside input without applying",
+    "Pending proposal, requirements and source survive browser reload",
+    "Apply and undo restore exact pre-application draft",
+    "Replacing a language draft archives it; history restores code and original",
+    "Stale AI proposal cannot overwrite subsequent edits",
+    "Binary/non-UTF-8 import rejected; source and export extension preserved",
+    "Calculator result, analysis history/answer and unsent chat survive reload",
+    "Storage usage displays host path and bytes; unchanged backups deduplicate",
+    "Two-page conflict returns 409, preserves saved data, exports unsaved recovery and reloads safely",
+    "English controls and 760px layout; no unexpected console errors"
+  ],
+  "errors": [],
+  "mode": "isolated offline Demo, local browser; no real GLM or commercial EDA"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "version": "0.5.0-rc2",
+  "archiveSHA256": "c27de97ffea49a378150bd0c98b77460afdbb7326348d734421e35887d360228",
+  "archiveBytes": 10776075,
+  "packageChecksumVerification": "c27de97ffea49a378150bd0c98b77460afdbb7326348d734421e35887d360228  /home/icw/validation/v5-rc2.tar.gz\nreleases/0.5.0-rc2-production\nstart.sh: OK\nInstalled /home/icw/validation/app/releases/0.5.0-rc2-production\nStart: /home/icw/validation/app/current-production/start.sh\n",
+  "dataWorkspaceConfigBytesPreserved": true,
+  "startupValidation": {
+    "time": "2026-09-25T17:42:56Z",
+    "model": "connected",
+    "environment": "ready",
+    "details": []
+  },
+  "python26LineFixInDeliveredBinary": [
+    {
+      "file": "/home/icw/validation/data/.code-check-2305447276/design.py",
+      "line": 1,
+      "column": 8,
+      "severity": "error",
+      "message": "SyntaxError: invalid syntax",
+      "currentFile": true
+    }
+  ]
+}

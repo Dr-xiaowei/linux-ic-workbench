@@ -1,0 +1,26 @@
+?   	icworkbench/cmd/workbench	[no test files]
+--- FAIL: TestChangeSetProductionConflictUndoAndRestart (0.04s)
+panic: httptest: failed to listen on a port: listen tcp6 [::1]:0: bind: operation not permitted [recovered]
+	panic: httptest: failed to listen on a port: listen tcp6 [::1]:0: bind: operation not permitted
+
+goroutine 72 [running]:
+testing.tRunner.func1.2({0x100c7a320, 0xc00028a270})
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/testing/testing.go:1632 +0x2c4
+testing.tRunner.func1()
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/testing/testing.go:1635 +0x47c
+panic({0x100c7a320?, 0xc00028a270?})
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/runtime/panic.go:791 +0x124
+net/http/httptest.newLocalListener()
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/net/http/httptest/server.go:71 +0x144
+net/http/httptest.NewUnstartedServer(...)
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/net/http/httptest/server.go:119
+net/http/httptest.NewServer({0x100d361a0, 0x100d31068})
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/net/http/httptest/server.go:106 +0x30
+icworkbench/internal/workbench.TestChangeSetProductionConflictUndoAndRestart(0xc0001faea0)
+	<project>/internal/workbench/iteration_test.go:65 +0x2a0
+testing.tRunner(0xc0001faea0, 0x100d30d00)
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/testing/testing.go:1690 +0x188
+created by testing.(*T).Run in goroutine 1
+	/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/icw-go-wqpy_cfy/go/src/testing/testing.go:1743 +0x5e4
+FAIL	icworkbench/internal/workbench	1.747s
+FAIL

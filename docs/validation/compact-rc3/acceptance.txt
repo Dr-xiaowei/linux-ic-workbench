@@ -1,0 +1,2 @@
+Acceptance evidence: /home/icw/compact-rc3/icw-acceptance-20261013-220438
+Temporary demo data retained: /tmp/icw-acceptance.34O81q

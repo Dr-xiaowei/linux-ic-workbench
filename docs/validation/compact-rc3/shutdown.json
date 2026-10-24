@@ -1,0 +1,9 @@
+{
+  "qemuStopped": true,
+  "pid": 82366,
+  "testXvfbStopped": true,
+  "testBackendsStopped": true,
+  "environmentFilesRetained": true,
+  "demoPort": 18766,
+  "demoKeptRunning": true
+}

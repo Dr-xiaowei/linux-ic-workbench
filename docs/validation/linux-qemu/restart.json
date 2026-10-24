@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "badConfiguration": {
+    "time": "2026-09-25T17:13:34Z",
+    "model": "failed",
+    "environment": "failed",
+    "details": [
+      "Environment load failed: exit status 1",
+      "model connection failed: Post \"http://127.0.0.1:9/v1/chat/completions\": dial tcp 127.0.0.1:9: connect: connection refused"
+    ]
+  },
+  "recoveredConfiguration": {
+    "time": "2026-09-25T17:13:34Z",
+    "model": "connected",
+    "environment": "ready",
+    "details": []
+  },
+  "startupAutoLoad": {
+    "time": "2026-09-25T17:13:36Z",
+    "model": "connected",
+    "environment": "ready",
+    "details": []
+  },
+  "newLoginToken": true,
+  "duplicateProcessRejected": "2026/09/26 01:13:35 data directory already in use",
+  "preferencesPreserved": true,
+  "stateWorkspaceConfigByteForBytePreserved": true,
+  "workspaceRevisionAfterRestart": 28,
+  "globalEnvironmentActuallyLoaded": "plugin:loaded",
+  "preRestartChecksums": "cbad2c653d0e8df5c6aa5aae3b159aa6246ebb39d6c7601c57c1d873f558c374  /home/icw/validation/data/state.json\n1f91dc407c8a589dc9d9a4c3e681232b38c10d4e73707be5348a9f417e190b08  /home/icw/validation/data/workspace.json.gz\na771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31  /home/icw/validation/config/config.json\n"
+}

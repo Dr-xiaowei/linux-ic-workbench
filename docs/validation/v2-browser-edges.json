@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Manual multi-path project creation + escaped description",
+    "Manual software and multiple version rows",
+    "Single-plugin form defaults disabled",
+    "Project result import and CSV export",
+    "Optimization form submits bounded RC trials",
+    "Traversal rejected"
+  ],
+  "errors": [],
+  "time": "2026-09-23T14:33:36.437Z"
+}

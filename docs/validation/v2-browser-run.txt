@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "8-page shell and chat welcome",
+    "Demo Agent actual browse tool + progress + receipts",
+    "Conversation rename and answer copy",
+    "File annotation visible + content keyword search",
+    "Project VCD browse/import + zoom",
+    "Shared command + version environment + operation receipt",
+    "Plugin manifest import + demo execution",
+    "Synthetic telemetry + terminate only synthetic task",
+    "HDL split editor + generation + .sv export",
+    "Settings save/autoload + visible validation",
+    "English + narrow layout without horizontal overflow"
+  ],
+  "errors": []
+}

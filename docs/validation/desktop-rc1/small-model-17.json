@@ -1,0 +1,264 @@
+{
+  "model": "Qwen3-1.7B-Q8_0",
+  "backend": "CentOS 6.9 production native desktop API",
+  "inference": "host llama.cpp b11146 via loopback SSH",
+  "checks": [
+    {
+      "name": "model configuration auto-load",
+      "status": "PASS",
+      "evidence": {
+        "time": "2026-09-26T05:30:04Z",
+        "model": "connected",
+        "environment": "ready",
+        "details": []
+      },
+      "seconds": 0.38
+    },
+    {
+      "name": "general engineering question with numeric reference",
+      "status": "PASS",
+      "evidence": {
+        "id": "b5f1242674f6714380df2716",
+        "session": "2a7a68ec66779d0b6270a32a",
+        "status": "completed",
+        "events": [
+          {
+            "time": "2026-09-26T05:30:04Z",
+            "stage": "context",
+            "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+          },
+          {
+            "time": "2026-09-26T05:30:04Z",
+            "stage": "model",
+            "text": "模型推理 / Model round 1"
+          },
+          {
+            "time": "2026-09-26T05:30:06Z",
+            "stage": "completed",
+            "text": "Agent finished"
+          }
+        ],
+        "content": "The current $ I $ in amperes (A) can be calculated using Ohm's Law:  \n$$ I = \\frac{V}{R} $$\n\nSubstituting the given values:\n$$ I = \\frac{1\\ \\text{V}}{1000\\ \\Omega} = 0.001\\ \\text{A} = 1\\ \\text{mA} $$\n\nSo, the current is **1 mA**.",
+        "error": "",
+        "linuxMode": "off"
+      },
+      "seconds": 1.76
+    },
+    {
+      "name": "EDA text analysis with grounded missing-model evidence",
+      "status": "PASS",
+      "evidence": {
+        "content": "**Facts:**\n1. **Error Message:** \"ERROR (SFE-23): Instance M1 references undefined model nmos_missing.\"\n2. **Simulation Termination:** \"Simulation terminated before transient analysis.\"\n3. **Missing Model:** \"nmos_missing\" is referenced but not defined.\n4. **Truncated File Preview:** \"Synthetic validation log (not a real EDA run)\" indicates the file is not a real EDA run.\n\n**Hypotheses:**\n- The missing model \"nmos_missing\" is required for the simulation but was not included in the input files.\n- The error occurs during the simulation due to an undefined reference to the missing model.\n- The transient analysis was terminated before it could complete, possibly due to the missing model.\n\n**Next Checks:**\n1. Verify if the model \"nmos_missing\" is defined in the input files or configuration.\n2. Check if the simulation input files include all necessary models and components.\n3. Confirm if the transient analysis was explicitly requested in the simulation setup.\n4. Investigate if the missing model is required for the specific instance \"M1\" in the design.",
+        "demo": false,
+        "limited": false
+      },
+      "seconds": 1.9
+    },
+    {
+      "name": "Verilog generation and actual syntax checker",
+      "status": "PASS",
+      "evidence": {
+        "response": {
+          "code": "module and_gate(\n    input wire a,\n    input wire b,\n    output wire y\n);\n\nassign y = a & b;\n\nendmodule\n",
+          "demo": false,
+          "extension": ".v",
+          "validated": false
+        },
+        "syntaxExit": 0,
+        "simulationExit": 0,
+        "simulationOutput": "AND_TRUTH_TABLE_4_PASS\n<project>/docs/validation/desktop-rc1/and-gate-tb.v:1: $finish called at 4 (1s)\n",
+        "semanticScope": "all four AND input combinations; real Icarus 13.0 on host, no proprietary EDA"
+      },
+      "seconds": 0.41
+    },
+    {
+      "name": "imported source optimization and independent numeric tests",
+      "status": "PASS",
+      "evidence": {
+        "original": "def safe_divide(a, b):\n    return a / b\n",
+        "response": {
+          "code": "def safe_divide(a, b):\n    if b == 0:\n        return None\n    return a / b",
+          "demo": false,
+          "summary": "Added a check for b == 0, returning None in that case. The function preserves the original name and arguments, and maintains the behavior of returning a float when b is not zero.",
+          "validated": false
+        },
+        "numericCases": [
+          1.5,
+          null,
+          -1.5
+        ],
+        "sourceFileNotOverwritten": true
+      },
+      "seconds": 0.66
+    },
+    {
+      "name": "compiler diagnostics -> AI repair -> real CentOS recheck",
+      "status": "PASS",
+      "evidence": {
+        "codeResult": {
+          "language": "python",
+          "mode": "repair",
+          "base": "def add(a,b)\n    return a+b\n",
+          "code": "def add(a, b):\n    return a + b",
+          "stage": "succeeded",
+          "summary": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+          "checks": [
+            {
+              "round": 1,
+              "passed": false,
+              "executed": true,
+              "log": "SyntaxError: ('invalid syntax', ('/home/icwgui/.local/share/ic-workbench/production/.code-check-2584234026/design.py', 1, 13, 'def add(a,b)\\n'))\n",
+              "error": "exit status 1",
+              "diagnostics": [
+                {
+                  "file": "/home/icwgui/.local/share/ic-workbench/production/.code-check-2584234026/design.py",
+                  "line": 1,
+                  "column": 13,
+                  "severity": "error",
+                  "message": "SyntaxError: invalid syntax",
+                  "currentFile": true
+                }
+              ]
+            },
+            {
+              "round": 2,
+              "passed": true,
+              "executed": true,
+              "log": "",
+              "diagnostics": []
+            }
+          ],
+          "repairs": 1,
+          "maxRepairs": 2,
+          "demo": false
+        },
+        "command": {
+          "executable": "/usr/bin/python",
+          "args": [
+            "-m",
+            "py_compile",
+            "{file}"
+          ]
+        },
+        "environment": {
+          "id": "",
+          "name": "",
+          "version": "",
+          "executable": "",
+          "args": null,
+          "setup": "",
+          "shell": "/bin/bash"
+        },
+        "directory": "",
+        "id": "190874a572ecbc89cc207fe4",
+        "kind": "compile",
+        "name": "Code repair · python",
+        "status": "succeeded",
+        "created": "2026-09-26T05:30:09Z",
+        "finished": "2026-09-26T05:30:10Z",
+        "log": "检查工具返回成功；仅代表该检查，不是功能或性能签核 / Configured check passed; not functional or performance sign-off",
+        "error": ""
+      },
+      "seconds": 1.33
+    },
+    {
+      "name": "platform Agent calculator tool result",
+      "status": "PASS",
+      "evidence": {
+        "id": "1126ecc95566c945b48b7b21",
+        "session": "f71a25c28cec3ff2f9eda15d",
+        "status": "completed",
+        "events": [
+          {
+            "time": "2026-09-26T05:30:10Z",
+            "stage": "context",
+            "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+          },
+          {
+            "time": "2026-09-26T05:30:10Z",
+            "stage": "model",
+            "text": "模型推理 / Model round 1"
+          },
+          {
+            "time": "2026-09-26T05:30:11Z",
+            "stage": "tool",
+            "text": "calculate · {\"expression\": \"R*C\", \"variables\": {\"R\": \"2k\", \"C\": \"5n\"}}"
+          },
+          {
+            "time": "2026-09-26T05:30:11Z",
+            "stage": "receipt",
+            "text": "calculate · json: cannot unmarshal object into Go struct field CalculatorInput.variables of type string\nnull"
+          },
+          {
+            "time": "2026-09-26T05:30:11Z",
+            "stage": "model",
+            "text": "模型推理 / Model round 2"
+          },
+          {
+            "time": "2026-09-26T05:30:12Z",
+            "stage": "plan",
+            "text": "The error indicates that the `variables` field in the `CalculatorInput` structure is of type `string`, but the input provided is a JSON object. To resolve this, we need to format the input as a JSON string.\n\nLet's reformat the input as a JSON string and try again.\n\n"
+          },
+          {
+            "time": "2026-09-26T05:30:12Z",
+            "stage": "tool",
+            "text": "calculate · {\"expression\": \"R*C\", \"variables\": \"{\\\"R\\\": \\\"2k\\\", \\\"C\\\": \\\"5n\\\"}\"}"
+          },
+          {
+            "time": "2026-09-26T05:30:12Z",
+            "stage": "receipt",
+            "text": "calculate · variables use name = expression, one per line\nnull"
+          },
+          {
+            "time": "2026-09-26T05:30:12Z",
+            "stage": "model",
+            "text": "模型推理 / Model round 3"
+          },
+          {
+            "time": "2026-09-26T05:30:13Z",
+            "stage": "plan",
+            "text": "The error indicates that the `variables` field expects each variable to be specified on a separate line. Let's format the input correctly by specifying each variable on a new line.\n\n"
+          },
+          {
+            "time": "2026-09-26T05:30:13Z",
+            "stage": "tool",
+            "text": "calculate · {\"expression\": \"R*C\", \"variables\": \"R=2k\\nC=5n\"}"
+          },
+          {
+            "time": "2026-09-26T05:30:13Z",
+            "stage": "receipt",
+            "text": "calculate · completed\n{\"angle\":\"\",\"expression\":\"R*C\",\"formatted\":\"1e-05\",\"value\":0.00001,\"variables\":{\"C\":5e-9,\"R\":2000}}"
+          },
+          {
+            "time": "2026-09-26T05:30:13Z",
+            "stage": "model",
+            "text": "模型推理 / Model round 4"
+          },
+          {
+            "time": "2026-09-26T05:30:14Z",
+            "stage": "completed",
+            "text": "Agent finished"
+          }
+        ],
+        "content": "The calculated result of $ R \\times C $ with $ R = 2\\,\\text{k}\\Omega $ and $ C = 5\\,\\text{nF} $ is $ 0.00001 $ (or $ 1 \\times 10^{-5} $). The result is reported in seconds as $ 1 \\times 10^{-5} $ seconds.\n\n[Tool receipts]\ncalculate · json: cannot unmarshal object into Go struct field CalculatorInput.variables of type string\ncalculate · variables use name = expression, one per line\ncalculate · completed",
+        "error": "",
+        "linuxMode": "off"
+      },
+      "seconds": 3.82
+    },
+    {
+      "name": "Linux Agent actual command and UID",
+      "status": "FAIL",
+      "error": "{'id': '5ca666764bd0e58a09fefd4d', 'session': '30f4611bf7f2b7ad76ed4921', 'status': 'completed', 'events': [{'time': '2026-09-26T05:30:14Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:30:14Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:30:15Z', 'stage': 'tool', 'text': 'linux:inspect · {\"command\": \"pwd; id -u\"}'}, {'time': '2026-09-26T05:30:15Z', 'stage': 'receipt', 'text': 'linux:inspect · completed\\n{\"arch\":\"amd64\",\"directory\":\"/home/icwgui/desktop-ai-project\",\"hostname\":\"icw-centos69\",\"os\":\"linux\",\"sandbox\":false,\"shell\":\"/bin/bash\",\"uid\":505}'}, {'time': '2026-09-26T05:30:15Z', 'stage': 'model', 'text': '模型推理 / Model round 2'}, {'time': '2026-09-26T05:30:16Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The output of the command `pwd; id -u` is:\\n\\n```\\n/home/icwgui/desktop-ai-project\\n505\\n```\\n\\nThe exit code is `0`, indicating that the command executed successfully.\\n\\n[Tool receipts]\\nlinux:inspect · completed', 'error': '', 'linuxMode': 'auto', 'directory': '/home/icwgui/desktop-ai-project'}",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 107, in linux_command\n    assert r['status']=='completed' and t.get('exitCode')==0 and '/home/icwgui/desktop-ai-project' in t.get('output','') and '505' in t.get('output',''),r\nAssertionError: {'id': '5ca666764bd0e58a09fefd4d', 'session': '30f4611bf7f2b7ad76ed4921', 'status': 'completed', 'events': [{'time': '2026-09-26T05:30:14Z', 'stage': 'context', 'text': '读取会话与用户选中的上下文 / Reading conversation and selected context'}, {'time': '2026-09-26T05:30:14Z', 'stage': 'model', 'text': '模型推理 / Model round 1'}, {'time': '2026-09-26T05:30:15Z', 'stage': 'tool', 'text': 'linux:inspect · {\"command\": \"pwd; id -u\"}'}, {'time': '2026-09-26T05:30:15Z', 'stage': 'receipt', 'text': 'linux:inspect · completed\\n{\"arch\":\"amd64\",\"directory\":\"/home/icwgui/desktop-ai-project\",\"hostname\":\"icw-centos69\",\"os\":\"linux\",\"sandbox\":false,\"shell\":\"/bin/bash\",\"uid\":505}'}, {'time': '2026-09-26T05:30:15Z', 'stage': 'model', 'text': '模型推理 / Model round 2'}, {'time': '2026-09-26T05:30:16Z', 'stage': 'completed', 'text': 'Agent finished'}], 'content': 'The output of the command `pwd; id -u` is:\\n\\n```\\n/home/icwgui/desktop-ai-project\\n505\\n```\\n\\nThe exit code is `0`, indicating that the command executed successfully.\\n\\n[Tool receipts]\\nlinux:inspect · completed', 'error': '', 'linuxMode': 'auto', 'directory': '/home/icwgui/desktop-ai-project'}\n",
+      "seconds": 1.75
+    },
+    {
+      "name": "Linux Agent multi-step file creation and verification",
+      "status": "FAIL",
+      "error": "Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat /home/icwgui/desktop-ai-project/model-note-1790400617.txt']' returned non-zero exit status 1.",
+      "traceback": "Traceback (most recent call last):\n  File \"<project>/tests/desktop_model_matrix.py\", line 17, in record\n    try:result.update(status='PASS',evidence=fn())\n  File \"<project>/tests/desktop_model_matrix.py\", line 112, in linux_multistep\n    out=subprocess.check_output(SSH+['cat /home/icwgui/desktop-ai-project/'+name],stderr=subprocess.DEVNULL)\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\", line 424, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py\", line 528, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['ssh', '-F', '<project>/reference-sandbox/linux-validation/vm/ssh_config', '-l', 'root', 'icw-vm', 'cat /home/icwgui/desktop-ai-project/model-note-1790400617.txt']' returned non-zero exit status 1.\n",
+      "seconds": 7.5
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "qemuStopped": true,
+  "guestFilesystemSynced": true,
+  "xvfbStopped": true,
+  "validationFilesRetained": true,
+  "demoKeptRunning": true
+}

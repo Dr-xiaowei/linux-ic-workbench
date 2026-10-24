@@ -1,0 +1,81 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+=== RUN   TestV2ProjectsAnnotationsSearchPagination
+--- PASS: TestV2ProjectsAnnotationsSearchPagination (0.20s)
+=== RUN   TestV2WaveformsAndHDLFiles
+--- PASS: TestV2WaveformsAndHDLFiles (0.05s)
+=== RUN   TestV2SoftwarePluginAndCompilerExecution
+--- PASS: TestV2SoftwarePluginAndCompilerExecution (0.18s)
+=== RUN   TestV2SettingsLoadAndUpgradePreservesData
+--- PASS: TestV2SettingsLoadAndUpgradePreservesData (0.12s)
+=== RUN   TestV2AgentToolsProgressApprovalAndDenial
+--- PASS: TestV2AgentToolsProgressApprovalAndDenial (0.19s)
+=== RUN   TestV2ProcessParserAndDemoMonitor
+--- PASS: TestV2ProcessParserAndDemoMonitor (0.04s)
+=== RUN   TestV2LargeSearchResumeAndNestedOrder
+--- PASS: TestV2LargeSearchResumeAndNestedOrder (0.53s)
+=== RUN   TestV2DemoNeverContactsConfiguredModel
+--- PASS: TestV2DemoNeverContactsConfiguredModel (0.07s)
+=== RUN   TestCalculatorEngineeringAndErrors
+--- PASS: TestCalculatorEngineeringAndErrors (0.01s)
+=== RUN   TestCodeLanguagesAnalysisAndScope
+--- PASS: TestCodeLanguagesAnalysisAndScope (0.13s)
+=== RUN   TestInlineAnalysisAndCodeUseConfiguredModel
+--- PASS: TestInlineAnalysisAndCodeUseConfiguredModel (0.04s)
+=== RUN   TestWorkspacePersistenceUpgradeConflictAndBackupDisabled
+    storage_test.go:94: workspace fixture raw=750593 gzip=2287 reduction=99.70%
+--- PASS: TestWorkspacePersistenceUpgradeConflictAndBackupDisabled (0.40s)
+=== RUN   TestWorkspaceCorruptionCapacityAndAtomicFailure
+--- PASS: TestWorkspaceCorruptionCapacityAndAtomicFailure (0.33s)
+=== RUN   TestWorkspaceHTTPConflictAndAuthorization
+--- PASS: TestWorkspaceHTTPConflictAndAuthorization (0.04s)
+=== RUN   TestImproveCodeModelContractAndOriginalPreservation
+--- PASS: TestImproveCodeModelContractAndOriginalPreservation (0.08s)
+=== RUN   TestCSVValidationAndEvidence
+=== RUN   TestCSVValidationAndEvidence/unknown-status
+=== RUN   TestCSVValidationAndEvidence/missing-unit
+=== RUN   TestCSVValidationAndEvidence/NaN
+=== RUN   TestCSVValidationAndEvidence/missing-value
+=== RUN   TestCSVValidationAndEvidence/duplicate
+=== RUN   TestCSVValidationAndEvidence/inverted
+--- PASS: TestCSVValidationAndEvidence (0.01s)
+    --- PASS: TestCSVValidationAndEvidence/unknown-status (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/missing-unit (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/NaN (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/missing-value (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/duplicate (0.00s)
+    --- PASS: TestCSVValidationAndEvidence/inverted (0.00s)
+=== RUN   TestStoreMigrationIsolationRecovery
+--- PASS: TestStoreMigrationIsolationRecovery (0.05s)
+=== RUN   TestPathsAndHTTPBoundary
+=== RUN   TestPathsAndHTTPBoundary/auth
+=== RUN   TestPathsAndHTTPBoundary/origin
+=== RUN   TestPathsAndHTTPBoundary/dns
+--- PASS: TestPathsAndHTTPBoundary (0.05s)
+    --- PASS: TestPathsAndHTTPBoundary/auth (0.00s)
+    --- PASS: TestPathsAndHTTPBoundary/origin (0.00s)
+    --- PASS: TestPathsAndHTTPBoundary/dns (0.00s)
+=== RUN   TestProcessTimeoutAndEnvironment
+--- PASS: TestProcessTimeoutAndEnvironment (0.15s)
+=== RUN   TestModelChatEvidenceToolsAndErrors
+--- PASS: TestModelChatEvidenceToolsAndErrors (0.07s)
+=== RUN   TestModelCannotRunWithoutPermission
+--- PASS: TestModelCannotRunWithoutPermission (0.13s)
+=== RUN   TestStaticUIAssets
+--- PASS: TestStaticUIAssets (0.06s)
+=== RUN   TestModelCancellationAndSelectedEvidence
+--- PASS: TestModelCancellationAndSelectedEvidence (0.16s)
+=== RUN   TestPublicReferenceCSV
+--- PASS: TestPublicReferenceCSV (0.00s)
+=== RUN   TestCSHEnvironmentIsolation
+--- PASS: TestCSHEnvironmentIsolation (0.07s)
+=== RUN   TestMetadataBoundedAndRollbackOnIOFailure
+--- PASS: TestMetadataBoundedAndRollbackOnIOFailure (1.00s)
+=== RUN   TestCodeDiagnosticsAndBackupDisabled
+--- PASS: TestCodeDiagnosticsAndBackupDisabled (0.03s)
+=== RUN   TestCodeRepairBudgetValidationAndCancellation
+--- PASS: TestCodeRepairBudgetValidationAndCancellation (0.33s)
+=== RUN   TestCodeFormattingBoundariesOutputAndFailure
+--- PASS: TestCodeFormattingBoundariesOutputAndFailure (0.31s)
+PASS

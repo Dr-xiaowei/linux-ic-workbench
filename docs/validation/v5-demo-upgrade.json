@@ -1,0 +1,23 @@
+{
+  "time": "2026-09-25T15:40:48.486545+00:00",
+  "fromSchema": 5,
+  "toSchema": 6,
+  "allOldFieldsPreserved": true,
+  "workspaceBytesPreserved": true,
+  "legacyBackupFilesPreserved": 0,
+  "oldBytes": 70402,
+  "newBytes": 70402,
+  "preUpgradeStateSHA256": "98c5ff31b4691d225da2f11f641d99c04177cf09ab6a5f8191317a83e64347ef",
+  "version": "0.5.0-rc1",
+  "counts": {
+    "projects": 1,
+    "software": 3,
+    "fileNotes": 2,
+    "sessions": 2,
+    "batches": 1,
+    "jobs": 1,
+    "plugins": 1,
+    "operations": 0,
+    "mcpConnections": 0
+  }
+}

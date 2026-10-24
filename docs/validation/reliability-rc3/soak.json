@@ -1,0 +1,188 @@
+{
+  "durationSeconds": 180.22999999999999, 
+  "scope": "Two real UIDs, production backend; repeated state reads and calculator requests, no model/EDA load", 
+  "requests": 2624, 
+  "status": "PASS", 
+  "samples": [
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 7, 
+          "VmRSS": 10228, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 7, 
+          "VmRSS": 10168, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 0.12
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 10364, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 7, 
+          "VmRSS": 10284, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 15.19
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 12456, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 12412, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 30.25
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 12924, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13052, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 45.509999999999998
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 12980, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13104, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 60.590000000000003
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13204, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13140, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 75.840000000000003
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13476, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13140, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 91.049999999999997
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13548, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13496, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 106.13
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13840, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13776, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 121.18000000000001
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13736, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13852, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 136.21000000000001
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13740, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13852, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 151.31999999999999
+    }, 
+    {
+      "users": {
+        "icwqb_a": {
+          "Threads": 8, 
+          "VmRSS": 13748, 
+          "fileDescriptors": 8
+        }, 
+        "icwqb_b": {
+          "Threads": 8, 
+          "VmRSS": 13860, 
+          "fileDescriptors": 8
+        }
+      }, 
+      "elapsed": 166.34999999999999
+    }
+  ]
+}

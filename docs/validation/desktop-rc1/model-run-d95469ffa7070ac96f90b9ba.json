@@ -1,0 +1,25 @@
+{
+  "id": "d95469ffa7070ac96f90b9ba",
+  "session": "dd009dc2d83b64aa1800b667",
+  "status": "completed",
+  "events": [
+    {
+      "time": "2026-09-26T05:46:16Z",
+      "stage": "context",
+      "text": "读取会话与用户选中的上下文 / Reading conversation and selected context"
+    },
+    {
+      "time": "2026-09-26T05:46:16Z",
+      "stage": "model",
+      "text": "模型推理 / Model round 1"
+    },
+    {
+      "time": "2026-09-26T05:46:19Z",
+      "stage": "completed",
+      "text": "Agent finished"
+    }
+  ],
+  "content": "The current $ I $ is calculated using Ohm's Law:  \n$$ I = \\frac{V}{R} = \\frac{1\\ \\text{V}}{1000\\ \\Omega} = 0.001\\ \\text{A} = 1\\ \\text{mA} $$  \n**Formula**: $ V = I \\times R $",
+  "error": "",
+  "linuxMode": "off"
+}

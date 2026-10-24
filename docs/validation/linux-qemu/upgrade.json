@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "from": "0.4.0-rc1",
+  "to": "0.5.0-rc1",
+  "schemaBefore": 5,
+  "schemaAfter": 6,
+  "statePreserved": true,
+  "workspacePreserved": true,
+  "fileChecksumsUnchanged": "d11644807a2578544383c41741b215676cad62c4cbdc303375982c585cb72329  /home/icw/validation/data/workspace.json.gz\n720d8f9f4932ccab1c83a8e735bdcca7731adcea9ed665a6ff8618483209ab6d  /home/icw/validation/upgrade-project/design.v\na771279e754ae2fa078bf778d50c910321507dd0f1f69bcab624966870543f31  /home/icw/validation/config/config.json\n",
+  "sameVersionReinstallRejected": true,
+  "guestChecks": "pre-migration-bdf98427e253ed8af4e2c84d.json\nreleases/0.5.0-rc1-production\nversion: 0.5.0-rc1 runtime: go1.23.12 OS: linux arch: amd64\nkernel: 2.6.32-696.el6.x86_64\nmode: production data: /home/icw/.local/share/ic-workbench/production GLM configured: false EDA adapter configured: false\n"
+}

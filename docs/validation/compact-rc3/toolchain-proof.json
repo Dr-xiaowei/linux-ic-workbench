@@ -1,0 +1,8 @@
+{
+  "archive": "reference-sandbox/toolchain/go1.23.12.darwin-arm64.tar.gz",
+  "sha256": "5bfa117e401ae64e7ffb960243c448b535fe007e682a13ff6c7371f4a6f0ccaa",
+  "matchesRecordedOfficialManifest": true,
+  "expandedFiles": 13278,
+  "extraFiles": [],
+  "differentFiles": []
+}

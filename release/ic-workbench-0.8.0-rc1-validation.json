@@ -1,0 +1,15 @@
+{
+  "version": "0.8.0-rc1",
+  "schema": 7,
+  "package": "ic-workbench-0.8.0-rc1-linux-amd64-production.tar.gz",
+  "bytes": 13003960,
+  "sha256": "a2d7598f74191569f198b9524aa778ea4b4ec8ca9ee5d104add3691032beb1d4",
+  "runtimeMatchesCentOSTestedInstallation": true,
+  "nativeFlowsPassed": 16,
+  "centosBackendPassed": 78,
+  "centosBackendSkipped": 2,
+  "tkRegressionsPassed": 13,
+  "newRealSmallModelWorkflowsPassed": 2,
+  "generalAgentHistoricalFailureRetained": true,
+  "companyGLMAndEDAValidated": false
+}

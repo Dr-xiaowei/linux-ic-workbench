@@ -1,0 +1,63 @@
+{
+  "status": "RETAINED_AWAITING_EXPLICIT_USER_CLEANUP_CONFIRMATION",
+  "relativeDirectory": "reference-sandbox/linux-validation",
+  "allocatedBytes": 4375183360,
+  "allocatedGiB": 4.075,
+  "components": [
+    {
+      "path": "reference-sandbox/linux-validation/downloads",
+      "allocatedBytes": 678952960
+    },
+    {
+      "path": "reference-sandbox/linux-validation/tools",
+      "allocatedBytes": 894959616
+    },
+    {
+      "path": "reference-sandbox/linux-validation/model",
+      "allocatedBytes": 1548746752
+    },
+    {
+      "path": "reference-sandbox/linux-validation/vm",
+      "allocatedBytes": 1205862400
+    },
+    {
+      "path": "reference-sandbox/linux-validation/logs",
+      "allocatedBytes": 33030144
+    }
+  ],
+  "validationPorts": {
+    "18822": {
+      "listening": false
+    },
+    "18823": {
+      "listening": false
+    },
+    "18824": {
+      "listening": false
+    },
+    "18865": {
+      "listening": false
+    },
+    "18880": {
+      "listening": false
+    },
+    "18881": {
+      "listening": false
+    }
+  },
+  "systemInstallations": false,
+  "systemServicesCreated": false,
+  "deleteAfterApproval": [
+    "reference-sandbox/linux-validation/"
+  ],
+  "preserve": [
+    "release/",
+    "internal/",
+    "cmd/",
+    "scripts/",
+    "tests/",
+    "docs/validation/linux-qemu/",
+    "runtime-data/web-demo/",
+    "all user project files and configurations"
+  ]
+}

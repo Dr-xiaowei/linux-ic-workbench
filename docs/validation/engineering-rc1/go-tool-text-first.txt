@@ -1,0 +1,9 @@
+?   	icworkbench/cmd/workbench	[no test files]
+--- FAIL: TestLinuxPlainTextToolIsNotExecutedOrReportedAsSuccess (0.09s)
+    linux_agent_test.go:338: { 540d4291c1e2d572b3cf08fe project failed [{2026-09-29T16:47:06Z context 读取会话与用户选中的上下文 / Reading conversation and selected context} {2026-09-29T16:47:06Z model 模型推理 / Model round 1} {2026-09-29T16:47:06Z invalid-tool-text ```json
+        {"name":"linux_action","arguments":{"action":"command","input":"touch never"}}
+        ```} {2026-09-29T16:47:06Z failed Agent finished}] 工具请求未执行，请检查模型原生 tool_calls 能力或改用只读任务模板。 / Tool request not executed. Check native tool_calls support or use a read-only task template.
+        [Agent stopped] 模型将工具请求写成普通文本，未执行任何该请求 / Model returned a tool request as text; the request was not executed 模型将工具请求写成普通文本，未执行任何该请求 / Model returned a tool request as text; the request was not executed <nil> auto /private/var/folders/4y/bf6mmzjn12zdmg91w4stb22m0000gn/T/TestLinuxPlainTextToolIsNotExecutedOrReportedAsSuccess3007736065/002 <nil> <nil>}
+FAIL
+FAIL	icworkbench/internal/workbench	28.617s
+FAIL

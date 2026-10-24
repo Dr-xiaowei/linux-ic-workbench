@@ -1,0 +1,6 @@
+{
+  "python": "3.9 host runtime",
+  "batchInstall": true,
+  "importDoesNotExecute": true,
+  "exitCode": 0
+}

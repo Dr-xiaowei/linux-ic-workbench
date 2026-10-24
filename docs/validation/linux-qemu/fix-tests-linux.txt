@@ -1,0 +1,14 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+data/state.json: OK
+data/workspace.json.gz: OK
+=== RUN   TestCodeDiagnosticsAndBackupDisabled
+--- PASS: TestCodeDiagnosticsAndBackupDisabled (0.11s)
+=== RUN   TestPython26TupleDiagnostics
+--- PASS: TestPython26TupleDiagnostics (0.00s)
+=== RUN   TestCodeRepairBudgetValidationAndCancellation
+--- PASS: TestCodeRepairBudgetValidationAndCancellation (0.41s)
+=== RUN   TestCodeFormattingBoundariesOutputAndFailure
+--- PASS: TestCodeFormattingBoundariesOutputAndFailure (0.29s)
+PASS

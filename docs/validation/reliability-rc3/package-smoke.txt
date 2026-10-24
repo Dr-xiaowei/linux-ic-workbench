@@ -1,0 +1,5 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+Acceptance evidence: /home/icw/validation/smoke-rc3
+Temporary demo data retained: /tmp/icw-acceptance.Ab6sfr

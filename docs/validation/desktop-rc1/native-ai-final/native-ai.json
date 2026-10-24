@@ -1,0 +1,49 @@
+{
+  "nativeToolkit": "Tk 8.5.7", 
+  "model": "Qwen3-1.7B-Q8_0", 
+  "errors": [], 
+  "checks": [
+    {
+      "status": "PASS", 
+      "uiFrames": 161, 
+      "seconds": 4.7300000000000004, 
+      "name": "Real model question and live progress in native chat"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 232, 
+      "seconds": 6.2800000000000002, 
+      "name": "Real AI file analysis stays on current native page"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 277, 
+      "seconds": 7.4900000000000002, 
+      "name": "Native code import -> real AI proposal -> apply -> actual CentOS compiler"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 217, 
+      "seconds": 5.8899999999999997, 
+      "name": "Native Linux Agent approval precedes actual command and displays receipt"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 54, 
+      "seconds": 1.5, 
+      "name": "Native UI can cancel real model inference"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 167, 
+      "seconds": 4.5800000000000001, 
+      "name": "Real AI controls allowed MCP fixture and shows actual progress (no EDA)"
+    }, 
+    {
+      "status": "PASS", 
+      "uiFrames": 118, 
+      "seconds": 3.4700000000000002, 
+      "name": "Narrow native window retains scroll access to every page control"
+    }
+  ]
+}
